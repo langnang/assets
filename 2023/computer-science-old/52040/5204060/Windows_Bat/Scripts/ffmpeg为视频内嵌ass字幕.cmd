@@ -1,0 +1,1 @@
+for %%i in (*.mkv) do ffmpeg -i "%%i" -vf subtitles="'%%~ni.chs.ass'" -threads 12 -preset ultrafast "%%~dpni.mp4"

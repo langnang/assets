@@ -1,0 +1,1 @@
+for %%i in (.\*.mkv) do ffmpeg -i "%%i" -vn -an -codec:s:0 srt "%%~dpni.chs.srt"

@@ -1,0 +1,1 @@
+for %%i in (.\*.mkv) do ffmpeg -i "%%i" -i "%%~dpni.chs.ass" "%%~dpni.mp4"
