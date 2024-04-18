@@ -1,0 +1,22 @@
+.el-card {
+  .el-card__header {
+    .el-alert {
+      display: inline;
+    }
+
+    .el-card__header--title {
+      font-size: 20px;
+      font-weight: 400;
+    }
+
+    .el-card__header--right {
+      float: right;
+
+      .el-button.el-button--text {
+        padding: 3px 1px;
+        font-size: 17px;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "name": "langnang.github.io",
+  "description": "",
+  "version": "0.0.1",
+  "homepage": "https://github.com/langnang/vue-template#readme",
+  "private": false,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-regular-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/vue-fontawesome": "^2.0.0",
+    "axios": "^0.21.0",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.14.0",
+    "moment": "^2.29.1",
+    "particles.js": "^2.0.0",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.8",
+    "vue-wechat-title": "^2.0.7",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.8",
+    "@vue/cli-plugin-eslint": "~4.5.8",
+    "@vue/cli-plugin-router": "^4.5.8",
+    "@vue/cli-plugin-vuex": "^4.5.8",
+    "@vue/cli-service": "~4.5.8",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.12.1",
+    "eslint-plugin-vue": "^7.1.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.0.5",
+    "vue-cli-plugin-axios": "0.0.4",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-cli-plugin-fontawesome": "^0.3.1",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/langnang/vue-template.git"
+  },
+  "keywords": [
+    "langnang",
+    "vue",
+    "template"
+  ],
+  "author": "langnang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/langnang/vue-template/issues"
+  }
+}

@@ -1,0 +1,591 @@
+<div class="edit-tab-with-sidemenu">
+    <aside class="edit-sidemenu-aside">
+        <ul class="edit-sidemenu">
+            <li ng-class="{active: ctrl.panel.subTabKey === 'default'}" class="">
+                <a ng-click="ctrl.panel.subTabKey='default'">default</a>
+            </li>
+            <li ng-class=" {active: ctrl.panel.subTabKey==='title' }" class=""
+                ng-if="ctrl.panel.echarts.option.title.show">
+                <a ng-click="ctrl.panel.subTabKey = 'title'">title</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'legend'}" class=""
+                ng-if="ctrl.panel.echarts.option.legend.show">
+                <a ng-click="ctrl.panel.subTabKey = 'legend'">legend</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'grid'}" class=""
+                ng-if="ctrl.panel.echarts.option.grid.show">
+                <a ng-click="ctrl.panel.subTabKey = 'grid'">grid</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'xAxis'}" class=""
+                ng-if="ctrl.panel.echarts.option.xAxis.show">
+                <a ng-click="ctrl.panel.subTabKey = 'xAxis'">xAxis</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'yAxis'}" class=""
+                ng-if="ctrl.panel.echarts.option.yAxis.show">
+                <a ng-click="ctrl.panel.subTabKey = 'yAxis'">yAxis</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'polar'}" class=""
+                ng-if="ctrl.panel.echarts.option.polar.show">
+                <a ng-click="ctrl.panel.subTabKey = 'polar'">polar</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'radiusAxis'}" class=""
+                ng-if="ctrl.panel.echarts.option.radiusAxis.show">
+                <a ng-click="ctrl.panel.subTabKey = 'radiusAxis'">radiusAxis</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'angleAxis'}" class=""
+                ng-if="ctrl.panel.echarts.option.angleAxis.show">
+                <a ng-click="ctrl.panel.subTabKey = 'angleAxis'">angleAxis</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'radar'}" class=""
+                ng-if="ctrl.panel.echarts.option.radar.show">
+                <a ng-click="ctrl.panel.subTabKey = 'radar'">radar</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'dataZoom'}" class=""
+                ng-if="ctrl.panel.echarts.option.dataZoom.show">
+                <a ng-click="ctrl.panel.subTabKey = 'dataZoom'">dataZoom</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'visualMap'}" class=""
+                ng-if="ctrl.panel.echarts.option.visualMap.show">
+                <a ng-click="ctrl.panel.subTabKey = 'visualMap'">visualMap</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'tooltip'}" class=""
+                ng-if="ctrl.panel.echarts.option.tooltip.show">
+                <a ng-click="ctrl.panel.subTabKey = 'tooltip'">tooltip</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'axisPointer'}" class=""
+                ng-if="ctrl.panel.echarts.option.axisPointer.show">
+                <a ng-click="ctrl.panel.subTabKey = 'axisPointer'">axisPointer</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'toolbox'}" class=""
+                ng-if="ctrl.panel.echarts.option.toolbox.show">
+                <a ng-click="ctrl.panel.subTabKey = 'toolbox'">toolbox</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'brush'}" class=""
+                ng-if="ctrl.panel.echarts.option.brush.show">
+                <a ng-click="ctrl.panel.subTabKey = 'brush'">brush</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'geo'}" class="" ng-if="ctrl.panel.echarts.option.geo.show">
+                <a ng-click="ctrl.panel.subTabKey = 'geo'">geo</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'parallel'}" class=""
+                ng-if="ctrl.panel.echarts.option.parallel.show">
+                <a ng-click="ctrl.panel.subTabKey = 'parallel'">parallel</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'parallelAxis'}" class=""
+                ng-if="ctrl.panel.echarts.option.parallelAxis.show">
+                <a ng-click="ctrl.panel.subTabKey = 'parallelAxis'">parallelAxis</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'singleAxis'}" class=""
+                ng-if="ctrl.panel.echarts.option.singleAxis.show">
+                <a ng-click="ctrl.panel.subTabKey = 'singleAxis'">singleAxis</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'timeline'}" class=""
+                ng-if="ctrl.panel.echarts.option.timeline.show">
+                <a ng-click="ctrl.panel.subTabKey = 'timeline'">timeline</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'graphic'}" class=""
+                ng-if="ctrl.panel.echarts.option.graphic.show">
+                <a ng-click="ctrl.panel.subTabKey = 'graphic'">graphic</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'calendar'}" class=""
+                ng-if="ctrl.panel.echarts.option.calendar.show">
+                <a ng-click="ctrl.panel.subTabKey = 'calendar'">calendar</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'dataset'}" class=""
+                ng-if="ctrl.panel.echarts.option.dataset.show">
+                <a ng-click="ctrl.panel.subTabKey = 'dataset'">dataset</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'aria'}" class=""
+                ng-if="ctrl.panel.echarts.option.aria.show">
+                <a ng-click="ctrl.panel.subTabKey = 'aria'">aria</a>
+            </li>
+            <li ng-class="{active: ctrl.panel.subTabKey === 'textStyle'}" class=""
+                ng-if="ctrl.panel.echarts.option.textStyle.show">
+                <a ng-click="ctrl.panel.subTabKey = 'textStyle'">textStyle</a>
+            </li>
+        </ul>
+    </aside>
+
+<<<<<<< HEAD
+    <div class="section gf-form-group">
+        <h5 class="section-heading">legend</h5>
+        <!-- legend.show -->
+        <label for="check-legend-show" class="gf-form-switch-container" on-change="ctrl.refresh()">
+            <div class="gf-form-label width-7"> show </div>
+            <div class="gf-form-switch">
+                <input id="check-legend-show" type="checkbox" ng-model="ctrl.panel.echarts.option.legend.show"
+                    ng-change="ctrl.refresh()" class="ng-valid ng-dirty ng-valid-parse ng-touched ng-not-empty">
+                <span class="gf-form-switch__slider"></span>
+            </div>
+        </label>
+        <div ng-show="ctrl.panel.echarts.option.legend.show">
+=======
+
+    <div class="edit-tab-content" ng-if="ctrl.panel.subTabKey === 'default'">
+
+        <div class="gf-form-inline">
+            <span class="section-heading width-5">Color</span>
+            <div class="gf-form">
+                <input type="text"
+                    class="gf-form-input max-width-6 ng-pristine ng-untouched ng-valid ng-empty ng-valid-integer"
+                    ng-repeat="(index,color) in ctrl.panel.echarts.option.color track by $index"
+                    ng-model="ctrl.panel.echarts.option.color[index]" ng-change="ctrl.refresh()">
+            </div>
+            <div class="gf-form">
+                <button class="btn btn-inverse" ng-click="ctrl.addColor()"><i class="fa fa-plus"></i> Add Color</button>
+            </div>
+            <div class="gf-form">
+                <label class="gf-form-label">
+                    <i class="fa fa-trash pointer" ng-click="ctrl.removeColor()"></i>
+                </label>
+            </div>
+        </div>
+        <div class="gf-form-inline">
+            <span class="section-heading width-5">Option</span>
+>>>>>>> origin/v1
+            <div class="gf-form">
+                <label class="gf-form-label width-3">title</label>
+                <div class="gf-form-switch">
+                    <input id="check-title-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.title.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-title-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+            <div class="gf-form">
+                <label class="gf-form-label width-4">legend</label>
+                <div class="gf-form-switch">
+                    <input id="check-legend-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.legend.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-legend-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+            <div class="gf-form">
+                <label class="gf-form-label width-3">grid</label>
+                <div class="gf-form-switch">
+                    <input id="check-grid-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.grid.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-grid-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+            <div class="gf-form">
+                <label class="gf-form-label width-4">xAxis</label>
+                <div class="gf-form-switch">
+                    <input id="check-xAxis-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.xAxis.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-xAxis-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+            <div class="gf-form">
+                <label class="gf-form-label width-4">yAxis</label>
+                <div class="gf-form-switch">
+                    <input id="check-yAxis-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.yAxis.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-yAxis-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+            <div class="gf-form" ng-if="['Radar'].indexOf(ctrl.panel.echarts.type)>=0">
+                <label class="gf-form-label width-4">polar</label>
+                <div class="gf-form-switch">
+                    <input id="check-polar-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.polar.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-polar-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+            <div class="gf-form" ng-if="['Radar'].indexOf(ctrl.panel.echarts.type)>=0">
+                <label class="gf-form-label width-6">angleAxis</label>
+                <div class="gf-form-switch">
+                    <input id="check-angleAxis-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.angleAxis.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-angleAxis-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+            <div class="gf-form" ng-if="['Radar'].indexOf(ctrl.panel.echarts.type)>=0">
+                <label class="gf-form-label width-6">radar</label>
+                <div class="gf-form-switch">
+                    <input id="check-radar-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.radar.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-radar-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+            <div class="gf-form" ng-if="['Radar'].indexOf(ctrl.panel.echarts.type)>=0">
+                <label class="gf-form-label width-6">dataZoom</label>
+                <div class="gf-form-switch">
+                    <input id="check-dataZoom-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.dataZoom.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-dataZoom-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+            <div class="gf-form" ng-if="['Radar'].indexOf(ctrl.panel.echarts.type)>=0">
+                <label class="gf-form-label width-6">visualMap</label>
+                <div class="gf-form-switch">
+                    <input id="check-visualMap-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.visualMap.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-visualMap-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+            <div class="gf-form" ng-if="['Radar'].indexOf(ctrl.panel.echarts.type)>=0">
+                <label class="gf-form-label width-6">tooltip</label>
+                <div class="gf-form-switch">
+                    <input id="check-tooltip-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.tooltip.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-tooltip-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+            <div class="gf-form" ng-if="['Radar'].indexOf(ctrl.panel.echarts.type)>=0">
+                <label class="gf-form-label width-6">axisPointer</label>
+                <div class="gf-form-switch">
+                    <input id="check-axisPointer-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.axisPointer.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-axisPointer-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+            <div class="gf-form" ng-if="['Radar'].indexOf(ctrl.panel.echarts.type)>=0">
+                <label class="gf-form-label width-6">toolbox</label>
+                <div class="gf-form-switch">
+                    <input id="check-toolbox-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.toolbox.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-toolbox-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+            <div class="gf-form" ng-if="['Radar'].indexOf(ctrl.panel.echarts.type)>=0">
+                <label class="gf-form-label width-6">brush</label>
+                <div class="gf-form-switch">
+                    <input id="check-brush-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.brush.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-brush-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+            <div class="gf-form" ng-if="['Radar'].indexOf(ctrl.panel.echarts.type)>=0">
+                <label class="gf-form-label width-6">geo</label>
+                <div class="gf-form-switch">
+                    <input id="check-geo-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.geo.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-geo-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+            <div class="gf-form" ng-if="['Radar'].indexOf(ctrl.panel.echarts.type)>=0">
+                <label class="gf-form-label width-6">parallel</label>
+                <div class="gf-form-switch">
+                    <input id="check-parallel-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.parallel.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-parallel-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+            <div class="gf-form" ng-if="['Radar'].indexOf(ctrl.panel.echarts.type)>=0">
+                <label class="gf-form-label width-6">parallelAxis</label>
+                <div class="gf-form-switch">
+                    <input id="check-parallelAxis-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.parallelAxis.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-parallelAxis-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+            <div class="gf-form" ng-if="['Radar'].indexOf(ctrl.panel.echarts.type)>=0">
+                <label class="gf-form-label width-6">singleAxis</label>
+                <div class="gf-form-switch">
+                    <input id="check-singleAxis-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.singleAxis.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-singleAxis-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+            <div class="gf-form" ng-if="['Radar'].indexOf(ctrl.panel.echarts.type)>=0">
+                <label class="gf-form-label width-6">timeline</label>
+                <div class="gf-form-switch">
+                    <input id="check-timeline-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.timeline.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-timeline-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+            <div class="gf-form" ng-if="['Radar'].indexOf(ctrl.panel.echarts.type)>=0">
+                <label class="gf-form-label width-6">graphic</label>
+                <div class="gf-form-switch">
+                    <input id="check-graphic-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.graphic.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-graphic-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+            <div class="gf-form" ng-if="['Radar'].indexOf(ctrl.panel.echarts.type)>=0">
+                <label class="gf-form-label width-6">calendar</label>
+                <div class="gf-form-switch">
+                    <input id="check-calendar-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.calendar.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-calendar-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+            <div class="gf-form" ng-if="['Radar'].indexOf(ctrl.panel.echarts.type)>=0">
+                <label class="gf-form-label width-6">dataset</label>
+                <div class="gf-form-switch">
+                    <input id="check-dataset-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.dataset.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-dataset-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+            <div class="gf-form" ng-if="['Radar'].indexOf(ctrl.panel.echarts.type)>=0">
+                <label class="gf-form-label width-6">aria</label>
+                <div class="gf-form-switch">
+                    <input id="check-aria-show" type="checkbox" ng-change="ctrl.refresh()"
+                        ng-model="ctrl.panel.echarts.option.aria.show"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-aria-show" data-on="Yes" data-off="No"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<<<<<<< HEAD
+    <div class="section gf-form-group">
+        <h5 class="section-heading">grid</h5>
+        <!-- grid.left -->
+        <div class="gf-form" label-class="width-7">
+            <label class="gf-form-label width-7">left</label>
+            <input type="text" class="gf-form-input max-width-6 ng-valid ng-empty ng-dirty ng-valid-number ng-touched"
+                ng-model="ctrl.panel.echarts.option.grid.left" ng-change="ctrl.refresh()"
+                ng-value="ctrl.panel.echarts.option.grid.left" placeholder="10%">
+        </div>
+        <!-- grid.top -->
+        <div class="gf-form" label-class="width-7">
+            <label class="gf-form-label width-7">top</label>
+            <input type="text" class="gf-form-input max-width-6 ng-valid ng-empty ng-dirty ng-valid-number ng-touched"
+                ng-model="ctrl.panel.echarts.option.grid.top" ng-change="ctrl.refresh()"
+                ng-value="ctrl.panel.echarts.option.grid.top" placeholder="60">
+        </div>
+        <!-- grid.right -->
+        <div class="gf-form" label-class="width-7">
+            <label class="gf-form-label width-7">right</label>
+            <input type="text" class="gf-form-input max-width-6 ng-valid ng-empty ng-dirty ng-valid-number ng-touched"
+                ng-model="ctrl.panel.echarts.option.grid.right" ng-change="ctrl.refresh()"
+                ng-value="ctrl.panel.echarts.option.grid.right" placeholder="10%">
+        </div>
+        <!-- grid.bottom -->
+        <div class="gf-form" label-class="width-7">
+            <label class="gf-form-label width-7">bottom</label>
+            <input type="text" class="gf-form-input max-width-6 ng-valid ng-empty ng-dirty ng-valid-number ng-touched"
+                ng-model="ctrl.panel.echarts.option.grid.bottom" ng-change="ctrl.refresh()"
+                ng-value="ctrl.panel.echarts.option.grid.bottom" placeholder="60">
+        </div>
+        <!-- grid.containLabel -->
+        <label for="check-grid-containLabel" class="gf-form-switch-container" on-change="ctrl.refresh()">
+            <div class="gf-form-label width-7"> containLabel </div>
+            <div class="gf-form-switch">
+                <input id="check-grid-containLabel" type="checkbox"
+                    ng-model="ctrl.panel.echarts.option.grid.containLabel" ng-change="ctrl.refresh()"
+                    class="ng-valid ng-dirty ng-valid-parse ng-touched ng-not-empty">
+                <span class="gf-form-switch__slider"></span>
+            </div>
+        </label>
+    </div>
+
+    <!-- X 轴配置 -->
+    <div class="section gf-form-group" ng-show="ctrl.panel.echarts.option.xAxis">
+        <h5 class="section-heading">xAxis</h5>
+        <!-- xAxis.name -->
+        <div class="gf-form">
+            <label class="gf-form-label width-8">name</label>
+            <input type="text" class="gf-form-input max-width-6 ng-valid ng-empty ng-dirty ng-valid-number ng-touched"
+                ng-model="ctrl.panel.echarts.option.xAxis.name" ng-change="ctrl.refresh()"
+                ng-value="ctrl.panel.echarts.option.xAxis.name">
+        </div>
+        <!-- xAxis.nameGap -->
+        <div class="gf-form">
+            <label class="gf-form-label width-8">nameGap</label>
+            <input type="text" class="gf-form-input max-width-6 ng-valid ng-empty ng-dirty ng-valid-number ng-touched"
+                ng-model="ctrl.panel.echarts.option.xAxis.nameGap" ng-change="ctrl.refresh()"
+                ng-value="ctrl.panel.echarts.option.xAxis.nameGap" placeholder="15">
+        </div>
+        <!-- xAxis.splitLine.show -->
+        <label for="check-xAxis-solitLine-show" class="gf-form-switch-container" on-change="ctrl.refresh()">
+            <div class="gf-form-label width-8"> splitLine.show </div>
+            <div class="gf-form-switch">
+                <input id="check-xAxis-solitLine-show" type="checkbox"
+                    ng-model="ctrl.panel.echarts.option.xAxis.splitLine.show" ng-change="ctrl.refresh()"
+                    class="ng-valid ng-dirty ng-valid-parse ng-touched ng-not-empty">
+                <span class="gf-form-switch__slider"></span>
+            </div>
+        </label>
+        <div class="gf-form" ng-if="ctrl.panel.echarts.option.xAxis.splitLine.show">
+            <label class="gf-form-label width-8">lineStyle.type</label>
+            <div class="gf-form-select-wrapper">
+                <select class="gf-form-input" ng-model="ctrl.panel.echarts.option.xAxis.splitLine.lineStyle.type"
+                    ng-options="i for i in ['solid','dashed','dotted']" ng-change="ctrl.refresh()"></select>
+=======
+
+    <div class="edit-tab-content" ng-if="ctrl.panel.subTabKey === 'title'">
+        <div class="section gf-form-group">
+            <h5 class="section-heading">Title</h5>
+        </div>
+    </div>
+
+
+
+    <div class="edit-tab-content" ng-if="ctrl.panel.subTabKey === 'grid'">
+        <div class="section gf-form-group">
+            <h5 class="section-heading">Distance</h5>
+            <div class="gf-form" label-class="width-7">
+                <label class="gf-form-label width-7">left</label>
+                <input type="text"
+                    class="gf-form-input max-width-6 ng-valid ng-empty ng-dirty ng-valid-number ng-touched"
+                    ng-model="ctrl.panel.echarts.option.grid.left" ng-change="ctrl.refresh()"
+                    ng-value="ctrl.panel.echarts.option.grid.left">
+            </div>
+            <div class="gf-form" label-class="width-7">
+                <label class="gf-form-label width-7">top</label>
+                <input type="text"
+                    class="gf-form-input max-width-6 ng-valid ng-empty ng-dirty ng-valid-number ng-touched"
+                    ng-model="ctrl.panel.echarts.option.grid.top" ng-change="ctrl.refresh()"
+                    ng-value="ctrl.panel.echarts.option.grid.top">
+            </div>
+            <div class="gf-form" label-class="width-7">
+                <label class="gf-form-label width-7">right</label>
+                <input type="text"
+                    class="gf-form-input max-width-6 ng-valid ng-empty ng-dirty ng-valid-number ng-touched"
+                    ng-model="ctrl.panel.echarts.option.grid.right" ng-change="ctrl.refresh()"
+                    ng-value="ctrl.panel.echarts.option.grid.right">
+            </div>
+            <div class="gf-form" label-class="width-7">
+                <label class="gf-form-label width-7">bottom</label>
+                <input type="text"
+                    class="gf-form-input max-width-6 ng-valid ng-empty ng-dirty ng-valid-number ng-touched"
+                    ng-model="ctrl.panel.echarts.option.grid.bottom" ng-change="ctrl.refresh()"
+                    ng-value="ctrl.panel.echarts.option.grid.bottom">
+            </div>
+        </div>
+        <div class="section gf-form-group">
+            <h5 class="section-heading">Contain</h5>
+            <div class="gf-form" label="Show" label-class="width-7"
+                checked="ctrl.panel.echarts.option.grid.containLabel" on-change="ctrl.refresh()">
+                <label for="check-grid-containLabel" class="gf-form-label width-7 pointer">containLabel</label>
+                <div class="gf-form-switch ">
+                    <input id="check-grid-containLabel" type="checkbox"
+                        ng-model="ctrl.panel.echarts.option.grid.containLabel" ng-change="ctrl.refresh()"
+                        class="ng-pristine ng-untouched ng-valid ng-not-empty">
+                    <label for="check-grid-containLabel" data-on="Yes" data-off="No"></label>
+                </div>
+>>>>>>> origin/v1
+            </div>
+        </div>
+        <div class="section gf-form-group">
+            <h5 class="section-heading">Border</h5>
+        </div>
+        <div class="section gf-form-group">
+            <h5 class="section-heading">Shadow</h5>
+        </div>
+        <div class="section gf-form-group">
+            <h5 class="section-heading">Tooltip</h5>
+        </div>
+<<<<<<< HEAD
+        <!-- yAxis.splitLine.show -->
+        <label for="check-yAxis-solitLine-show" class="gf-form-switch-container" on-change="ctrl.refresh()">
+            <div class="gf-form-label width-8"> splitLine.show </div>
+            <div class="gf-form-switch">
+                <input id="check-yAxis-solitLine-show" type="checkbox"
+                    ng-model="ctrl.panel.echarts.option.yAxis.splitLine.show" ng-change="ctrl.refresh()"
+                    class="ng-valid ng-dirty ng-valid-parse ng-touched ng-not-empty">
+                <span class="gf-form-switch__slider"></span>
+            </div>
+        </label>
+        <div class="gf-form" ng-if="ctrl.panel.echarts.option.yAxis.splitLine.show">
+            <label class="gf-form-label width-8">lineStyle.type</label>
+            <div class="gf-form-select-wrapper">
+                <select class="gf-form-input" ng-model="ctrl.panel.echarts.option.yAxis.splitLine.lineStyle.type"
+                    ng-options="i for i in ['solid','dashed','dotted']" ng-change="ctrl.refresh()"></select>
+=======
+    </div>
+
+
+
+    <div class="edit-tab-content" ng-if="ctrl.panel.subTabKey === 'yAxis'">
+        <div class="section gf-form-group" ng-show="ctrl.panel.echarts.option.yAxis">
+            <h5 class="section-heading">Name</h5>
+            <div class="gf-form" label-class="width-7">
+                <label class="gf-form-label width-7">name</label>
+                <input type="text"
+                    class="gf-form-input max-width-6 ng-valid ng-empty ng-dirty ng-valid-number ng-touched"
+                    ng-model="ctrl.panel.echarts.option.yAxis.name" ng-change="ctrl.refresh()"
+                    ng-value="ctrl.panel.echarts.option.yAxis.name">
+            </div>
+            <div class="gf-form" label-class="width-7">
+                <label class="gf-form-label width-7">nameLocation</label>
+                <input type="text"
+                    class="gf-form-input max-width-6 ng-valid ng-empty ng-dirty ng-valid-number ng-touched"
+                    ng-model="ctrl.panel.echarts.option.yAxis.nameLocation" ng-change="ctrl.refresh()"
+                    ng-value="ctrl.panel.echarts.option.yAxis.nameLocation">
+            </div>
+            <div class="gf-form" label-class="width-7">
+                <label class="gf-form-label width-7">nameGap</label>
+                <input type="text"
+                    class="gf-form-input max-width-6 ng-valid ng-empty ng-dirty ng-valid-number ng-touched"
+                    ng-model="ctrl.panel.echarts.option.yAxis.nameGap" ng-change="ctrl.refresh()"
+                    ng-value="ctrl.panel.echarts.option.yAxis.nameGap">
+>>>>>>> origin/v1
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="edit-tab-content" ng-if="ctrl.panel.subTabKey === 'xAxis'">
+        <div class="gf-form-inline">
+            <span class="section-heading width-5">Default</span>
+            <div class="gf-form">
+                <label class="gf-form-label width-5">type</label>
+                <div class="gf-form-select-wrapper">
+                    <select class="gf-form-input" ng-model="ctrl.panel.echarts.option.xAxis.type"
+                        ng-options="i for i in ['value','category','time','log']" ng-change="ctrl.refresh()"></select>
+                </div>
+            </div>
+            <div class="gf-form" ng-if="ctrl.panel.echarts.option.xAxis.type=='category'">
+                <label class="gf-form-label width-5">category</label>
+                <input type="text"
+                    class="gf-form-input max-width-15 ng-valid ng-empty ng-dirty ng-valid-number ng-touched"
+                    ng-model="ctrl.panel.echarts.option.xAxis.data" ng-change="ctrl.refresh()"
+                    ng-value="ctrl.panel.echarts.option.xAxis.data" placeholder="['1','2','3','4','5']">
+            </div>
+        </div>
+        <div class="section gf-form-group">
+            <h5 class="section-heading">Name</h5>
+            <div class="gf-form" label-class="width-7">
+                <label class="gf-form-label width-7">name</label>
+                <input type="text"
+                    class="gf-form-input max-width-6 ng-valid ng-empty ng-dirty ng-valid-number ng-touched"
+                    ng-model="ctrl.panel.echarts.option.xAxis.name" ng-change="ctrl.refresh()"
+                    ng-value="ctrl.panel.echarts.option.xAxis.name">
+            </div>
+            <div class="gf-form" label-class="width-7">
+                <label class="gf-form-label width-7">nameLocation</label>
+                <input type="text"
+                    class="gf-form-input max-width-6 ng-valid ng-empty ng-dirty ng-valid-number ng-touched"
+                    ng-model="ctrl.panel.echarts.option.xAxis.nameLocation" ng-change="ctrl.refresh()"
+                    ng-value="ctrl.panel.echarts.option.xAxis.nameLocation">
+            </div>
+            <div class="gf-form" label-class="width-7">
+                <label class="gf-form-label width-7">nameGap</label>
+                <input type="text"
+                    class="gf-form-input max-width-6 ng-valid ng-empty ng-dirty ng-valid-number ng-touched"
+                    ng-model="ctrl.panel.echarts.option.xAxis.nameGap" ng-change="ctrl.refresh()"
+                    ng-value="ctrl.panel.echarts.option.xAxis.nameGap">
+            </div>
+        </div>
+    </div>
+</div>

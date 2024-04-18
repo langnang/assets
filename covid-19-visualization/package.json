@@ -1,0 +1,37 @@
+{
+  "name": "covid-19-visualization",
+  "version": "0.0.1",
+  "description": "A vue.js project",
+  "main": "index.js",
+  "license": "",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@vue/composition-api": "^1.0.0-rc.12",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "echarts": "^5.1.2",
+    "element-ui": "^2.15.2",
+    "js-pinyin": "^0.1.9",
+    "leaflet": "^1.7.1",
+    "vue": "^2.6.11",
+    "vue-echarts": "^6.0.0-rc.6",
+    "vue2-leaflet": "^2.7.0",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "author": "langnang <langnang.chen@outlook.com>"
+}

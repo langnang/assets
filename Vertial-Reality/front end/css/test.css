@@ -1,0 +1,79 @@
+/*body {background-color: yellow;}
+h2 {background-color: transparent;}
+p {background-color: rgb(250,0,255);}
+
+div{
+    border:1px;
+}*/
+/*h1 {
+    background-color: red;
+
+}*/
+
+/*p.no2 {background-color: gray; padding: 20px;}*/
+
+.pageMid{
+    margin:0 auto;height:500px;width:700px;border:1px solid red;
+}
+.pageImg{
+    float:left;height:400px;width:200px;border:1px solid grey;
+}
+.img{
+    float:left;height:200px;width:200px;background:url();border:0px solid black;
+}
+.page{
+    float:left;height:200px;width:200px;
+}
+.bt{
+    float:left;height:30px;width:180px;border:1px solid red;margin-left:10px;margin-top:10px;
+}
+.zy{
+    float:left;height:40px;width:80px;border:1px solid red;margin-left:10px;margin-top:20px;overflow
+}
+.more{
+}
+
+.main{width:1320px;height:334px;border:1px solid red;background-color:silver;}
+ 
+.top{width:1300px;height:304px;
+margin-top: 5px;
+margin-left: 10px;
+background-color: green;
+}
+.top img{
+    width:1300px;height:304px;
+}
+ 
+.top .left{
+display: block;/*让left.jpg作为第一张图片显示*/
+}
+.top .center{
+display: none;/*初始状态不显示*/
+}
+.top .right{
+display: none;/*不显示*/
+}
+ 
+.bottom{
+width:1300px;
+height:15px;
+margin-top: 5px;
+margin-left: 10px;
+background-color: gray;
+}
+.bottom ul{
+margin: 0px;
+margin-left:500px;
+padding: 0px;
+width:260px;
+height:50px; 
+}
+.bottom ul li{
+width:80px;
+height:10px;
+margin-top:3px;
+margin-right:3px;
+background-color:yellow;
+list-style-type: none;
+float:left;
+}

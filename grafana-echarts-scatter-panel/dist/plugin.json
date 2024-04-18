@@ -1,0 +1,30 @@
+{
+  "type": "panel",
+  "name": "Scatter Echarts",
+  "id": "echarts-scatter-panel",
+  "info": {
+    "description": "a scatter panel by echarts for grafana v6",
+    "author": {
+      "name": "Langnang",
+      "url": "http://grafana.com"
+    },
+    "keywords": ["panel"],
+    "logos": {
+      "small": "src/img/logo.png",
+      "large": "src/img/logo.png"
+    },
+    "links": [],
+    "screenshots": [],
+<<<<<<< HEAD
+    "version": "3.0.0",
+    "updated": "2020-05-29"
+=======
+    "version": "1.0.0",
+    "updated": "2018-12-04"
+>>>>>>> origin/v1
+  },
+  "dependencies": {
+    "grafanaVersion": "6.5.2",
+    "plugins": []
+  }
+}
