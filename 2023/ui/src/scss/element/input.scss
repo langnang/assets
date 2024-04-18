@@ -1,0 +1,9 @@
+input {
+  border: transparent;
+  &:focus {
+    outline: 0;
+  }
+  &:focus-visible {
+    outline: 0;
+  }
+}

@@ -1,0 +1,3439 @@
+@charset "UTF-8";
+/**
+ * 尺寸指令
+ * @param attrs 属性
+ * @param selector 关联选择器
+ */
+.ln-skin-default {
+  /**
+   * @name default skin
+   * @desc 默认皮肤
+   */
+}
+
+/**
+ * @name Flex
+ * @desc 弹性布局
+ */
+/**
+ * @name Grid
+ * @desc 栅格布局
+ */
+@media (min-width: 768px) {
+  .ln-grid-container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .ln-grid-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .ln-grid-container {
+    width: 1170px;
+  }
+}
+
+.ln-grid-container,
+.ln-grid-container-fluid {
+  padding-left: 15px;
+  /* 设置padding是为了后面Column直接嵌套Row预留 */
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  /* 小屏幕 平板等 屏幕宽度大于等于768px */
+  /* 中等屏幕 桌面显示器等 屏幕宽度大于等于992px */
+  /* 大屏幕 大桌面显示器等 屏幕宽度大于等于1200px */
+}
+.ln-grid-container *,
+.ln-grid-container-fluid * {
+  box-sizing: border-box;
+}
+.ln-grid-container .ln-row,
+.ln-grid-container-fluid .ln-row {
+  margin-left: -15px;
+  margin-right: -15px;
+  /* Container设置了padding，所以Row需要设置-margin让Row占满Container的宽度 */
+}
+.ln-grid-container .ln-row:after,
+.ln-grid-container-fluid .ln-row:after {
+  /* float会引起父元素的高度塌陷，所以要使用一些clearfix技巧来清除浮动 */
+  content: "";
+  display: table;
+  clear: both;
+}
+.ln-grid-container .ln-row + .ln-row,
+.ln-grid-container-fluid .ln-row + .ln-row {
+  margin-top: 10px;
+}
+.ln-grid-container [class*=ln-col-],
+.ln-grid-container-fluid [class*=ln-col-] {
+  float: left;
+  min-height: 1px;
+  padding: 4px;
+  /* Gutter的设置 同时和前面Container设置的一样，所以Column里面可以直接嵌套Row，而不需要Container */
+}
+.ln-grid-container .ln-col-1,
+.ln-grid-container-fluid .ln-col-1 {
+  width: 8.3333333333%;
+}
+.ln-grid-container .ln-col-offset-1,
+.ln-grid-container-fluid .ln-col-offset-1 {
+  margin-left: 8.3333333333%;
+}
+.ln-grid-container .ln-col-2,
+.ln-grid-container-fluid .ln-col-2 {
+  width: 16.6666666667%;
+}
+.ln-grid-container .ln-col-offset-2,
+.ln-grid-container-fluid .ln-col-offset-2 {
+  margin-left: 16.6666666667%;
+}
+.ln-grid-container .ln-col-3,
+.ln-grid-container-fluid .ln-col-3 {
+  width: 25%;
+}
+.ln-grid-container .ln-col-offset-3,
+.ln-grid-container-fluid .ln-col-offset-3 {
+  margin-left: 25%;
+}
+.ln-grid-container .ln-col-4,
+.ln-grid-container-fluid .ln-col-4 {
+  width: 33.3333333333%;
+}
+.ln-grid-container .ln-col-offset-4,
+.ln-grid-container-fluid .ln-col-offset-4 {
+  margin-left: 33.3333333333%;
+}
+.ln-grid-container .ln-col-5,
+.ln-grid-container-fluid .ln-col-5 {
+  width: 41.6666666667%;
+}
+.ln-grid-container .ln-col-offset-5,
+.ln-grid-container-fluid .ln-col-offset-5 {
+  margin-left: 41.6666666667%;
+}
+.ln-grid-container .ln-col-6,
+.ln-grid-container-fluid .ln-col-6 {
+  width: 50%;
+}
+.ln-grid-container .ln-col-offset-6,
+.ln-grid-container-fluid .ln-col-offset-6 {
+  margin-left: 50%;
+}
+.ln-grid-container .ln-col-7,
+.ln-grid-container-fluid .ln-col-7 {
+  width: 58.3333333333%;
+}
+.ln-grid-container .ln-col-offset-7,
+.ln-grid-container-fluid .ln-col-offset-7 {
+  margin-left: 58.3333333333%;
+}
+.ln-grid-container .ln-col-8,
+.ln-grid-container-fluid .ln-col-8 {
+  width: 66.6666666667%;
+}
+.ln-grid-container .ln-col-offset-8,
+.ln-grid-container-fluid .ln-col-offset-8 {
+  margin-left: 66.6666666667%;
+}
+.ln-grid-container .ln-col-9,
+.ln-grid-container-fluid .ln-col-9 {
+  width: 75%;
+}
+.ln-grid-container .ln-col-offset-9,
+.ln-grid-container-fluid .ln-col-offset-9 {
+  margin-left: 75%;
+}
+.ln-grid-container .ln-col-10,
+.ln-grid-container-fluid .ln-col-10 {
+  width: 83.3333333333%;
+}
+.ln-grid-container .ln-col-offset-10,
+.ln-grid-container-fluid .ln-col-offset-10 {
+  margin-left: 83.3333333333%;
+}
+.ln-grid-container .ln-col-11,
+.ln-grid-container-fluid .ln-col-11 {
+  width: 91.6666666667%;
+}
+.ln-grid-container .ln-col-offset-11,
+.ln-grid-container-fluid .ln-col-offset-11 {
+  margin-left: 91.6666666667%;
+}
+.ln-grid-container .ln-col-12,
+.ln-grid-container-fluid .ln-col-12 {
+  width: 100%;
+}
+.ln-grid-container .ln-col-offset-12,
+.ln-grid-container-fluid .ln-col-offset-12 {
+  margin-left: 100%;
+}
+@media (min-width: 768px) {
+  .ln-grid-container .ln-col-sm-1,
+.ln-grid-container-fluid .ln-col-sm-1 {
+    width: 8.3333333333%;
+  }
+  .ln-grid-container .ln-col-offset-sm-1,
+.ln-grid-container-fluid .ln-col-offset-sm-1 {
+    margin-left: 8.3333333333%;
+  }
+  .ln-grid-container .ln-col-sm-2,
+.ln-grid-container-fluid .ln-col-sm-2 {
+    width: 16.6666666667%;
+  }
+  .ln-grid-container .ln-col-offset-sm-2,
+.ln-grid-container-fluid .ln-col-offset-sm-2 {
+    margin-left: 16.6666666667%;
+  }
+  .ln-grid-container .ln-col-sm-3,
+.ln-grid-container-fluid .ln-col-sm-3 {
+    width: 25%;
+  }
+  .ln-grid-container .ln-col-offset-sm-3,
+.ln-grid-container-fluid .ln-col-offset-sm-3 {
+    margin-left: 25%;
+  }
+  .ln-grid-container .ln-col-sm-4,
+.ln-grid-container-fluid .ln-col-sm-4 {
+    width: 33.3333333333%;
+  }
+  .ln-grid-container .ln-col-offset-sm-4,
+.ln-grid-container-fluid .ln-col-offset-sm-4 {
+    margin-left: 33.3333333333%;
+  }
+  .ln-grid-container .ln-col-sm-5,
+.ln-grid-container-fluid .ln-col-sm-5 {
+    width: 41.6666666667%;
+  }
+  .ln-grid-container .ln-col-offset-sm-5,
+.ln-grid-container-fluid .ln-col-offset-sm-5 {
+    margin-left: 41.6666666667%;
+  }
+  .ln-grid-container .ln-col-sm-6,
+.ln-grid-container-fluid .ln-col-sm-6 {
+    width: 50%;
+  }
+  .ln-grid-container .ln-col-offset-sm-6,
+.ln-grid-container-fluid .ln-col-offset-sm-6 {
+    margin-left: 50%;
+  }
+  .ln-grid-container .ln-col-sm-7,
+.ln-grid-container-fluid .ln-col-sm-7 {
+    width: 58.3333333333%;
+  }
+  .ln-grid-container .ln-col-offset-sm-7,
+.ln-grid-container-fluid .ln-col-offset-sm-7 {
+    margin-left: 58.3333333333%;
+  }
+  .ln-grid-container .ln-col-sm-8,
+.ln-grid-container-fluid .ln-col-sm-8 {
+    width: 66.6666666667%;
+  }
+  .ln-grid-container .ln-col-offset-sm-8,
+.ln-grid-container-fluid .ln-col-offset-sm-8 {
+    margin-left: 66.6666666667%;
+  }
+  .ln-grid-container .ln-col-sm-9,
+.ln-grid-container-fluid .ln-col-sm-9 {
+    width: 75%;
+  }
+  .ln-grid-container .ln-col-offset-sm-9,
+.ln-grid-container-fluid .ln-col-offset-sm-9 {
+    margin-left: 75%;
+  }
+  .ln-grid-container .ln-col-sm-10,
+.ln-grid-container-fluid .ln-col-sm-10 {
+    width: 83.3333333333%;
+  }
+  .ln-grid-container .ln-col-offset-sm-10,
+.ln-grid-container-fluid .ln-col-offset-sm-10 {
+    margin-left: 83.3333333333%;
+  }
+  .ln-grid-container .ln-col-sm-11,
+.ln-grid-container-fluid .ln-col-sm-11 {
+    width: 91.6666666667%;
+  }
+  .ln-grid-container .ln-col-offset-sm-11,
+.ln-grid-container-fluid .ln-col-offset-sm-11 {
+    margin-left: 91.6666666667%;
+  }
+  .ln-grid-container .ln-col-sm-12,
+.ln-grid-container-fluid .ln-col-sm-12 {
+    width: 100%;
+  }
+  .ln-grid-container .ln-col-offset-sm-12,
+.ln-grid-container-fluid .ln-col-offset-sm-12 {
+    margin-left: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .ln-grid-container .ln-col-md-1,
+.ln-grid-container-fluid .ln-col-md-1 {
+    width: 8.3333333333%;
+  }
+  .ln-grid-container .ln-col-offset-md-1,
+.ln-grid-container-fluid .ln-col-offset-md-1 {
+    margin-left: 8.3333333333%;
+  }
+  .ln-grid-container .ln-col-md-2,
+.ln-grid-container-fluid .ln-col-md-2 {
+    width: 16.6666666667%;
+  }
+  .ln-grid-container .ln-col-offset-md-2,
+.ln-grid-container-fluid .ln-col-offset-md-2 {
+    margin-left: 16.6666666667%;
+  }
+  .ln-grid-container .ln-col-md-3,
+.ln-grid-container-fluid .ln-col-md-3 {
+    width: 25%;
+  }
+  .ln-grid-container .ln-col-offset-md-3,
+.ln-grid-container-fluid .ln-col-offset-md-3 {
+    margin-left: 25%;
+  }
+  .ln-grid-container .ln-col-md-4,
+.ln-grid-container-fluid .ln-col-md-4 {
+    width: 33.3333333333%;
+  }
+  .ln-grid-container .ln-col-offset-md-4,
+.ln-grid-container-fluid .ln-col-offset-md-4 {
+    margin-left: 33.3333333333%;
+  }
+  .ln-grid-container .ln-col-md-5,
+.ln-grid-container-fluid .ln-col-md-5 {
+    width: 41.6666666667%;
+  }
+  .ln-grid-container .ln-col-offset-md-5,
+.ln-grid-container-fluid .ln-col-offset-md-5 {
+    margin-left: 41.6666666667%;
+  }
+  .ln-grid-container .ln-col-md-6,
+.ln-grid-container-fluid .ln-col-md-6 {
+    width: 50%;
+  }
+  .ln-grid-container .ln-col-offset-md-6,
+.ln-grid-container-fluid .ln-col-offset-md-6 {
+    margin-left: 50%;
+  }
+  .ln-grid-container .ln-col-md-7,
+.ln-grid-container-fluid .ln-col-md-7 {
+    width: 58.3333333333%;
+  }
+  .ln-grid-container .ln-col-offset-md-7,
+.ln-grid-container-fluid .ln-col-offset-md-7 {
+    margin-left: 58.3333333333%;
+  }
+  .ln-grid-container .ln-col-md-8,
+.ln-grid-container-fluid .ln-col-md-8 {
+    width: 66.6666666667%;
+  }
+  .ln-grid-container .ln-col-offset-md-8,
+.ln-grid-container-fluid .ln-col-offset-md-8 {
+    margin-left: 66.6666666667%;
+  }
+  .ln-grid-container .ln-col-md-9,
+.ln-grid-container-fluid .ln-col-md-9 {
+    width: 75%;
+  }
+  .ln-grid-container .ln-col-offset-md-9,
+.ln-grid-container-fluid .ln-col-offset-md-9 {
+    margin-left: 75%;
+  }
+  .ln-grid-container .ln-col-md-10,
+.ln-grid-container-fluid .ln-col-md-10 {
+    width: 83.3333333333%;
+  }
+  .ln-grid-container .ln-col-offset-md-10,
+.ln-grid-container-fluid .ln-col-offset-md-10 {
+    margin-left: 83.3333333333%;
+  }
+  .ln-grid-container .ln-col-md-11,
+.ln-grid-container-fluid .ln-col-md-11 {
+    width: 91.6666666667%;
+  }
+  .ln-grid-container .ln-col-offset-md-11,
+.ln-grid-container-fluid .ln-col-offset-md-11 {
+    margin-left: 91.6666666667%;
+  }
+  .ln-grid-container .ln-col-md-12,
+.ln-grid-container-fluid .ln-col-md-12 {
+    width: 100%;
+  }
+  .ln-grid-container .ln-col-offset-md-12,
+.ln-grid-container-fluid .ln-col-offset-md-12 {
+    margin-left: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .ln-grid-container .ln-col-lg-1,
+.ln-grid-container-fluid .ln-col-lg-1 {
+    width: 8.3333333333%;
+  }
+  .ln-grid-container .ln-col-offset-lg-1,
+.ln-grid-container-fluid .ln-col-offset-lg-1 {
+    margin-left: 8.3333333333%;
+  }
+  .ln-grid-container .ln-col-lg-2,
+.ln-grid-container-fluid .ln-col-lg-2 {
+    width: 16.6666666667%;
+  }
+  .ln-grid-container .ln-col-offset-lg-2,
+.ln-grid-container-fluid .ln-col-offset-lg-2 {
+    margin-left: 16.6666666667%;
+  }
+  .ln-grid-container .ln-col-lg-3,
+.ln-grid-container-fluid .ln-col-lg-3 {
+    width: 25%;
+  }
+  .ln-grid-container .ln-col-offset-lg-3,
+.ln-grid-container-fluid .ln-col-offset-lg-3 {
+    margin-left: 25%;
+  }
+  .ln-grid-container .ln-col-lg-4,
+.ln-grid-container-fluid .ln-col-lg-4 {
+    width: 33.3333333333%;
+  }
+  .ln-grid-container .ln-col-offset-lg-4,
+.ln-grid-container-fluid .ln-col-offset-lg-4 {
+    margin-left: 33.3333333333%;
+  }
+  .ln-grid-container .ln-col-lg-5,
+.ln-grid-container-fluid .ln-col-lg-5 {
+    width: 41.6666666667%;
+  }
+  .ln-grid-container .ln-col-offset-lg-5,
+.ln-grid-container-fluid .ln-col-offset-lg-5 {
+    margin-left: 41.6666666667%;
+  }
+  .ln-grid-container .ln-col-lg-6,
+.ln-grid-container-fluid .ln-col-lg-6 {
+    width: 50%;
+  }
+  .ln-grid-container .ln-col-offset-lg-6,
+.ln-grid-container-fluid .ln-col-offset-lg-6 {
+    margin-left: 50%;
+  }
+  .ln-grid-container .ln-col-lg-7,
+.ln-grid-container-fluid .ln-col-lg-7 {
+    width: 58.3333333333%;
+  }
+  .ln-grid-container .ln-col-offset-lg-7,
+.ln-grid-container-fluid .ln-col-offset-lg-7 {
+    margin-left: 58.3333333333%;
+  }
+  .ln-grid-container .ln-col-lg-8,
+.ln-grid-container-fluid .ln-col-lg-8 {
+    width: 66.6666666667%;
+  }
+  .ln-grid-container .ln-col-offset-lg-8,
+.ln-grid-container-fluid .ln-col-offset-lg-8 {
+    margin-left: 66.6666666667%;
+  }
+  .ln-grid-container .ln-col-lg-9,
+.ln-grid-container-fluid .ln-col-lg-9 {
+    width: 75%;
+  }
+  .ln-grid-container .ln-col-offset-lg-9,
+.ln-grid-container-fluid .ln-col-offset-lg-9 {
+    margin-left: 75%;
+  }
+  .ln-grid-container .ln-col-lg-10,
+.ln-grid-container-fluid .ln-col-lg-10 {
+    width: 83.3333333333%;
+  }
+  .ln-grid-container .ln-col-offset-lg-10,
+.ln-grid-container-fluid .ln-col-offset-lg-10 {
+    margin-left: 83.3333333333%;
+  }
+  .ln-grid-container .ln-col-lg-11,
+.ln-grid-container-fluid .ln-col-lg-11 {
+    width: 91.6666666667%;
+  }
+  .ln-grid-container .ln-col-offset-lg-11,
+.ln-grid-container-fluid .ln-col-offset-lg-11 {
+    margin-left: 91.6666666667%;
+  }
+  .ln-grid-container .ln-col-lg-12,
+.ln-grid-container-fluid .ln-col-lg-12 {
+    width: 100%;
+  }
+  .ln-grid-container .ln-col-offset-lg-12,
+.ln-grid-container-fluid .ln-col-offset-lg-12 {
+    margin-left: 100%;
+  }
+}
+
+/**
+ * @name Masonry
+ * @desc 瀑布流
+ */
+@media (min-width: 768px) {
+  .ln-masonry-container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .ln-masonry-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .ln-masonry-container {
+    width: 1170px;
+  }
+}
+
+.ln-masonry-container {
+  margin: 0 auto;
+}
+.ln-masonry-container .ln-row {
+  columns: 4;
+  column-gap: 30px;
+}
+.ln-masonry-container .ln-col {
+  width: 100%;
+  break-inside: avoid;
+  margin-bottom: 30px;
+}
+
+.ln-a {
+  text-decoration: none;
+}
+
+/**
+ * @name Button
+ * @desc 按钮
+ */
+.ln-btn {
+  padding: 8px 15px;
+  border-radius: 4px;
+  border-width: 1px;
+  text-align: center;
+  /* 伪类 */
+  /* 样式类 */
+  /* 色彩类 */
+  /* 特效类 */
+}
+.ln-btn + .ln-btn {
+  margin-left: 6px;
+}
+.ln-btn {
+  padding-top: 8px;
+  padding-right: 15px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  font-size: 1rem;
+}
+.ln-btn.xs {
+  padding-top: 4px;
+  padding-right: 7.5px;
+  padding-bottom: 4px;
+  padding-left: 7.5px;
+  font-size: 0.5rem;
+}
+.ln-btn.sm {
+  padding-top: 6.4px;
+  padding-right: 12px;
+  padding-bottom: 6.4px;
+  padding-left: 12px;
+  font-size: 0.8rem;
+}
+.ln-btn.md {
+  padding-top: 8px;
+  padding-right: 15px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  font-size: 1rem;
+}
+.ln-btn.dx {
+  padding-top: 9.6px;
+  padding-right: 18px;
+  padding-bottom: 9.6px;
+  padding-left: 18px;
+  font-size: 1.2rem;
+}
+.ln-btn.xl {
+  padding-top: 12px;
+  padding-right: 22.5px;
+  padding-bottom: 12px;
+  padding-left: 22.5px;
+  font-size: 1.5rem;
+}
+.ln-btn:focus {
+  outline: none;
+}
+.ln-btn:active {
+  border-style: inset;
+}
+.ln-btn.is-plain {
+  background-color: transparent;
+}
+.ln-btn.is-round {
+  border-radius: 9999px;
+}
+.ln-btn.is-dashed {
+  border-style: dashed;
+  /* 虚线 */
+}
+.ln-btn.is-dotted {
+  border-style: dotted;
+  /* 点线 */
+}
+.ln-btn.is-double {
+  border-style: double;
+  /* 双线 */
+}
+.ln-btn.is-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  touch-action: none;
+}
+.ln-btn.is-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+.ln-btn.is-success {
+  color: #fff;
+  background-color: #67c23a;
+  border-color: #67c23a;
+}
+.ln-btn.is-info {
+  color: #fff;
+  background-color: #909399;
+  border-color: #909399;
+}
+.ln-btn.is-warning {
+  color: #fff;
+  background-color: #e6a23c;
+  border-color: #e6a23c;
+}
+.ln-btn.is-danger {
+  color: #fff;
+  background-color: #f56c6c;
+  border-color: #f56c6c;
+}
+.ln-btn.is-sm {
+  font-size: 0.8;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h1,
+.h1 {
+  font-size: 3rem;
+}
+
+h2,
+.h2 {
+  font-size: 2rem;
+}
+
+h3,
+.h3 {
+  font-size: 1.2rem;
+}
+
+h4,
+.h4 {
+  font-size: 0.8rem;
+}
+
+h5,
+.h5 {
+  font-size: 0.6rem;
+}
+
+h6,
+.h6 {
+  font-size: 0.4rem;
+}
+
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input {
+  border: transparent;
+}
+input:focus {
+  outline: 0;
+}
+input:focus-visible {
+  outline: 0;
+}
+
+.ln-ul {
+  list-style: none;
+}
+
+.alice-blue {
+  background-color: #f0f8ff;
+  border-color: #f0f8ff;
+  red: 240;
+  green: 248;
+  blue: 255;
+  hue: 208deg;
+  saturation: 100%;
+  lightness: 97.0588235294%;
+  whiteness: 94.1176470588%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #fff7f0;
+  color: #2b2b2b;
+}
+
+.antique-white {
+  background-color: #faebd7;
+  border-color: #faebd7;
+  red: 250;
+  green: 235;
+  blue: 215;
+  hue: 34.2857142857deg;
+  saturation: 77.7777777778%;
+  lightness: 91.1764705882%;
+  whiteness: 84.3137254902%;
+  blackness: 1.9607843137%;
+  alpha: 1;
+  complement: #d7e6fa;
+  color: #2b2b2b;
+}
+
+.aqua {
+  background-color: #00ffff;
+  border-color: #00ffff;
+  red: 0;
+  green: 255;
+  blue: 255;
+  hue: 180deg;
+  saturation: 100%;
+  lightness: 50%;
+  whiteness: 0%;
+  blackness: 0%;
+  alpha: 1;
+  complement: red;
+  color: #00ffff;
+}
+
+.aquamarine {
+  background-color: #7fffd4;
+  border-color: #7fffd4;
+  red: 127;
+  green: 255;
+  blue: 212;
+  hue: 159.84375deg;
+  saturation: 100%;
+  lightness: 74.9019607843%;
+  whiteness: 49.8039215686%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #ff7faa;
+  color: #2b2b2b;
+}
+
+.azure {
+  background-color: #f0ffff;
+  border-color: #f0ffff;
+  red: 240;
+  green: 255;
+  blue: 255;
+  hue: 180deg;
+  saturation: 100%;
+  lightness: 97.0588235294%;
+  whiteness: 94.1176470588%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #fff0f0;
+  color: #2b2b2b;
+}
+
+.beige {
+  background-color: #f5f5dc;
+  border-color: #f5f5dc;
+  red: 245;
+  green: 245;
+  blue: 220;
+  hue: 60deg;
+  saturation: 55.5555555556%;
+  lightness: 91.1764705882%;
+  whiteness: 86.2745098039%;
+  blackness: 3.9215686275%;
+  alpha: 1;
+  complement: #dcdcf5;
+  color: #2b2b2b;
+}
+
+.bisque {
+  background-color: #ffe4c4;
+  border-color: #ffe4c4;
+  red: 255;
+  green: 228;
+  blue: 196;
+  hue: 32.5423728814deg;
+  saturation: 100%;
+  lightness: 88.431372549%;
+  whiteness: 76.862745098%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #c4dfff;
+  color: #2b2b2b;
+}
+
+.black {
+  background-color: #000000;
+  border-color: #000000;
+  red: 0;
+  green: 0;
+  blue: 0;
+  hue: 0deg;
+  saturation: 0%;
+  lightness: 0%;
+  whiteness: 0%;
+  blackness: 100%;
+  alpha: 1;
+  complement: black;
+  color: #d5d5d5;
+}
+
+.blanched-almond {
+  background-color: #ffebcd;
+  border-color: #ffebcd;
+  red: 255;
+  green: 235;
+  blue: 205;
+  hue: 36deg;
+  saturation: 100%;
+  lightness: 90.1960784314%;
+  whiteness: 80.3921568627%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #cde1ff;
+  color: #2b2b2b;
+}
+
+.blue {
+  background-color: #0000ff;
+  border-color: #0000ff;
+  red: 0;
+  green: 0;
+  blue: 255;
+  hue: 240deg;
+  saturation: 100%;
+  lightness: 50%;
+  whiteness: 0%;
+  blackness: 0%;
+  alpha: 1;
+  complement: yellow;
+  color: #0000ff;
+}
+
+.blue-violet {
+  background-color: #8a2be2;
+  border-color: #8a2be2;
+  red: 138;
+  green: 43;
+  blue: 226;
+  hue: 271.1475409836deg;
+  saturation: 75.9336099585%;
+  lightness: 52.7450980392%;
+  whiteness: 16.862745098%;
+  blackness: 11.3725490196%;
+  alpha: 1;
+  complement: #83e22b;
+  color: #8a2be2;
+}
+
+.brown {
+  background-color: #a52a2a;
+  border-color: #a52a2a;
+  red: 165;
+  green: 42;
+  blue: 42;
+  hue: 0deg;
+  saturation: 59.4202898551%;
+  lightness: 40.5882352941%;
+  whiteness: 16.4705882353%;
+  blackness: 35.2941176471%;
+  alpha: 1;
+  complement: #2aa5a5;
+  color: #d5d5d5;
+}
+
+.burly-wood {
+  background-color: #deb887;
+  border-color: #deb887;
+  red: 222;
+  green: 184;
+  blue: 135;
+  hue: 33.7931034483deg;
+  saturation: 56.862745098%;
+  lightness: 70%;
+  whiteness: 52.9411764706%;
+  blackness: 12.9411764706%;
+  alpha: 1;
+  complement: #87adde;
+  color: #2b2b2b;
+}
+
+.cadet-blue {
+  background-color: #5f9ea0;
+  border-color: #5f9ea0;
+  red: 95;
+  green: 158;
+  blue: 160;
+  hue: 181.8461538462deg;
+  saturation: 25.4901960784%;
+  lightness: 50%;
+  whiteness: 37.2549019608%;
+  blackness: 37.2549019608%;
+  alpha: 1;
+  complement: #a0615f;
+  color: #5f9ea0;
+}
+
+.chartreuse {
+  background-color: #7fff00;
+  border-color: #7fff00;
+  red: 127;
+  green: 255;
+  blue: 0;
+  hue: 90.1176470588deg;
+  saturation: 100%;
+  lightness: 50%;
+  whiteness: 0%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #8000ff;
+  color: #7fff00;
+}
+
+.chocolate {
+  background-color: #d2691e;
+  border-color: #d2691e;
+  red: 210;
+  green: 105;
+  blue: 30;
+  hue: 25deg;
+  saturation: 75%;
+  lightness: 47.0588235294%;
+  whiteness: 11.7647058824%;
+  blackness: 17.6470588235%;
+  alpha: 1;
+  complement: #1e87d2;
+  color: #d2691e;
+}
+
+.coral {
+  background-color: #ff7f50;
+  border-color: #ff7f50;
+  red: 255;
+  green: 127;
+  blue: 80;
+  hue: 16.1142857143deg;
+  saturation: 100%;
+  lightness: 65.6862745098%;
+  whiteness: 31.3725490196%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #50d0ff;
+  color: #2b2b2b;
+}
+
+.cornflower-blue {
+  background-color: #6495ed;
+  border-color: #6495ed;
+  red: 100;
+  green: 149;
+  blue: 237;
+  hue: 218.5401459854deg;
+  saturation: 79.1907514451%;
+  lightness: 66.0784313725%;
+  whiteness: 39.2156862745%;
+  blackness: 7.0588235294%;
+  alpha: 1;
+  complement: #edbc64;
+  color: #2b2b2b;
+}
+
+.cornsilk {
+  background-color: #fff8dc;
+  border-color: #fff8dc;
+  red: 255;
+  green: 248;
+  blue: 220;
+  hue: 48deg;
+  saturation: 100%;
+  lightness: 93.137254902%;
+  whiteness: 86.2745098039%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #dce3ff;
+  color: #2b2b2b;
+}
+
+.crimson {
+  background-color: #dc143c;
+  border-color: #dc143c;
+  red: 220;
+  green: 20;
+  blue: 60;
+  hue: 348deg;
+  saturation: 83.3333333333%;
+  lightness: 47.0588235294%;
+  whiteness: 7.8431372549%;
+  blackness: 13.7254901961%;
+  alpha: 1;
+  complement: #14dcb4;
+  color: #dc143c;
+}
+
+.cyan {
+  background-color: #00ffff;
+  border-color: #00ffff;
+  red: 0;
+  green: 255;
+  blue: 255;
+  hue: 180deg;
+  saturation: 100%;
+  lightness: 50%;
+  whiteness: 0%;
+  blackness: 0%;
+  alpha: 1;
+  complement: red;
+  color: #00ffff;
+}
+
+.dark-blue {
+  background-color: #00008b;
+  border-color: #00008b;
+  red: 0;
+  green: 0;
+  blue: 139;
+  hue: 240deg;
+  saturation: 100%;
+  lightness: 27.2549019608%;
+  whiteness: 0%;
+  blackness: 45.4901960784%;
+  alpha: 1;
+  complement: #8b8b00;
+  color: #d5d5d5;
+}
+
+.dark-cyan {
+  background-color: #008b8b;
+  border-color: #008b8b;
+  red: 0;
+  green: 139;
+  blue: 139;
+  hue: 180deg;
+  saturation: 100%;
+  lightness: 27.2549019608%;
+  whiteness: 0%;
+  blackness: 45.4901960784%;
+  alpha: 1;
+  complement: darkred;
+  color: #d5d5d5;
+}
+
+.dark-golden-rod {
+  background-color: #b8860b;
+  border-color: #b8860b;
+  red: 184;
+  green: 134;
+  blue: 11;
+  hue: 42.6589595376deg;
+  saturation: 88.7179487179%;
+  lightness: 38.2352941176%;
+  whiteness: 4.3137254902%;
+  blackness: 27.8431372549%;
+  alpha: 1;
+  complement: #0b3db8;
+  color: #d5d5d5;
+}
+
+.dark-gray {
+  background-color: #a9a9a9;
+  border-color: #a9a9a9;
+  red: 169;
+  green: 169;
+  blue: 169;
+  hue: 0deg;
+  saturation: 0%;
+  lightness: 66.2745098039%;
+  whiteness: 66.2745098039%;
+  blackness: 33.7254901961%;
+  alpha: 1;
+  complement: darkgray;
+  color: #a9a9a9;
+}
+
+.dark-green {
+  background-color: #006400;
+  border-color: #006400;
+  red: 0;
+  green: 100;
+  blue: 0;
+  hue: 120deg;
+  saturation: 100%;
+  lightness: 19.6078431373%;
+  whiteness: 0%;
+  blackness: 60.7843137255%;
+  alpha: 1;
+  complement: #640064;
+  color: #d5d5d5;
+}
+
+.dark-khaki {
+  background-color: #bdb76b;
+  border-color: #bdb76b;
+  red: 189;
+  green: 183;
+  blue: 107;
+  hue: 55.6097560976deg;
+  saturation: 38.3177570093%;
+  lightness: 58.0392156863%;
+  whiteness: 41.9607843137%;
+  blackness: 25.8823529412%;
+  alpha: 1;
+  complement: #6b71bd;
+  color: #bdb76b;
+}
+
+.dark-magenta {
+  background-color: #8b008b;
+  border-color: #8b008b;
+  red: 139;
+  green: 0;
+  blue: 139;
+  hue: 300deg;
+  saturation: 100%;
+  lightness: 27.2549019608%;
+  whiteness: 0%;
+  blackness: 45.4901960784%;
+  alpha: 1;
+  complement: #008b00;
+  color: #d5d5d5;
+}
+
+.dark-olive-green {
+  background-color: #556b2f;
+  border-color: #556b2f;
+  red: 85;
+  green: 107;
+  blue: 47;
+  hue: 82deg;
+  saturation: 38.961038961%;
+  lightness: 30.1960784314%;
+  whiteness: 18.431372549%;
+  blackness: 58.0392156863%;
+  alpha: 1;
+  complement: #452f6b;
+  color: #d5d5d5;
+}
+
+.darkorange {
+  background-color: #ff8c00;
+  border-color: #ff8c00;
+  red: 255;
+  green: 140;
+  blue: 0;
+  hue: 32.9411764706deg;
+  saturation: 100%;
+  lightness: 50%;
+  whiteness: 0%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #0073ff;
+  color: #ff8c00;
+}
+
+.dark-orchid {
+  background-color: #9932cc;
+  border-color: #9932cc;
+  red: 153;
+  green: 50;
+  blue: 204;
+  hue: 280.1298701299deg;
+  saturation: 60.6299212598%;
+  lightness: 49.8039215686%;
+  whiteness: 19.6078431373%;
+  blackness: 20%;
+  alpha: 1;
+  complement: #65cc32;
+  color: #9932cc;
+}
+
+.dark-red {
+  background-color: #8b0000;
+  border-color: #8b0000;
+  red: 139;
+  green: 0;
+  blue: 0;
+  hue: 0deg;
+  saturation: 100%;
+  lightness: 27.2549019608%;
+  whiteness: 0%;
+  blackness: 45.4901960784%;
+  alpha: 1;
+  complement: darkcyan;
+  color: #d5d5d5;
+}
+
+.dark-salmon {
+  background-color: #e9967a;
+  border-color: #e9967a;
+  red: 233;
+  green: 150;
+  blue: 122;
+  hue: 15.1351351351deg;
+  saturation: 71.6129032258%;
+  lightness: 69.6078431373%;
+  whiteness: 47.8431372549%;
+  blackness: 8.6274509804%;
+  alpha: 1;
+  complement: #7acde9;
+  color: #2b2b2b;
+}
+
+.dark-sea-green {
+  background-color: #8fbc8f;
+  border-color: #8fbc8f;
+  red: 143;
+  green: 188;
+  blue: 143;
+  hue: 120deg;
+  saturation: 25.1396648045%;
+  lightness: 64.9019607843%;
+  whiteness: 56.0784313725%;
+  blackness: 26.2745098039%;
+  alpha: 1;
+  complement: #bc8fbc;
+  color: #8fbc8f;
+}
+
+.dark-slate-blue {
+  background-color: #483d8b;
+  border-color: #483d8b;
+  red: 72;
+  green: 61;
+  blue: 139;
+  hue: 248.4615384615deg;
+  saturation: 39%;
+  lightness: 39.2156862745%;
+  whiteness: 23.9215686275%;
+  blackness: 45.4901960784%;
+  alpha: 1;
+  complement: #808b3d;
+  color: #483d8b;
+}
+
+.dark-slate-gray {
+  background-color: #2f4f4f;
+  border-color: #2f4f4f;
+  red: 47;
+  green: 79;
+  blue: 79;
+  hue: 180deg;
+  saturation: 25.3968253968%;
+  lightness: 24.7058823529%;
+  whiteness: 18.431372549%;
+  blackness: 69.0196078431%;
+  alpha: 1;
+  complement: #4f2f2f;
+  color: #d5d5d5;
+}
+
+.dark-turquoise {
+  background-color: #00ced1;
+  border-color: #00ced1;
+  red: 0;
+  green: 206;
+  blue: 209;
+  hue: 180.8612440191deg;
+  saturation: 100%;
+  lightness: 40.9803921569%;
+  whiteness: 0%;
+  blackness: 18.0392156863%;
+  alpha: 1;
+  complement: #d10300;
+  color: #00ced1;
+}
+
+.dark-violet {
+  background-color: #9400d3;
+  border-color: #9400d3;
+  red: 148;
+  green: 0;
+  blue: 211;
+  hue: 282.0853080569deg;
+  saturation: 100%;
+  lightness: 41.3725490196%;
+  whiteness: 0%;
+  blackness: 17.2549019608%;
+  alpha: 1;
+  complement: #3fd300;
+  color: #9400d3;
+}
+
+.deep-pink {
+  background-color: #ff1493;
+  border-color: #ff1493;
+  red: 255;
+  green: 20;
+  blue: 147;
+  hue: 327.5744680851deg;
+  saturation: 100%;
+  lightness: 53.9215686275%;
+  whiteness: 7.8431372549%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #14ff80;
+  color: #ff1493;
+}
+
+.deep-sky-blue {
+  background-color: #00bfff;
+  border-color: #00bfff;
+  red: 0;
+  green: 191;
+  blue: 255;
+  hue: 195.0588235294deg;
+  saturation: 100%;
+  lightness: 50%;
+  whiteness: 0%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #ff4000;
+  color: #00bfff;
+}
+
+.dim-gray {
+  background-color: #696969;
+  border-color: #696969;
+  red: 105;
+  green: 105;
+  blue: 105;
+  hue: 0deg;
+  saturation: 0%;
+  lightness: 41.1764705882%;
+  whiteness: 41.1764705882%;
+  blackness: 58.8235294118%;
+  alpha: 1;
+  complement: dimgray;
+  color: #696969;
+}
+
+.dodger-blue {
+  background-color: #1e90ff;
+  border-color: #1e90ff;
+  red: 30;
+  green: 144;
+  blue: 255;
+  hue: 209.6deg;
+  saturation: 100%;
+  lightness: 55.8823529412%;
+  whiteness: 11.7647058824%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #ff8d1e;
+  color: #1e90ff;
+}
+
+.feldspar {
+  background-color: #d19275;
+  border-color: #d19275;
+  red: 209;
+  green: 146;
+  blue: 117;
+  hue: 18.9130434783deg;
+  saturation: 50%;
+  lightness: 63.9215686275%;
+  whiteness: 45.8823529412%;
+  blackness: 18.0392156863%;
+  alpha: 1;
+  complement: #75b4d1;
+  color: #2b2b2b;
+}
+
+.fire-brick {
+  background-color: #b22222;
+  border-color: #b22222;
+  red: 178;
+  green: 34;
+  blue: 34;
+  hue: 0deg;
+  saturation: 67.9245283019%;
+  lightness: 41.568627451%;
+  whiteness: 13.3333333333%;
+  blackness: 30.1960784314%;
+  alpha: 1;
+  complement: #22b2b2;
+  color: #d5d5d5;
+}
+
+.floral-white {
+  background-color: #fffaf0;
+  border-color: #fffaf0;
+  red: 255;
+  green: 250;
+  blue: 240;
+  hue: 40deg;
+  saturation: 100%;
+  lightness: 97.0588235294%;
+  whiteness: 94.1176470588%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #f0f5ff;
+  color: #2b2b2b;
+}
+
+.forest-green {
+  background-color: #228b22;
+  border-color: #228b22;
+  red: 34;
+  green: 139;
+  blue: 34;
+  hue: 120deg;
+  saturation: 60.6936416185%;
+  lightness: 33.9215686275%;
+  whiteness: 13.3333333333%;
+  blackness: 45.4901960784%;
+  alpha: 1;
+  complement: #8b228b;
+  color: #d5d5d5;
+}
+
+.fuchsia {
+  background-color: #ff00ff;
+  border-color: #ff00ff;
+  red: 255;
+  green: 0;
+  blue: 255;
+  hue: 300deg;
+  saturation: 100%;
+  lightness: 50%;
+  whiteness: 0%;
+  blackness: 0%;
+  alpha: 1;
+  complement: lime;
+  color: #ff00ff;
+}
+
+.gainsboro {
+  background-color: #dcdcdc;
+  border-color: #dcdcdc;
+  red: 220;
+  green: 220;
+  blue: 220;
+  hue: 0deg;
+  saturation: 0%;
+  lightness: 86.2745098039%;
+  whiteness: 86.2745098039%;
+  blackness: 13.7254901961%;
+  alpha: 1;
+  complement: gainsboro;
+  color: #2b2b2b;
+}
+
+.ghost-white {
+  background-color: #f8f8ff;
+  border-color: #f8f8ff;
+  red: 248;
+  green: 248;
+  blue: 255;
+  hue: 240deg;
+  saturation: 100%;
+  lightness: 98.6274509804%;
+  whiteness: 97.2549019608%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #fffff8;
+  color: #2b2b2b;
+}
+
+.gold {
+  background-color: #ffd700;
+  border-color: #ffd700;
+  red: 255;
+  green: 215;
+  blue: 0;
+  hue: 50.5882352941deg;
+  saturation: 100%;
+  lightness: 50%;
+  whiteness: 0%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #0028ff;
+  color: #ffd700;
+}
+
+.golden-rod {
+  background-color: #daa520;
+  border-color: #daa520;
+  red: 218;
+  green: 165;
+  blue: 32;
+  hue: 42.9032258065deg;
+  saturation: 74.4%;
+  lightness: 49.0196078431%;
+  whiteness: 12.5490196078%;
+  blackness: 14.5098039216%;
+  alpha: 1;
+  complement: #2055da;
+  color: #daa520;
+}
+
+.gray {
+  background-color: #808080;
+  border-color: #808080;
+  red: 128;
+  green: 128;
+  blue: 128;
+  hue: 0deg;
+  saturation: 0%;
+  lightness: 50.1960784314%;
+  whiteness: 50.1960784314%;
+  blackness: 49.8039215686%;
+  alpha: 1;
+  complement: gray;
+  color: #808080;
+}
+
+.green {
+  background-color: #008000;
+  border-color: #008000;
+  red: 0;
+  green: 128;
+  blue: 0;
+  hue: 120deg;
+  saturation: 100%;
+  lightness: 25.0980392157%;
+  whiteness: 0%;
+  blackness: 49.8039215686%;
+  alpha: 1;
+  complement: purple;
+  color: #d5d5d5;
+}
+
+.green-yellow {
+  background-color: #adff2f;
+  border-color: #adff2f;
+  red: 173;
+  green: 255;
+  blue: 47;
+  hue: 83.6538461538deg;
+  saturation: 100%;
+  lightness: 59.2156862745%;
+  whiteness: 18.431372549%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #812fff;
+  color: #adff2f;
+}
+
+.honey-dew {
+  background-color: #f0fff0;
+  border-color: #f0fff0;
+  red: 240;
+  green: 255;
+  blue: 240;
+  hue: 120deg;
+  saturation: 100%;
+  lightness: 97.0588235294%;
+  whiteness: 94.1176470588%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #fff0ff;
+  color: #2b2b2b;
+}
+
+.hot-pink {
+  background-color: #ff69b4;
+  border-color: #ff69b4;
+  red: 255;
+  green: 105;
+  blue: 180;
+  hue: 330deg;
+  saturation: 100%;
+  lightness: 70.5882352941%;
+  whiteness: 41.1764705882%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #69ffb4;
+  color: #2b2b2b;
+}
+
+.indian-red {
+  background-color: #cd5c5c;
+  border-color: #cd5c5c;
+  red: 205;
+  green: 92;
+  blue: 92;
+  hue: 0deg;
+  saturation: 53.0516431925%;
+  lightness: 58.2352941176%;
+  whiteness: 36.0784313725%;
+  blackness: 19.6078431373%;
+  alpha: 1;
+  complement: #5ccdcd;
+  color: #2b2b2b;
+}
+
+.indigo {
+  background-color: #4b0082;
+  border-color: #4b0082;
+  red: 75;
+  green: 0;
+  blue: 130;
+  hue: 274.6153846154deg;
+  saturation: 100%;
+  lightness: 25.4901960784%;
+  whiteness: 0%;
+  blackness: 49.0196078431%;
+  alpha: 1;
+  complement: #378200;
+  color: #d5d5d5;
+}
+
+.ivory {
+  background-color: #fffff0;
+  border-color: #fffff0;
+  red: 255;
+  green: 255;
+  blue: 240;
+  hue: 60deg;
+  saturation: 100%;
+  lightness: 97.0588235294%;
+  whiteness: 94.1176470588%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #f0f0ff;
+  color: #2b2b2b;
+}
+
+.khaki {
+  background-color: #f0e68c;
+  border-color: #f0e68c;
+  red: 240;
+  green: 230;
+  blue: 140;
+  hue: 54deg;
+  saturation: 76.9230769231%;
+  lightness: 74.5098039216%;
+  whiteness: 54.9019607843%;
+  blackness: 5.8823529412%;
+  alpha: 1;
+  complement: #8c96f0;
+  color: #2b2b2b;
+}
+
+.lavender {
+  background-color: #e6e6fa;
+  border-color: #e6e6fa;
+  red: 230;
+  green: 230;
+  blue: 250;
+  hue: 240deg;
+  saturation: 66.6666666667%;
+  lightness: 94.1176470588%;
+  whiteness: 90.1960784314%;
+  blackness: 1.9607843137%;
+  alpha: 1;
+  complement: #fafae6;
+  color: #2b2b2b;
+}
+
+.lavender-blush {
+  background-color: #fff0f5;
+  border-color: #fff0f5;
+  red: 255;
+  green: 240;
+  blue: 245;
+  hue: 340deg;
+  saturation: 100%;
+  lightness: 97.0588235294%;
+  whiteness: 94.1176470588%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #f0fffa;
+  color: #2b2b2b;
+}
+
+.lawn-green {
+  background-color: #7cfc00;
+  border-color: #7cfc00;
+  red: 124;
+  green: 252;
+  blue: 0;
+  hue: 90.4761904762deg;
+  saturation: 100%;
+  lightness: 49.4117647059%;
+  whiteness: 0%;
+  blackness: 1.1764705882%;
+  alpha: 1;
+  complement: #8000fc;
+  color: #7cfc00;
+}
+
+.lemon-chiffon {
+  background-color: #fffacd;
+  border-color: #fffacd;
+  red: 255;
+  green: 250;
+  blue: 205;
+  hue: 54deg;
+  saturation: 100%;
+  lightness: 90.1960784314%;
+  whiteness: 80.3921568627%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #cdd2ff;
+  color: #2b2b2b;
+}
+
+.light-blue {
+  background-color: #add8e6;
+  border-color: #add8e6;
+  red: 173;
+  green: 216;
+  blue: 230;
+  hue: 194.7368421053deg;
+  saturation: 53.2710280374%;
+  lightness: 79.0196078431%;
+  whiteness: 67.8431372549%;
+  blackness: 9.8039215686%;
+  alpha: 1;
+  complement: #e6bbad;
+  color: #2b2b2b;
+}
+
+.light-coral {
+  background-color: #f08080;
+  border-color: #f08080;
+  red: 240;
+  green: 128;
+  blue: 128;
+  hue: 0deg;
+  saturation: 78.8732394366%;
+  lightness: 72.1568627451%;
+  whiteness: 50.1960784314%;
+  blackness: 5.8823529412%;
+  alpha: 1;
+  complement: #80f0f0;
+  color: #2b2b2b;
+}
+
+.light-cyan {
+  background-color: #e0ffff;
+  border-color: #e0ffff;
+  red: 224;
+  green: 255;
+  blue: 255;
+  hue: 180deg;
+  saturation: 100%;
+  lightness: 93.9215686275%;
+  whiteness: 87.8431372549%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #ffe0e0;
+  color: #2b2b2b;
+}
+
+.light-golden-rod-yellow {
+  background-color: #fafad2;
+  border-color: #fafad2;
+  red: 250;
+  green: 250;
+  blue: 210;
+  hue: 60deg;
+  saturation: 80%;
+  lightness: 90.1960784314%;
+  whiteness: 82.3529411765%;
+  blackness: 1.9607843137%;
+  alpha: 1;
+  complement: #d2d2fa;
+  color: #2b2b2b;
+}
+
+.light-grey {
+  background-color: #d3d3d3;
+  border-color: #d3d3d3;
+  red: 211;
+  green: 211;
+  blue: 211;
+  hue: 0deg;
+  saturation: 0%;
+  lightness: 82.7450980392%;
+  whiteness: 82.7450980392%;
+  blackness: 17.2549019608%;
+  alpha: 1;
+  complement: lightgray;
+  color: #2b2b2b;
+}
+
+.light-green {
+  background-color: #90ee90;
+  border-color: #90ee90;
+  red: 144;
+  green: 238;
+  blue: 144;
+  hue: 120deg;
+  saturation: 73.4375%;
+  lightness: 74.9019607843%;
+  whiteness: 56.4705882353%;
+  blackness: 6.6666666667%;
+  alpha: 1;
+  complement: #ee90ee;
+  color: #2b2b2b;
+}
+
+.light-pink {
+  background-color: #ffb6c1;
+  border-color: #ffb6c1;
+  red: 255;
+  green: 182;
+  blue: 193;
+  hue: 350.9589041096deg;
+  saturation: 100%;
+  lightness: 85.6862745098%;
+  whiteness: 71.3725490196%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #b6fff4;
+  color: #2b2b2b;
+}
+
+.light-salmon {
+  background-color: #ffa07a;
+  border-color: #ffa07a;
+  red: 255;
+  green: 160;
+  blue: 122;
+  hue: 17.1428571429deg;
+  saturation: 100%;
+  lightness: 73.9215686275%;
+  whiteness: 47.8431372549%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #7ad9ff;
+  color: #2b2b2b;
+}
+
+.light-sea-green {
+  background-color: #20b2aa;
+  border-color: #20b2aa;
+  red: 32;
+  green: 178;
+  blue: 170;
+  hue: 176.7123287671deg;
+  saturation: 69.5238095238%;
+  lightness: 41.1764705882%;
+  whiteness: 12.5490196078%;
+  blackness: 30.1960784314%;
+  alpha: 1;
+  complement: #b22028;
+  color: #d5d5d5;
+}
+
+.light-sky-blue {
+  background-color: #87cefa;
+  border-color: #87cefa;
+  red: 135;
+  green: 206;
+  blue: 250;
+  hue: 202.9565217391deg;
+  saturation: 92%;
+  lightness: 75.4901960784%;
+  whiteness: 52.9411764706%;
+  blackness: 1.9607843137%;
+  alpha: 1;
+  complement: #fab387;
+  color: #2b2b2b;
+}
+
+.light-slate-blue {
+  background-color: #8470ff;
+  border-color: #8470ff;
+  red: 132;
+  green: 112;
+  blue: 255;
+  hue: 248.3916083916deg;
+  saturation: 100%;
+  lightness: 71.9607843137%;
+  whiteness: 43.9215686275%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #ebff70;
+  color: #2b2b2b;
+}
+
+.light-slate-gray {
+  background-color: #778899;
+  border-color: #778899;
+  red: 119;
+  green: 136;
+  blue: 153;
+  hue: 210deg;
+  saturation: 14.2857142857%;
+  lightness: 53.3333333333%;
+  whiteness: 46.6666666667%;
+  blackness: 40%;
+  alpha: 1;
+  complement: #998877;
+  color: #778899;
+}
+
+.light-steel-blue {
+  background-color: #b0c4de;
+  border-color: #b0c4de;
+  red: 176;
+  green: 196;
+  blue: 222;
+  hue: 213.9130434783deg;
+  saturation: 41.0714285714%;
+  lightness: 78.0392156863%;
+  whiteness: 69.0196078431%;
+  blackness: 12.9411764706%;
+  alpha: 1;
+  complement: #decab0;
+  color: #2b2b2b;
+}
+
+.light-yellow {
+  background-color: #ffffe0;
+  border-color: #ffffe0;
+  red: 255;
+  green: 255;
+  blue: 224;
+  hue: 60deg;
+  saturation: 100%;
+  lightness: 93.9215686275%;
+  whiteness: 87.8431372549%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #e0e0ff;
+  color: #2b2b2b;
+}
+
+.lime {
+  background-color: #00ff00;
+  border-color: #00ff00;
+  red: 0;
+  green: 255;
+  blue: 0;
+  hue: 120deg;
+  saturation: 100%;
+  lightness: 50%;
+  whiteness: 0%;
+  blackness: 0%;
+  alpha: 1;
+  complement: fuchsia;
+  color: #00ff00;
+}
+
+.lime-green {
+  background-color: #32cd32;
+  border-color: #32cd32;
+  red: 50;
+  green: 205;
+  blue: 50;
+  hue: 120deg;
+  saturation: 60.7843137255%;
+  lightness: 50%;
+  whiteness: 19.6078431373%;
+  blackness: 19.6078431373%;
+  alpha: 1;
+  complement: #cd32cd;
+  color: #32cd32;
+}
+
+.linen {
+  background-color: #faf0e6;
+  border-color: #faf0e6;
+  red: 250;
+  green: 240;
+  blue: 230;
+  hue: 30deg;
+  saturation: 66.6666666667%;
+  lightness: 94.1176470588%;
+  whiteness: 90.1960784314%;
+  blackness: 1.9607843137%;
+  alpha: 1;
+  complement: #e6f0fa;
+  color: #2b2b2b;
+}
+
+.magenta {
+  background-color: #ff00ff;
+  border-color: #ff00ff;
+  red: 255;
+  green: 0;
+  blue: 255;
+  hue: 300deg;
+  saturation: 100%;
+  lightness: 50%;
+  whiteness: 0%;
+  blackness: 0%;
+  alpha: 1;
+  complement: lime;
+  color: #ff00ff;
+}
+
+.maroon {
+  background-color: #800000;
+  border-color: #800000;
+  red: 128;
+  green: 0;
+  blue: 0;
+  hue: 0deg;
+  saturation: 100%;
+  lightness: 25.0980392157%;
+  whiteness: 0%;
+  blackness: 49.8039215686%;
+  alpha: 1;
+  complement: teal;
+  color: #d5d5d5;
+}
+
+.medium-aqua-marine {
+  background-color: #66cdaa;
+  border-color: #66cdaa;
+  red: 102;
+  green: 205;
+  blue: 170;
+  hue: 159.6116504854deg;
+  saturation: 50.7389162562%;
+  lightness: 60.1960784314%;
+  whiteness: 40%;
+  blackness: 19.6078431373%;
+  alpha: 1;
+  complement: #cd6689;
+  color: #2b2b2b;
+}
+
+.medium-blue {
+  background-color: #0000cd;
+  border-color: #0000cd;
+  red: 0;
+  green: 0;
+  blue: 205;
+  hue: 240deg;
+  saturation: 100%;
+  lightness: 40.1960784314%;
+  whiteness: 0%;
+  blackness: 19.6078431373%;
+  alpha: 1;
+  complement: #cdcd00;
+  color: #0000cd;
+}
+
+.medium-orchid {
+  background-color: #ba55d3;
+  border-color: #ba55d3;
+  red: 186;
+  green: 85;
+  blue: 211;
+  hue: 288.0952380952deg;
+  saturation: 58.8785046729%;
+  lightness: 58.0392156863%;
+  whiteness: 33.3333333333%;
+  blackness: 17.2549019608%;
+  alpha: 1;
+  complement: #6ed355;
+  color: #2b2b2b;
+}
+
+.medium-purple {
+  background-color: #9370d8;
+  border-color: #9370d8;
+  red: 147;
+  green: 112;
+  blue: 216;
+  hue: 260.1923076923deg;
+  saturation: 57.1428571429%;
+  lightness: 64.3137254902%;
+  whiteness: 43.9215686275%;
+  blackness: 15.2941176471%;
+  alpha: 1;
+  complement: #b5d870;
+  color: #2b2b2b;
+}
+
+.medium-sea-green {
+  background-color: #3cb371;
+  border-color: #3cb371;
+  red: 60;
+  green: 179;
+  blue: 113;
+  hue: 146.7226890756deg;
+  saturation: 49.7907949791%;
+  lightness: 46.862745098%;
+  whiteness: 23.5294117647%;
+  blackness: 29.8039215686%;
+  alpha: 1;
+  complement: #b33c7e;
+  color: #3cb371;
+}
+
+.medium-slate-blue {
+  background-color: #7b68ee;
+  border-color: #7b68ee;
+  red: 123;
+  green: 104;
+  blue: 238;
+  hue: 248.5074626866deg;
+  saturation: 79.7619047619%;
+  lightness: 67.0588235294%;
+  whiteness: 40.7843137255%;
+  blackness: 6.6666666667%;
+  alpha: 1;
+  complement: #dbee68;
+  color: #2b2b2b;
+}
+
+.medium-spring-green {
+  background-color: #00fa9a;
+  border-color: #00fa9a;
+  red: 0;
+  green: 250;
+  blue: 154;
+  hue: 156.96deg;
+  saturation: 100%;
+  lightness: 49.0196078431%;
+  whiteness: 0%;
+  blackness: 1.9607843137%;
+  alpha: 1;
+  complement: #fa0060;
+  color: #00fa9a;
+}
+
+.medium-turquoise {
+  background-color: #48d1cc;
+  border-color: #48d1cc;
+  red: 72;
+  green: 209;
+  blue: 204;
+  hue: 177.8102189781deg;
+  saturation: 59.8253275109%;
+  lightness: 55.0980392157%;
+  whiteness: 28.2352941176%;
+  blackness: 18.0392156863%;
+  alpha: 1;
+  complement: #d1484d;
+  color: #2b2b2b;
+}
+
+.medium-violet-red {
+  background-color: #c71585;
+  border-color: #c71585;
+  red: 199;
+  green: 21;
+  blue: 133;
+  hue: 322.2471910112deg;
+  saturation: 80.9090909091%;
+  lightness: 43.137254902%;
+  whiteness: 8.2352941176%;
+  blackness: 21.9607843137%;
+  alpha: 1;
+  complement: #15c757;
+  color: #d5d5d5;
+}
+
+.midnight-blue {
+  background-color: #191970;
+  border-color: #191970;
+  red: 25;
+  green: 25;
+  blue: 112;
+  hue: 240deg;
+  saturation: 63.503649635%;
+  lightness: 26.862745098%;
+  whiteness: 9.8039215686%;
+  blackness: 56.0784313725%;
+  alpha: 1;
+  complement: #707019;
+  color: #d5d5d5;
+}
+
+.mint-cream {
+  background-color: #f5fffa;
+  border-color: #f5fffa;
+  red: 245;
+  green: 255;
+  blue: 250;
+  hue: 150deg;
+  saturation: 100%;
+  lightness: 98.0392156863%;
+  whiteness: 96.0784313725%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #fff5fa;
+  color: #2b2b2b;
+}
+
+.misty-rose {
+  background-color: #ffe4e1;
+  border-color: #ffe4e1;
+  red: 255;
+  green: 228;
+  blue: 225;
+  hue: 6deg;
+  saturation: 100%;
+  lightness: 94.1176470588%;
+  whiteness: 88.2352941176%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #e1fcff;
+  color: #2b2b2b;
+}
+
+.moccasin {
+  background-color: #ffe4b5;
+  border-color: #ffe4b5;
+  red: 255;
+  green: 228;
+  blue: 181;
+  hue: 38.1081081081deg;
+  saturation: 100%;
+  lightness: 85.4901960784%;
+  whiteness: 70.9803921569%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #b5d0ff;
+  color: #2b2b2b;
+}
+
+.navajo-white {
+  background-color: #ffdead;
+  border-color: #ffdead;
+  red: 255;
+  green: 222;
+  blue: 173;
+  hue: 35.8536585366deg;
+  saturation: 100%;
+  lightness: 83.9215686275%;
+  whiteness: 67.8431372549%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #adceff;
+  color: #2b2b2b;
+}
+
+.navy {
+  background-color: #000080;
+  border-color: #000080;
+  red: 0;
+  green: 0;
+  blue: 128;
+  hue: 240deg;
+  saturation: 100%;
+  lightness: 25.0980392157%;
+  whiteness: 0%;
+  blackness: 49.8039215686%;
+  alpha: 1;
+  complement: olive;
+  color: #d5d5d5;
+}
+
+.old-lace {
+  background-color: #fdf5e6;
+  border-color: #fdf5e6;
+  red: 253;
+  green: 245;
+  blue: 230;
+  hue: 39.1304347826deg;
+  saturation: 85.1851851852%;
+  lightness: 94.7058823529%;
+  whiteness: 90.1960784314%;
+  blackness: 0.7843137255%;
+  alpha: 1;
+  complement: #e6eefd;
+  color: #2b2b2b;
+}
+
+.olive {
+  background-color: #808000;
+  border-color: #808000;
+  red: 128;
+  green: 128;
+  blue: 0;
+  hue: 60deg;
+  saturation: 100%;
+  lightness: 25.0980392157%;
+  whiteness: 0%;
+  blackness: 49.8039215686%;
+  alpha: 1;
+  complement: navy;
+  color: #d5d5d5;
+}
+
+.olive-drab {
+  background-color: #6b8e23;
+  border-color: #6b8e23;
+  red: 107;
+  green: 142;
+  blue: 35;
+  hue: 79.6261682243deg;
+  saturation: 60.4519774011%;
+  lightness: 34.7058823529%;
+  whiteness: 13.7254901961%;
+  blackness: 44.3137254902%;
+  alpha: 1;
+  complement: #46238e;
+  color: #d5d5d5;
+}
+
+.orange {
+  background-color: #ffa500;
+  border-color: #ffa500;
+  red: 255;
+  green: 165;
+  blue: 0;
+  hue: 38.8235294118deg;
+  saturation: 100%;
+  lightness: 50%;
+  whiteness: 0%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #005aff;
+  color: #ffa500;
+}
+
+.orange-red {
+  background-color: #ff4500;
+  border-color: #ff4500;
+  red: 255;
+  green: 69;
+  blue: 0;
+  hue: 16.2352941176deg;
+  saturation: 100%;
+  lightness: 50%;
+  whiteness: 0%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #00baff;
+  color: #ff4500;
+}
+
+.orchid {
+  background-color: #da70d6;
+  border-color: #da70d6;
+  red: 218;
+  green: 112;
+  blue: 214;
+  hue: 302.2641509434deg;
+  saturation: 58.8888888889%;
+  lightness: 64.7058823529%;
+  whiteness: 43.9215686275%;
+  blackness: 14.5098039216%;
+  alpha: 1;
+  complement: #70da74;
+  color: #2b2b2b;
+}
+
+.pale-golden-rod {
+  background-color: #eee8aa;
+  border-color: #eee8aa;
+  red: 238;
+  green: 232;
+  blue: 170;
+  hue: 54.7058823529deg;
+  saturation: 66.6666666667%;
+  lightness: 80%;
+  whiteness: 66.6666666667%;
+  blackness: 6.6666666667%;
+  alpha: 1;
+  complement: #aab0ee;
+  color: #2b2b2b;
+}
+
+.pale-green {
+  background-color: #98fb98;
+  border-color: #98fb98;
+  red: 152;
+  green: 251;
+  blue: 152;
+  hue: 120deg;
+  saturation: 92.523364486%;
+  lightness: 79.0196078431%;
+  whiteness: 59.6078431373%;
+  blackness: 1.568627451%;
+  alpha: 1;
+  complement: #fb98fb;
+  color: #2b2b2b;
+}
+
+.pale-turquoise {
+  background-color: #afeeee;
+  border-color: #afeeee;
+  red: 175;
+  green: 238;
+  blue: 238;
+  hue: 180deg;
+  saturation: 64.9484536082%;
+  lightness: 80.9803921569%;
+  whiteness: 68.6274509804%;
+  blackness: 6.6666666667%;
+  alpha: 1;
+  complement: #eeafaf;
+  color: #2b2b2b;
+}
+
+.pale-violet-red {
+  background-color: #d87093;
+  border-color: #d87093;
+  red: 216;
+  green: 112;
+  blue: 147;
+  hue: 339.8076923077deg;
+  saturation: 57.1428571429%;
+  lightness: 64.3137254902%;
+  whiteness: 43.9215686275%;
+  blackness: 15.2941176471%;
+  alpha: 1;
+  complement: #70d8b5;
+  color: #2b2b2b;
+}
+
+.papaya-whip {
+  background-color: #ffefd5;
+  border-color: #ffefd5;
+  red: 255;
+  green: 239;
+  blue: 213;
+  hue: 37.1428571429deg;
+  saturation: 100%;
+  lightness: 91.7647058824%;
+  whiteness: 83.5294117647%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #d5e5ff;
+  color: #2b2b2b;
+}
+
+.peach-puff {
+  background-color: #ffdab9;
+  border-color: #ffdab9;
+  red: 255;
+  green: 218;
+  blue: 185;
+  hue: 28.2857142857deg;
+  saturation: 100%;
+  lightness: 86.2745098039%;
+  whiteness: 72.5490196078%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #b9deff;
+  color: #2b2b2b;
+}
+
+.peru {
+  background-color: #cd853f;
+  border-color: #cd853f;
+  red: 205;
+  green: 133;
+  blue: 63;
+  hue: 29.5774647887deg;
+  saturation: 58.6776859504%;
+  lightness: 52.5490196078%;
+  whiteness: 24.7058823529%;
+  blackness: 19.6078431373%;
+  alpha: 1;
+  complement: #3f87cd;
+  color: #2b2b2b;
+}
+
+.pink {
+  background-color: #ffc0cb;
+  border-color: #ffc0cb;
+  red: 255;
+  green: 192;
+  blue: 203;
+  hue: 349.5238095238deg;
+  saturation: 100%;
+  lightness: 87.6470588235%;
+  whiteness: 75.2941176471%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #c0fff4;
+  color: #2b2b2b;
+}
+
+.plum {
+  background-color: #dda0dd;
+  border-color: #dda0dd;
+  red: 221;
+  green: 160;
+  blue: 221;
+  hue: 300deg;
+  saturation: 47.2868217054%;
+  lightness: 74.7058823529%;
+  whiteness: 62.7450980392%;
+  blackness: 13.3333333333%;
+  alpha: 1;
+  complement: #a0dda0;
+  color: #2b2b2b;
+}
+
+.powder-blue {
+  background-color: #b0e0e6;
+  border-color: #b0e0e6;
+  red: 176;
+  green: 224;
+  blue: 230;
+  hue: 186.6666666667deg;
+  saturation: 51.9230769231%;
+  lightness: 79.6078431373%;
+  whiteness: 69.0196078431%;
+  blackness: 9.8039215686%;
+  alpha: 1;
+  complement: #e6b6b0;
+  color: #2b2b2b;
+}
+
+.purple {
+  background-color: #800080;
+  border-color: #800080;
+  red: 128;
+  green: 0;
+  blue: 128;
+  hue: 300deg;
+  saturation: 100%;
+  lightness: 25.0980392157%;
+  whiteness: 0%;
+  blackness: 49.8039215686%;
+  alpha: 1;
+  complement: green;
+  color: #d5d5d5;
+}
+
+.red {
+  background-color: #ff0000;
+  border-color: #ff0000;
+  red: 255;
+  green: 0;
+  blue: 0;
+  hue: 0deg;
+  saturation: 100%;
+  lightness: 50%;
+  whiteness: 0%;
+  blackness: 0%;
+  alpha: 1;
+  complement: aqua;
+  color: #ff0000;
+}
+
+.rosy-brown {
+  background-color: #bc8f8f;
+  border-color: #bc8f8f;
+  red: 188;
+  green: 143;
+  blue: 143;
+  hue: 0deg;
+  saturation: 25.1396648045%;
+  lightness: 64.9019607843%;
+  whiteness: 56.0784313725%;
+  blackness: 26.2745098039%;
+  alpha: 1;
+  complement: #8fbcbc;
+  color: #bc8f8f;
+}
+
+.royal-blue {
+  background-color: #4169e1;
+  border-color: #4169e1;
+  red: 65;
+  green: 105;
+  blue: 225;
+  hue: 225deg;
+  saturation: 72.7272727273%;
+  lightness: 56.862745098%;
+  whiteness: 25.4901960784%;
+  blackness: 11.7647058824%;
+  alpha: 1;
+  complement: #e1b941;
+  color: #2b2b2b;
+}
+
+.saddle-brown {
+  background-color: #8b4513;
+  border-color: #8b4513;
+  red: 139;
+  green: 69;
+  blue: 19;
+  hue: 25deg;
+  saturation: 75.9493670886%;
+  lightness: 30.9803921569%;
+  whiteness: 7.4509803922%;
+  blackness: 45.4901960784%;
+  alpha: 1;
+  complement: #13598b;
+  color: #d5d5d5;
+}
+
+.salmon {
+  background-color: #fa8072;
+  border-color: #fa8072;
+  red: 250;
+  green: 128;
+  blue: 114;
+  hue: 6.1764705882deg;
+  saturation: 93.1506849315%;
+  lightness: 71.3725490196%;
+  whiteness: 44.7058823529%;
+  blackness: 1.9607843137%;
+  alpha: 1;
+  complement: #72ecfa;
+  color: #2b2b2b;
+}
+
+.sandy-brown {
+  background-color: #f4a460;
+  border-color: #f4a460;
+  red: 244;
+  green: 164;
+  blue: 96;
+  hue: 27.5675675676deg;
+  saturation: 87.0588235294%;
+  lightness: 66.6666666667%;
+  whiteness: 37.6470588235%;
+  blackness: 4.3137254902%;
+  alpha: 1;
+  complement: #60b0f4;
+  color: #2b2b2b;
+}
+
+.sea-green {
+  background-color: #2e8b57;
+  border-color: #2e8b57;
+  red: 46;
+  green: 139;
+  blue: 87;
+  hue: 146.4516129032deg;
+  saturation: 50.2702702703%;
+  lightness: 36.2745098039%;
+  whiteness: 18.0392156863%;
+  blackness: 45.4901960784%;
+  alpha: 1;
+  complement: #8b2e62;
+  color: #d5d5d5;
+}
+
+.sea-shell {
+  background-color: #fff5ee;
+  border-color: #fff5ee;
+  red: 255;
+  green: 245;
+  blue: 238;
+  hue: 24.7058823529deg;
+  saturation: 100%;
+  lightness: 96.6666666667%;
+  whiteness: 93.3333333333%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #eef8ff;
+  color: #2b2b2b;
+}
+
+.sienna {
+  background-color: #a0522d;
+  border-color: #a0522d;
+  red: 160;
+  green: 82;
+  blue: 45;
+  hue: 19.3043478261deg;
+  saturation: 56.0975609756%;
+  lightness: 40.1960784314%;
+  whiteness: 17.6470588235%;
+  blackness: 37.2549019608%;
+  alpha: 1;
+  complement: #2d7ba0;
+  color: #d5d5d5;
+}
+
+.silver {
+  background-color: #c0c0c0;
+  border-color: #c0c0c0;
+  red: 192;
+  green: 192;
+  blue: 192;
+  hue: 0deg;
+  saturation: 0%;
+  lightness: 75.2941176471%;
+  whiteness: 75.2941176471%;
+  blackness: 24.7058823529%;
+  alpha: 1;
+  complement: silver;
+  color: #c0c0c0;
+}
+
+.sky-blue {
+  background-color: #87ceeb;
+  border-color: #87ceeb;
+  red: 135;
+  green: 206;
+  blue: 235;
+  hue: 197.4deg;
+  saturation: 71.4285714286%;
+  lightness: 72.5490196078%;
+  whiteness: 52.9411764706%;
+  blackness: 7.8431372549%;
+  alpha: 1;
+  complement: #eba487;
+  color: #2b2b2b;
+}
+
+.slate-blue {
+  background-color: #6a5acd;
+  border-color: #6a5acd;
+  red: 106;
+  green: 90;
+  blue: 205;
+  hue: 248.347826087deg;
+  saturation: 53.488372093%;
+  lightness: 57.8431372549%;
+  whiteness: 35.2941176471%;
+  blackness: 19.6078431373%;
+  alpha: 1;
+  complement: #bdcd5a;
+  color: #2b2b2b;
+}
+
+.slate-gray {
+  background-color: #708090;
+  border-color: #708090;
+  red: 112;
+  green: 128;
+  blue: 144;
+  hue: 210deg;
+  saturation: 12.5984251969%;
+  lightness: 50.1960784314%;
+  whiteness: 43.9215686275%;
+  blackness: 43.5294117647%;
+  alpha: 1;
+  complement: #908070;
+  color: #708090;
+}
+
+.snow {
+  background-color: #fffafa;
+  border-color: #fffafa;
+  red: 255;
+  green: 250;
+  blue: 250;
+  hue: 0deg;
+  saturation: 100%;
+  lightness: 99.0196078431%;
+  whiteness: 98.0392156863%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #faffff;
+  color: #2b2b2b;
+}
+
+.spring-green {
+  background-color: #00ff7f;
+  border-color: #00ff7f;
+  red: 0;
+  green: 255;
+  blue: 127;
+  hue: 149.8823529412deg;
+  saturation: 100%;
+  lightness: 50%;
+  whiteness: 0%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #ff0080;
+  color: #00ff7f;
+}
+
+.steel-blue {
+  background-color: #4682b4;
+  border-color: #4682b4;
+  red: 70;
+  green: 130;
+  blue: 180;
+  hue: 207.2727272727deg;
+  saturation: 44%;
+  lightness: 49.0196078431%;
+  whiteness: 27.4509803922%;
+  blackness: 29.4117647059%;
+  alpha: 1;
+  complement: #b47846;
+  color: #4682b4;
+}
+
+.tan {
+  background-color: #d2b48c;
+  border-color: #d2b48c;
+  red: 210;
+  green: 180;
+  blue: 140;
+  hue: 34.2857142857deg;
+  saturation: 43.75%;
+  lightness: 68.6274509804%;
+  whiteness: 54.9019607843%;
+  blackness: 17.6470588235%;
+  alpha: 1;
+  complement: #8caad2;
+  color: #2b2b2b;
+}
+
+.teal {
+  background-color: #008080;
+  border-color: #008080;
+  red: 0;
+  green: 128;
+  blue: 128;
+  hue: 180deg;
+  saturation: 100%;
+  lightness: 25.0980392157%;
+  whiteness: 0%;
+  blackness: 49.8039215686%;
+  alpha: 1;
+  complement: maroon;
+  color: #d5d5d5;
+}
+
+.thistle {
+  background-color: #d8bfd8;
+  border-color: #d8bfd8;
+  red: 216;
+  green: 191;
+  blue: 216;
+  hue: 300deg;
+  saturation: 24.2718446602%;
+  lightness: 79.8039215686%;
+  whiteness: 74.9019607843%;
+  blackness: 15.2941176471%;
+  alpha: 1;
+  complement: #bfd8bf;
+  color: #2b2b2b;
+}
+
+.tomato {
+  background-color: #ff6347;
+  border-color: #ff6347;
+  red: 255;
+  green: 99;
+  blue: 71;
+  hue: 9.1304347826deg;
+  saturation: 100%;
+  lightness: 63.9215686275%;
+  whiteness: 27.8431372549%;
+  blackness: 0%;
+  alpha: 1;
+  complement: #47e3ff;
+  color: #2b2b2b;
+}
+
+.turquoise {
+  background-color: #40e0d0;
+  border-color: #40e0d0;
+  red: 64;
+  green: 224;
+  blue: 208;
+  hue: 174deg;
+  saturation: 72.0720720721%;
+  lightness: 56.4705882353%;
+  whiteness: 25.0980392157%;
+  blackness: 12.1568627451%;
+  alpha: 1;
+  complement: #e04050;
+  color: #2b2b2b;
+}
+
+.violet {
+  background-color: #ee82ee;
+  border-color: #ee82ee;
+  red: 238;
+  green: 130;
+  blue: 238;
+  hue: 300deg;
+  saturation: 76.0563380282%;
+  lightness: 72.1568627451%;
+  whiteness: 50.9803921569%;
+  blackness: 6.6666666667%;
+  alpha: 1;
+  complement: #82ee82;
+  color: #2b2b2b;
+}
+
+.violet-red {
+  background-color: #d02090;
+  border-color: #d02090;
+  red: 208;
+  green: 32;
+  blue: 144;
+  hue: 321.8181818182deg;
+  saturation: 73.3333333333%;
+  lightness: 47.0588235294%;
+  whiteness: 12.5490196078%;
+  blackness: 18.431372549%;
+  alpha: 1;
+  complement: #20d060;
+  color: #d02090;
+}
+
+.wheat {
+  background-color: #f5deb3;
+  border-color: #f5deb3;
+  red: 245;
+  green: 222;
+  blue: 179;
+  hue: 39.0909090909deg;
+  saturation: 76.7441860465%;
+  lightness: 83.137254902%;
+  whiteness: 70.1960784314%;
+  blackness: 3.9215686275%;
+  alpha: 1;
+  complement: #b3caf5;
+  color: #2b2b2b;
+}
+
+.white {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  red: 255;
+  green: 255;
+  blue: 255;
+  hue: 0deg;
+  saturation: 0%;
+  lightness: 100%;
+  whiteness: 100%;
+  blackness: 0%;
+  alpha: 1;
+  complement: white;
+  color: #2b2b2b;
+}
+
+.white-smoke {
+  background-color: #f5f5f5;
+  border-color: #f5f5f5;
+  red: 245;
+  green: 245;
+  blue: 245;
+  hue: 0deg;
+  saturation: 0%;
+  lightness: 96.0784313725%;
+  whiteness: 96.0784313725%;
+  blackness: 3.9215686275%;
+  alpha: 1;
+  complement: whitesmoke;
+  color: #2b2b2b;
+}
+
+.yellow {
+  background-color: #ffff00;
+  border-color: #ffff00;
+  red: 255;
+  green: 255;
+  blue: 0;
+  hue: 60deg;
+  saturation: 100%;
+  lightness: 50%;
+  whiteness: 0%;
+  blackness: 0%;
+  alpha: 1;
+  complement: blue;
+  color: #ffff00;
+}
+
+.yellow-green {
+  background-color: #9acd32;
+  border-color: #9acd32;
+  red: 154;
+  green: 205;
+  blue: 50;
+  hue: 79.7419354839deg;
+  saturation: 60.7843137255%;
+  lightness: 50%;
+  whiteness: 19.6078431373%;
+  blackness: 19.6078431373%;
+  alpha: 1;
+  complement: #6532cd;
+  color: #9acd32;
+}
+
+.default {
+  background-color: #ccc;
+  border-color: #ccc;
+  red: 204;
+  green: 204;
+  blue: 204;
+  hue: 0deg;
+  saturation: 0%;
+  lightness: 80%;
+  whiteness: 80%;
+  blackness: 20%;
+  alpha: 1;
+  complement: #cccccc;
+  color: #2b2b2b;
+}
+
+.primary {
+  background-color: #337ab7;
+  border-color: #337ab7;
+  red: 51;
+  green: 122;
+  blue: 183;
+  hue: 207.7272727273deg;
+  saturation: 56.4102564103%;
+  lightness: 45.8823529412%;
+  whiteness: 20%;
+  blackness: 28.2352941176%;
+  alpha: 1;
+  complement: #b77033;
+  color: #d5d5d5;
+}
+
+.info {
+  background-color: #909399;
+  border-color: #909399;
+  red: 144;
+  green: 147;
+  blue: 153;
+  hue: 220deg;
+  saturation: 4.2253521127%;
+  lightness: 58.2352941176%;
+  whiteness: 56.4705882353%;
+  blackness: 40%;
+  alpha: 1;
+  complement: #999690;
+  color: #909399;
+}
+
+.success {
+  background-color: #67c23a;
+  border-color: #67c23a;
+  red: 103;
+  green: 194;
+  blue: 58;
+  hue: 100.1470588235deg;
+  saturation: 53.9682539683%;
+  lightness: 49.4117647059%;
+  whiteness: 22.7450980392%;
+  blackness: 23.9215686275%;
+  alpha: 1;
+  complement: #953ac2;
+  color: #67c23a;
+}
+
+.warning {
+  background-color: #e6a23c;
+  border-color: #e6a23c;
+  red: 230;
+  green: 162;
+  blue: 60;
+  hue: 36deg;
+  saturation: 77.2727272727%;
+  lightness: 56.862745098%;
+  whiteness: 23.5294117647%;
+  blackness: 9.8039215686%;
+  alpha: 1;
+  complement: #3c80e6;
+  color: #2b2b2b;
+}
+
+.danger {
+  background-color: #f56c6c;
+  border-color: #f56c6c;
+  red: 245;
+  green: 108;
+  blue: 108;
+  hue: 0deg;
+  saturation: 87.2611464968%;
+  lightness: 69.2156862745%;
+  whiteness: 42.3529411765%;
+  blackness: 3.9215686275%;
+  alpha: 1;
+  complement: #6cf5f5;
+  color: #2b2b2b;
+}
+
+/**
+ * 按钮组
+ */
+.ln-btn-group {
+  display: flex;
+}
+.ln-btn-group .ln-btn {
+  margin: 0;
+  border-radius: 0;
+}
+.ln-btn-group .ln-btn:not(:first-child) {
+  border-left: 0;
+}
+.ln-btn-group .ln-btn:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.ln-btn-group .ln-btn:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+/**
+ * @name Checkbox
+ * @desc 多选框
+ */
+.ln-checkbox-container {
+  box-sizing: border-box;
+  background: transparent;
+}
+.ln-checkbox-container * {
+  box-sizing: border-box;
+}
+.ln-checkbox-container .ln-checkbox-input, .ln-checkbox-container [type=checkbox] {
+  display: none;
+  /* 隐藏原始多选框 */
+}
+
+.ln-checkbox {
+  user-select: none;
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  display: flex;
+}
+.ln-checkbox:not(:last-child) {
+  margin-right: 6px;
+}
+.ln-checkbox:hover {
+  background: rgba(0, 119, 255, 0.06);
+}
+.ln-checkbox span {
+  vertical-align: middle;
+  transform: translate3d(0, 0, 0);
+}
+.ln-checkbox span:first-child {
+  position: relative;
+  flex: 0 0 18px;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  transform: scale(1);
+  border: 1px solid #cccfdb;
+  transition: all 0.3s ease;
+}
+.ln-checkbox span:first-child svg {
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 16px;
+  stroke-dashoffset: 16px;
+  transition: all 0.3s ease;
+  transform: translate3d(0, 0, 0);
+}
+.ln-checkbox span:last-child {
+  padding-left: 8px;
+  line-height: 18px;
+}
+.ln-checkbox:hover span:first-child {
+  border-color: #0077ff;
+}
+
+.ln-checkbox-input:checked + .ln-checkbox span:first-child {
+  background: #0077ff;
+  border-color: #0077ff;
+  animation: zoom-in-out 0.3s ease;
+}
+
+.ln-checkbox-input:checked + .ln-checkbox span:first-child svg {
+  stroke-dashoffset: 0;
+}
+
+@keyframes zoom-in-out {
+  50% {
+    transform: scale(0.9);
+  }
+}
+/**
+ * @name Checkbox Group
+ * @desc 多选框组
+ */
+.ln-icon {
+  height: 100%;
+  width: 100%;
+  line-height: 100%;
+  vertical-align: top;
+}
+
+/**
+ * @name input
+ * @desc 输入框
+ */
+.ln-input {
+  display: flex;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+.ln-input .ln-input__prefix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #ccc;
+}
+.ln-input .ln-input__inner,
+.ln-input input {
+  flex: 1;
+  font-size: 1.5rem;
+  border: 0;
+}
+.ln-input .ln-input__suffix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #ccc;
+}
+.ln-input {
+  height: 2rem;
+  border-radius: 4px;
+}
+.ln-input.xs {
+  height: 1rem;
+  border-radius: 2px;
+}
+.ln-input.sm {
+  height: 1.6rem;
+  border-radius: 3.2px;
+}
+.ln-input.md {
+  height: 2rem;
+  border-radius: 4px;
+}
+.ln-input.dx {
+  height: 2.4rem;
+  border-radius: 4.8px;
+}
+.ln-input.xl {
+  height: 3rem;
+  border-radius: 6px;
+}
+.ln-input .ln-input__prefix {
+  padding: 4px;
+  font-size: 1.2rem;
+}
+.ln-input.xs .ln-input__prefix {
+  padding: 2px;
+  font-size: 0.6rem;
+}
+.ln-input.sm .ln-input__prefix {
+  padding: 3.2px;
+  font-size: 0.96rem;
+}
+.ln-input.md .ln-input__prefix {
+  padding: 4px;
+  font-size: 1.2rem;
+}
+.ln-input.dx .ln-input__prefix {
+  padding: 4.8px;
+  font-size: 1.44rem;
+}
+.ln-input.xl .ln-input__prefix {
+  padding: 6px;
+  font-size: 1.8rem;
+}
+.ln-input .ln-input__inner {
+  font-size: 1.5rem;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.ln-input.xs .ln-input__inner {
+  font-size: 0.75rem;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.ln-input.sm .ln-input__inner {
+  font-size: 1.2rem;
+  margin-left: 3.2px;
+  margin-right: 3.2px;
+}
+.ln-input.md .ln-input__inner {
+  font-size: 1.5rem;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.ln-input.dx .ln-input__inner {
+  font-size: 1.8rem;
+  margin-left: 4.8px;
+  margin-right: 4.8px;
+}
+.ln-input.xl .ln-input__inner {
+  font-size: 2.25rem;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.ln-input input {
+  font-size: 1.5rem;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.ln-input.xs input {
+  font-size: 0.75rem;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.ln-input.sm input {
+  font-size: 1.2rem;
+  margin-left: 3.2px;
+  margin-right: 3.2px;
+}
+.ln-input.md input {
+  font-size: 1.5rem;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.ln-input.dx input {
+  font-size: 1.8rem;
+  margin-left: 4.8px;
+  margin-right: 4.8px;
+}
+.ln-input.xl input {
+  font-size: 2.25rem;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.ln-input .ln-input__suffix {
+  padding: 4px;
+  font-size: 1.2rem;
+}
+.ln-input.xs .ln-input__suffix {
+  padding: 2px;
+  font-size: 0.6rem;
+}
+.ln-input.sm .ln-input__suffix {
+  padding: 3.2px;
+  font-size: 0.96rem;
+}
+.ln-input.md .ln-input__suffix {
+  padding: 4px;
+  font-size: 1.2rem;
+}
+.ln-input.dx .ln-input__suffix {
+  padding: 4.8px;
+  font-size: 1.44rem;
+}
+.ln-input.xl .ln-input__suffix {
+  padding: 6px;
+  font-size: 1.8rem;
+}
+
+.ln-page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+
+/**
+ * Loading
+ * 加载状态
+ */
+/**
+ * @name Progress
+ * @desc 进度条
+ */
+.ln-progress__container {
+  display: flex;
+  width: 100%;
+  border-radius: 9999px;
+  background-color: #ccc;
+}
+.ln-progress__container .ln-progress__label {
+  display: inline-block;
+}
+.ln-progress__container .ln-progress {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  background-color: #337ab7;
+  border-radius: 9999px 0 0 9999px;
+  transition: width 0.2s linear;
+}
+
+/**
+ * @name Radio
+ * @desc 单选框
+ */
+/**
+ * @name Scrollbar
+ * @desc 滚动条
+ */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #cbcbcb;
+}
+
+::-webkit-scrollbar-track-piece {
+  background: #eee;
+}
+
+.ln-todolist .ln-todolist-group .ln-todolist-item input[type=checkbox]:checked {
+  opacity: 0.5;
+}
+.ln-todolist .ln-todolist-group .ln-todolist-item input[type=checkbox]:checked + label {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.ln-todolist .ln-todolist-group .ln-todolist-item .is-done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+/*# sourceMappingURL=ln.css.map */

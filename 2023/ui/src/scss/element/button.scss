@@ -1,0 +1,98 @@
+/**
+ * @name Button
+ * @desc 按钮
+ */
+.#{$g-pre}btn {
+  padding: 8px 15px;
+
+  border-radius: 4px;
+  border-width: 1px;
+
+  text-align: center;
+  & + .#{$g-pre}btn {
+    margin-left: 6px;
+  }
+
+  @include size(
+    (
+      padding-top: 8px,
+      padding-right: 15px,
+      padding-bottom: 8px,
+      padding-left: 15px,
+      font-size: 1rem,
+    )
+  );
+
+  /* 伪类 */
+  &:focus {
+    outline: none;
+  }
+
+  &:active {
+    border-style: inset;
+  }
+
+  /* 样式类 */
+  &.is-plain {
+    background-color: transparent;
+  }
+
+  &.is-round {
+    border-radius: 9999px;
+  }
+
+  &.is-dashed {
+    border-style: dashed; /* 虚线 */
+  }
+
+  &.is-dotted {
+    border-style: dotted; /* 点线 */
+  }
+
+  &.is-double {
+    border-style: double; /* 双线 */
+  }
+
+  &.is-disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    touch-action: none;
+  }
+
+  /* 色彩类 */
+  &.is-primary {
+    color: #fff;
+    background-color: $primary;
+    border-color: $primary;
+  }
+
+  &.is-success {
+    color: #fff;
+    background-color: $success;
+    border-color: $success;
+  }
+
+  &.is-info {
+    color: #fff;
+    background-color: #909399;
+    border-color: #909399;
+  }
+
+  &.is-warning {
+    color: #fff;
+    background-color: #e6a23c;
+    border-color: #e6a23c;
+  }
+
+  &.is-danger {
+    color: #fff;
+    background-color: #f56c6c;
+    border-color: #f56c6c;
+  }
+
+  // 尺寸类
+  &.is-sm {
+    font-size: $sm;
+  }
+  /* 特效类 */
+}

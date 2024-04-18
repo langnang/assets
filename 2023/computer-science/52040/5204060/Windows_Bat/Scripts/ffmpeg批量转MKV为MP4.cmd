@@ -1,0 +1,1 @@
+for %%i in (.\*.mkv) do ffmpeg -i "%%i" -c copy "%%~dpni.mp4"
