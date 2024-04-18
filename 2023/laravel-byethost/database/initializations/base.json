@@ -1,0 +1,65 @@
+{
+  "metas": [],
+  "tags": [],
+  "categories": [],
+  "collections": [],
+  "_metas": [
+    {
+      "name": "全局导航",
+      "slug": "prefix",
+      "type": "branch",
+      "children": [
+        {
+          "name": "首页",
+          "slug": "",
+          "ico": "bi bi-house-door",
+          "type": "branch"
+        },
+        {
+          "name": "导航",
+          "slug": "webstack",
+          "ico": "bi bi-stack",
+          "type": "branch"
+        },
+        {
+          "name": "文章",
+          "slug": "article",
+          "ico": "bi bi-layout-text-window",
+          "type": "branch"
+        },
+        {
+          "name": "工具",
+          "ico": "bi bi-star",
+          "type": "branch",
+          "children": []
+        },
+        {
+          "name": "手册",
+          "ico": "bi bi-star",
+          "type": "branch",
+          "children": []
+        },
+        {
+          "name": "娱乐",
+          "ico": "bi bi-star",
+          "type": "branch",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "搜索导航",
+      "slug": "webstack",
+      "type": "branch",
+      "children": []
+    }
+  ],
+  "_contents": [],
+  "_fields": [],
+  "_comments": [],
+  "_links": [],
+  "_relationships": [],
+  "_options": [],
+  "_users": [],
+  "_logs": []
+}

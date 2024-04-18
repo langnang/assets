@@ -1,0 +1,113 @@
+@import './app/alert.sass'
+@import './app/breadcrumb'
+@import './app/card.sass'
+@import './app/list-group.sass'
+@import './app/markdown.sass'
+@import './app/table.sass'
+
+// body>header {}
+
+// body>main {}
+
+// body>footer {}
+
+// layout
+$layoutHeader: 0
+$layoutMain: 0
+$layoutSidebar: 0
+$layoutContent: 0
+$layoutFooter: 0
+
+// .form
+  // &&-lg
+    // &-group
+      // @extend .form-group-lg;
+
+    // .input
+      // @extend .input-lg;
+
+  // &-group
+      // @extend .input-group-lg;
+
+    // .btn
+      // @extend .btn-lg;
+
+  // &.form-sm
+  // &
+      // @extend .btn-sm;
+
+  // &.form-xs
+  // &
+      // @extend .btn-xs;
+
+// .navbar
+
+.has-sub[data-toggle="collapse"]
+  &::before
+    float: right
+    font-family: 'bootstrap-icons' !important
+    font-style: normal
+    font-weight: 400 !important
+    font-variant: normal
+    text-transform: none
+    -webkit-font-smoothing: antialiased
+    content: "\f285"
+    transition: all 150ms ease-in-out
+
+  &[aria-expanded="true"]::before
+    transform: rotate(90deg)
+
+[data-role=header]
+  position: fixed
+  top: 0
+  z-index: 9
+  width: 100%
+  padding: 0.1rem 1rem
+
+// [data-role=main]
+  // margin-top: 56px
+  // height: calc(100vh - 56px);
+  // overflow: hidden;
+
+[data-role=aside]
+  // background-color: #343a40;
+  height: calc(100vh - 56px)
+  overflow-x: hidden
+  overflow-y: auto
+
+  *
+    background-color: transparent
+
+  .card-header
+    padding: 0.5rem 0.75rem
+
+  .list-group-item
+    padding: 0.5rem 1.25rem
+
+[data-role=content]
+  position: relative
+  min-height: calc(100vh - 180px)
+  overflow-x: hidden
+  overflow-y: auto
+
+[data-role=footer]
+  padding: 30px 0
+  background-color: #343a40
+  color: #f8f9fa
+
+// perfectScrollbar
+.ps__rail-x,
+.ps__rail-y
+  z-index: 999
+
+.media
+  width: 100%
+
+  // &-body
+  // width: 100%;
+
+.mt-6
+  margin-top: 2rem
+
+.mb-6
+  margin-bottom: 2rem

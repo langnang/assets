@@ -1,0 +1,168 @@
+@php
+        // set_time_limit(0); //设置程序执行时间
+        // ignore_user_abort(true); //设置断开连接继续执行
+        // header('X-Accel-Buffering: no'); //关闭buffer
+        // ob_start(); //打开输出缓冲控制
+        // var_dump($content->toArray());
+        if (empty($content->export_table)) {
+            exit('no export table.');
+        }
+        $content->export = [
+            'type' => 'db',
+            'table' => $content->export_table,
+            'unique_column' => 'slug',
+            'created_at_column' => 'created_at',
+            'spider_original_url_column' => 'spider_original_url',
+        ];
+        // var_dump(env('APP_DEBUG'));
+        $content->db_config = [
+            'host' => env('DB_HOST'),
+            'port' => env('DB_PORT'),
+            'user' => env('DB_USERNAME'),
+            'pass' => env('DB_PASSWORD'),
+            'name' => env('DB_DATABASE'),
+        ];
+        $content->domains = empty($content->domains) ? [] : explode("\r\n", $content->domains);
+        $content->scan_urls = empty($content->scan_urls) ? [] : explode("\r\n", $content->scan_urls);
+        $content->list_url_regexes = empty($content->list_url_regexes) ? [] : explode("\r\n", $content->list_url_regexes);
+        $content->content_url_regexes = empty($content->content_url_regexes) ? [] : explode("\r\n", $content->content_url_regexes);
+        $content->anti_contents = empty($content->anti_contents) ? [] : explode("\r\n", $content->anti_contents);
+        // var_dump($content->toArray());
+        //
+        $spider = new \App\Helpers\PhpSpiderHelper($content->toArray());
+        $spider->on_start = function ($phpspider) use ($content) {
+            $collect_urls = DB::table('spider_collect_urls')
+                ->where([['cid', $content->cid], ['status', 'collect'], ['type', 'content_page']])
+                ->limit(99)
+                ->pluck('url');
+            // var_dump('on_start', [$collect_urls]);
+            // exit();
+            foreach ($collect_urls as $collect_url) {
+                $phpspider->add_url($collect_url, ['skip_callback' => true]);
+            }
+            // $phpspider->add_url($url);
+            // requests::set_header("Referer", "http://buluo.qq.com/p/index.html");
+        };
+        $spider->is_anti_spider = function ($url, $html, $phpspider) use ($content) {
+            // $html中包含"404页面不存在"字符串
+            foreach ($content->anti_contents as $anti) {
+                if (strpos($html, $anti) !== false) {
+                    // 如果使用了代理IP，IP切换需要时间，这里可以添加到队列等下次换了IP再抓取
+                    // $phpspider->add_url($url);
+                    return true; // 告诉框架网页被反爬虫了，不要继续处理它
+                }
+            }
+
+            // 当前页面没有被反爬虫，可以继续处理
+            return false;
+        };
+        $spider->on_download_page = function ($page, $phpspider) {
+            // var_dump('on_download_page');
+            return $page;
+        };
+        $spider->on_download_attached_page = function ($html, $phpspider) {
+            // var_dump('on_download_attached_page');
+            // $html = trim($html);
+            // $html = ltrim($html, "[");
+            // $html = rtrim($html, "]");
+            // $html = json_decode($html, true);
+            return $html;
+        };
+        $spider->on_fetch_url = function ($url, $phpspider) {
+            // var_dump('on_fetch_url', [$url]);
+            // var_dump([
+            //     'function' => 'on_fetch_url',
+            //     'collect_urls_num' => $phpspider::$collect_urls_num,
+            //     'collected_urls_num' => $phpspider::$collected_urls_num,
+            //     'phpspider' => $phpspider,
+            // ]);
+            // exit();
+            $script = '<script>
+              updateNumTable("%u", "%u", "%u", "%u", "%u", "%u", "%u", "%u", );
+            </script>';
+            echo sprintf($script, $phpspider::$collect_scan_urls_num, $phpspider::$collected_scan_urls_num, $phpspider::$collect_list_urls_num, $phpspider::$collected_list_urls_num, $phpspider::$collect_content_urls_num, $phpspider::$collected_content_urls_num, $phpspider::$collect_urls_num, $phpspider::$collected_urls_num);
+            echo ob_get_clean(); //获取当前缓冲区内容并清除当前的输出缓冲
+            flush(); //刷新缓冲区的内容，输出
+            // var_dump($url);
+            // if (strpos($url, "#filter") !== false) {
+            // return false;
+            // }
+            return $url;
+        };
+        $spider->on_add_url = function ($url, $link, $phpspider) use ($content) {
+            if ($link['url_type'] == 'scan_page') {
+                return true;
+            }
+            // 查询对应记录
+            $collect_url = DB::table('spider_collect_urls')
+                ->where([['cid', $content->cid], ['url', $url]])
+                ->first();
+            // 判断是否存在
+            $exist = !!$collect_url;
+            if (!$exist) {
+                // 不存在新增
+                DB::table('spider_collect_urls')->insert(['cid' => $content->cid, 'url' => $url, 'type' => $link['url_type'], 'status' => 'collect']);
+            } else {
+                // 存在则判断状态
+                $exist = $collect_url->status == 'collected';
+            }
+
+            // $result = $content->replace_field(['cid' => $content->cid, 'url' => $url, 'type' => $link['url_type']], ['status' => 'collect'], 'CollectUrl');
+            // var_dump('on_add_url', [$url, $exist, $link]);
+            // exit();
+            return !$exist;
+        };
+        $spider->on_scan_page = function ($page, $html, $phpspider) use ($content) {
+            // var_dump('on_scan_page', [$page, $html]);
+            // DB::table('spider_collect_urls')->updateOrInsert(['cid' => $content->cid, 'url' => $page['url']], ['status' => 'collected']);
+            return true;
+        };
+        $spider->on_list_page = function ($page, $html, $phpspider) use ($content) {
+            // var_dump('on_list_page', [$page, $html]);
+            DB::table('spider_collect_urls')->updateOrInsert(['cid' => $content->cid, 'url' => $page['url']], ['status' => 'collected']);
+            return true;
+        };
+        $spider->on_content_page = function ($page, $html, $phpspider) use ($content) {
+            // var_dump('on_content_page', [$page, $html]);
+            DB::table('spider_collect_urls')->updateOrInsert(['cid' => $content->cid, 'url' => $page['url']], ['status' => 'collected']);
+            return true;
+        };
+        $spider->on_extract_page = function ($page, $data) use ($content) {
+            // $data['updated_at'] = date('Y-m-d H:i:s', time());
+            $data['spider_content_id'] = $content->cid;
+            // exit();
+            // var_dump('on_extract_page', [$page, $data, json_encode($data, JSON_UNESCAPED_UNICODE)]);
+            $script = '<script>
+              prependTableRow(\'%s\');
+            </script>';
+            echo sprintf($script, json_encode($data, JSON_UNESCAPED_UNICODE));
+            echo ob_get_clean(); //获取当前缓冲区内容并清除当前的输出缓冲
+            flush(); //刷新缓冲区的内容，输出
+            // var_dump('on_extract_page', [$page, $data]);
+            // exit();
+            //   prependExtractTable(';
+        //       var_dump($script);
+
+        //       for ($i = 0; $i < count($content - > fields); $i++) {}
+        //       foreach($content - > fields as $field) {
+        //         var_dump($data[$field - > name]);
+        //         $script. = '"%u", ';
+        //       }
+
+        //       $script. = ');
+            // var_dump($script);
+            // exit();
+            // $data['_url'] = $page['url'];
+            // $title = "[{$data['time']}]" . $data['title'];
+            // $data['title'] = $title;
+            return $data;
+            // 返回false不处理，当前页面的字段不入数据库直接过滤
+            // 比如采集电影网站，标题匹配到“预告片”这三个字就过滤
+            //if (strpos($data['title'], "预告片") !== false)
+            //{
+            //    return false;
+            //}
+        };
+        // var_dump($spider);
+        // $spider->start();
+      @endphp

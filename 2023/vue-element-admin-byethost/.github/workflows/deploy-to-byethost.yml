@@ -1,0 +1,35 @@
+# GitHub Actions Vue Demo
+name: Vue App Build and Deploy # 名称
+on:
+  push:
+    branches:
+      - master # master 分支发生push事件时触发
+jobs:
+  build-and-deploy: # 任务
+    runs-on: ubuntu-latest # 运行环境
+    steps: # 运行步骤
+      - name: Checkout
+        uses: actions/checkout@master # 获取源码
+
+      - name: Set Node Version
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+
+      # - name: Install and Build
+      #   run: |
+      #     npm install
+      #     npm build:prod
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          # ftp server
+          server: ftpupload.net
+          # ftp username
+          username: b5_34048785
+          # ftp password
+          password: ${{ secrets.ftp_password }}
+          local-dir: ./dist/
+          # Path to upload to on the server. Must end with trailing slash /
+          server-dir: /htdocs/admin/
