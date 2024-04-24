@@ -438,5 +438,12 @@ SELECT `text` as `title`,CONCAT(`type`,'-',`cid`) `slug`,CONCAT('<!--markdown-->
 
 INSERT INTO `b32_28202196_typecho`.`typecho_relationships`
 
-SELECT `cid`,24 AS `mid` FROM `b32_28202196_typecho`.`typecho_contents` WHERE `cid`>= 4164
+SELECT `cid`,11 AS `mid` FROM `b32_28202196_typecho`.`typecho_contents` WHERE `cid`>= 4164
 
+-- 
+
+SELECT * FROM `typecho_contents` where cid >=10 AND cid <= 209 AND text NOT LIKE '<!--markdown-->%';
+
+-- 
+
+UPDATE typecho_contents SET text = concat('<!--markdown-->',text) WHERE cid = 10;
