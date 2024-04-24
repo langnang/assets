@@ -424,3 +424,19 @@ ico: ',`ico`,'
 INSERT INTO `b32_28202196_typecho`.`typecho_relationships`
 
 SELECT `cid`,24 AS `mid` FROM `b32_28202196_typecho`.`typecho_contents` WHERE `cid`>= 2105
+
+
+-- quote
+INSERT INTO `b32_28202196_typecho`.`typecho_contents` (`title`,`slug`,`text`,`authorId`)
+
+
+SELECT `text` as `title`,CONCAT(`type`,'-',`cid`) `slug`,CONCAT('<!--markdown-->
+
+')  AS `text`, 1 AS `authorId` FROM `b32_28202196_langnang`.`quote_contents`
+
+--
+
+INSERT INTO `b32_28202196_typecho`.`typecho_relationships`
+
+SELECT `cid`,24 AS `mid` FROM `b32_28202196_typecho`.`typecho_contents` WHERE `cid`>= 4164
+
