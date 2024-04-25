@@ -8,3 +8,4 @@ package.lock
 pnpm-lock.yaml
 *.css.map
 *.js.map
+.log
