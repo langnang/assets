@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "name": "",
+    "slug": "",
+    "ico": "",
+    "description": "",
+    "order": 0,
+    "parent": 0
+  },
+  "_content": {
+    "title": "",
+    "slug": "",
+    "ico": "",
+    "description": "",
+    "order": 0,
+    "parent": 0
+  },
+  "metas": [],
+  "categories": [],
+  "tags": [],
+  "contents": [
+    {
+      "title": "OneDrive",
+      "slug": "onedrive",
+      "ico": "",
+      "description": ""
+    },
+    {
+      "title": "GitHub",
+      "slug": "github"
+    },
+    {
+      "title": "GitLab",
+      "slug": "gitLab"
+    },
+    {
+      "title": "Grafana",
+      "slug": "grafana"
+    }
+  ],
+  "relationships": []
+}
