@@ -9,3 +9,5 @@ pnpm-lock.yaml
 *.css.map
 *.js.map
 .log
+.md
+.txt

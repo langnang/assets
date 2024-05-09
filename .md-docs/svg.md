@@ -1,5 +1,18 @@
 # SVG
 
+<style>
+    table thead{
+        display: none;
+    }
+    img{
+        width: 3rem;
+        height: 3rem;
+        border: 1px solid #ddd;
+        padding: .25rem;
+        border-radius: 8px;
+    }
+</style>
+
 ## Brands
 
 > 品牌
@@ -489,6 +502,8 @@
 ![](https://cdn.jsdelivr.net/gh/langnang/.storage/svg/brands/youtube.svg)
 
 ## Solid
+
+> 实心
 
 ![](https://cdn.jsdelivr.net/gh/langnang/.storage/svg/solid/0.svg)
 ![](https://cdn.jsdelivr.net/gh/langnang/.storage/svg/solid/1.svg)
@@ -1883,6 +1898,8 @@
 
 ## Regular
 
+> 空心
+
 ![](https://cdn.jsdelivr.net/gh/langnang/.storage/svg/regular/address-book.svg)
 ![](https://cdn.jsdelivr.net/gh/langnang/.storage/svg/regular/address-card.svg)
 ![](https://cdn.jsdelivr.net/gh/langnang/.storage/svg/regular/bell-slash.svg)
@@ -2049,19 +2066,20 @@
 
 ## Light
 
+> 轻薄的
+
 ## Thin
+
+> 细薄的
+
+## Monotone
+
+> 单色调
 
 ## Doutone
 
-<style>
-    table thead{
-        display: none;
-    }
-    img{
-        width: 3rem;
-        height: 3rem;
-        border: 1px solid #ddd;
-        padding: .25rem;
-        border-radius: 8px;
-    }
-</style>
+> 双色调
+
+## Masstone
+
+> 多色调
