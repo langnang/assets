@@ -1,4 +1,5 @@
 ## Resource
+
 ### Online
 
     Official Website
@@ -24,6 +25,7 @@
     XSLT
 
 ## DOM Events
+
 ### Mouse Events
 
     click
@@ -111,6 +113,7 @@
     initKeyboardEvent()
 
 ## HTML DOM
+
 ### Elements Properties
 
     accessKey
@@ -235,6 +238,7 @@
     scheme
 
 ## DOM Input
+
 ### Button Properties
 
     disabled
@@ -327,6 +331,7 @@
     select()
 
 ## Dom Elements
+
 ### Anchor Object Properties
 
     charset
@@ -437,6 +442,7 @@
     value
 
 ## Dom Style
+
 ### Background Properties
 
     background
@@ -564,7 +570,9 @@
     unicodeBidi
     whiteSpace
     wordSpacing
+
 ## Dom Table
+
 ### Table Object Collections
 
     cells
