@@ -2,8 +2,8 @@
 
 ||||||
 |:--:|:--:|--|--|--|
-|![](./../../svg/brands/42-group.svg)|42-group||||
-|![](./../../svg/brands/500px.svg)|500px||||
+|![](https://cdn.jsdelivr.net/gh/langnang/.storage/svg/brands/42-group.svg)|42-group||||
+|![](https://cdn.jsdelivr.net/gh/langnang/.storage/svg/brands/500px.svg)|500px||||
 
 <style>
     table thead{
