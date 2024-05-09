@@ -2093,3 +2093,4 @@
 - https://fontawesome.com/
 - https://fontawesome.com.cn/
 - https://www.iconfont.cn/
+- https://simpleicons.org/
