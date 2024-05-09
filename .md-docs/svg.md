@@ -503,7 +503,7 @@
 
 ## Solid
 
-> 实心
+> 实体
 
 ![](https://cdn.jsdelivr.net/gh/langnang/.storage/svg/solid/0.svg)
 ![](https://cdn.jsdelivr.net/gh/langnang/.storage/svg/solid/1.svg)
@@ -1898,7 +1898,7 @@
 
 ## Regular
 
-> 空心
+> 常规
 
 ![](https://cdn.jsdelivr.net/gh/langnang/.storage/svg/regular/address-book.svg)
 ![](https://cdn.jsdelivr.net/gh/langnang/.storage/svg/regular/address-card.svg)
@@ -2066,15 +2066,17 @@
 
 ## Light
 
-> 轻薄的
+> 线条
 
 ## Thin
 
-> 细薄的
+> 细线
 
 ## Monotone
 
 > 单色调
+
+![](https://cdn.jsdelivr.net/gh/langnang/.storage/svg/monotone/fontawesome_com.svg)
 
 ## Doutone
 
@@ -2083,3 +2085,11 @@
 ## Masstone
 
 > 多色调
+
+## references
+
+> 参考文献
+
+- https://fontawesome.com/
+- https://fontawesome.com.cn/
+- https://www.iconfont.cn/
