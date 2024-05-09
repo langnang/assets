@@ -1,1 +1,0 @@
-for %%i in (.\*.md) do notedown "%%i" > "%%~dpni.ipynb"

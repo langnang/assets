@@ -1,3 +1,0 @@
-# Adapter - VueRouter
-
-## Vue

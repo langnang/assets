@@ -1,7 +1,0 @@
-# Component
-
-## Array
-
-## Crawler
-
-## String

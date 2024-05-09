@@ -1,3 +1,0 @@
-# CSS Awesome
-
-- Bootstrap

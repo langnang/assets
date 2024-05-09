@@ -1,1 +1,0 @@
-# Extensions of Google Chrome
