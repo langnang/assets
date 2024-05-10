@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "name": "",
+    "slug": "",
+    "ico": "",
+    "nameCn": "",
+    "description": "",
+    "type": "",
+    "contents": []
+  },
+  "_content": {
+    "title": "",
+    "slug": "",
+    "ico": "",
+    "titleCn": "",
+    "description": "",
+    "storage": "img/ico/{{$slug}}.ico",
+    "type": "",
+    "metas": []
+  },
+  "contents": []
+}
