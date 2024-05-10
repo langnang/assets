@@ -12,5 +12,5 @@
     }
 </style>
 
-![](https://cdn.jsdelivr.net/gh/langnang/.storage/img/ico/onedrive.ico)
-![](https://cdn.jsdelivr.net/gh/langnang/.storage/img/ico/shields.ico)
+![](https://cdn.jsdelivr.net/gh/langnang/storage/img/ico/onedrive.ico)
+![](https://cdn.jsdelivr.net/gh/langnang/storage/img/ico/shields.ico)

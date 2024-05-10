@@ -12,11 +12,28 @@ const loadStyle = (url) => new Promise((resolve, reject) => {
 /**
  * 加载 JavaScript Script
  */
-const loadScript = (url) => new Promise((resolve, reject) => {
-  const script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src = url;
-  script.onload = resolve;
-  script.onerror = reject;
-  document.body.appendChild(script);
-})
+const loadScript = (...urls) => {
+  urls.reduce((total, val, ind) => {
+    return total.catch(() => {
+      return new Promise((resolve, reject) => {
+        const script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = url;
+        script.onload = resolve;
+        script.onerror = reject;
+        document.body.appendChild(script);
+      })
+
+    })
+  }, new Promise(resolve => resolve))
+}
+
+
+// new Promise((resolve, reject) => {
+//   const script = document.createElement('script');
+//   script.type = 'text/javascript';
+//   script.src = url;
+//   script.onload = resolve;
+//   script.onerror = reject;
+//   document.body.appendChild(script);
+// })

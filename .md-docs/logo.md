@@ -12,4 +12,4 @@
     }
 </style>
 
-![](https://cdn.jsdelivr.net/gh/langnang/.storage/img/logo/shields.png)
+![](https://cdn.jsdelivr.net/gh/langnang/storage/img/logo/shields.png)
