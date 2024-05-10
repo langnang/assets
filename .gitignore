@@ -8,6 +8,7 @@ package.lock
 pnpm-lock.yaml
 *.css.map
 *.js.map
+*.min.map
 .log
 .md
 .txt
