@@ -4,7 +4,12 @@
  * @path /storage/php/generate/generate_svg_json.php
  * @return array
  */
-
+class Generate
+{
+  public function __construct()
+  {
+  }
+}
 function generate_svg_json(): array
 {
   $return = [
@@ -26,6 +31,7 @@ function generate_svg_json(): array
       "titleCn" => "",
       "description" => "",
       "type" => "",
+
       "metas" => [],
       "storage" => "img/ico/{{\$slug}}.ico",
     ],
@@ -40,7 +46,8 @@ function generate_svg_json(): array
     "type" => "category",
     "contents" => [],
   ]);
-  // FontAwesome
+  // @fortawesome/font-awesome
+  $relativePath = "/lib/@fortawesome/fontawesome-free/6.5.1";
   $fontawesome = json_decode(file_get_contents(__DIR__ . '\..\lib\@fortawesome\fontawesome-free\6.5.1\metadata\icon-families.json'), true);
   // var_dump($fontawesome);
   foreach ($fontawesome as $key => $item) {
@@ -63,13 +70,14 @@ function generate_svg_json(): array
   // SimpleIcons
   array_push($return['metas'], [
     "name" => "SimpleIcons",
-    "slug" => "simple-icos",
+    "slug" => "simple-icons",
     "ico" => "",
     "nameCn" => "",
     "description" => "",
     "type" => "category",
     "contents" => [],
   ]);
+  $relativePath = "/lib/simple-icons/11.14.0";
   $simpleIcons = json_decode(file_get_contents(__DIR__ . '\..\lib\simple-icons\11.14.0\_data\simple-icons.json'), true);
   foreach ($simpleIcons['icons'] as $item) {
     $classic = "brands";
@@ -79,13 +87,14 @@ function generate_svg_json(): array
     // $file = pathinfo($url['host']);
     // var_dump($file);
     // exit;
-    $key = isset($item['slug']) ? $item['slug'] : preg_replace(["/ |-|'|\/|\\\\/", "/\./"], ["", "dot"], strtolower($item['title']));
+    $key = isset($item['slug']) ? $item['slug'] : preg_replace(["/ |-|'|\/|\\\\|:|°|!|_/", "/\./", "/é|É/", "/Š/", "/Ż/"], ["", "dot", "e", "s", "z"], strtolower($item['title']));
     array_push($return['contents'], [
       "title" => $item['title'],
       "slug" => $classic . '-' . $key,
       "type" => "svg",
       "relativePath" => "/lib/simple-icons/11.14.0/icons/$key.svg",
-      "metas" => ["simple-icos", $classic],
+      "hex" => $item["hex"],
+      "metas" => ["simple-icons", $classic],
     ]);
 
     if (file_exists(__DIR__ . "/../svg/$classic/$key.svg")) {
@@ -96,6 +105,39 @@ function generate_svg_json(): array
 
 
   // Bootstrap Icons
+  array_push($return['metas'], [
+    "name" => "Bootstrap Icons",
+    "slug" => "bootstrap-icons",
+    "ico" => "",
+    "nameCn" => "",
+    "description" => "",
+    "type" => "category",
+    "contents" => [],
+  ]);
+  $relativePath = "/lib/bootstrap-icons/1.11.3";
+  $bootstrapIcons = json_decode(file_get_contents(__DIR__ . "/.." . $relativePath . "/bootstrap-icons.json"), true);
+
+  // foreach ($bootstrapIcons as $key => $item) {
+  //   $classic = "solid";
+  //   // $url = parse_url($item['source']);
+
+  //   // var_dump($url);
+  //   // $file = pathinfo($url['host']);
+  //   // var_dump($file);
+  //   // exit;
+  //   // $key = isset($item['slug']) ? $item['slug'] : preg_replace(["/ |-|'|\/|\\\\|:|°|!|_/", "/\./", "/é|É/", "/Š/", "/Ż/"], ["", "dot", "e", "s", "z"], strtolower($item['title']));
+  //   array_push($return['contents'], [
+  //     "title" => $key,
+  //     "slug" => $classic . '-' . $key,
+  //     "type" => "svg",
+  //     "relativePath" => $relativePath . "/icons/$key.svg",
+  //     "metas" => ["bootstrap-icons", $classic],
+  //   ]);
+
+  //   if (file_exists(__DIR__ . "/../svg/$classic/$key.svg")) {
+  //     unlink(__DIR__ . "/../svg/$classic/$key.svg");
+  //   }
+  // }
 
 
   // Output
