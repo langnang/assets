@@ -1,0 +1,32 @@
+{
+  "contents": [
+    {
+      "name": "slime",
+      "nameCn": "史莱姆"
+    },
+    {
+      "name": "goblin",
+      "nameCn": "哥布林"
+    },
+    {
+      "name": "minotaur",
+      "nameCn": "牛头人"
+    },
+    {
+      "nameCn": "狗头人"
+    }
+  ],
+  "options": [
+    {
+      "name": "monster_description",
+      "value": "怪物"
+    }
+  ],
+  "_content": {
+    "name": "",
+    "nameCn": "",
+    "prefix": "前缀：",
+    "suffix": "后缀：投掷手、弓箭手、魔法师、队长、小队长、精英、BOSS、领主、霸主",
+    "entries": "词条：坚固的"
+  }
+}

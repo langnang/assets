@@ -9,6 +9,10 @@ class Generate
   public function __construct()
   {
   }
+
+  public function generate_json()
+  {
+  }
 }
 function generate_svg_json(): array
 {
