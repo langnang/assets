@@ -8,6 +8,8 @@
   "_content": {
     "name": "",
     "nameCn": "",
+    "race": "",
+    "raceCn": "种族",
     "": "职介",
     "profession": "职业",
     "level": "等级",
