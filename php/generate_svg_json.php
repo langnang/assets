@@ -19,6 +19,8 @@ function generate_svg_json(): array
   $return = [
     "metas" => [],
     "contents" => [],
+    "meta_branches" => [],
+    "meta_tags" => [],
     "_meta" => [
       "name" => "",
       "slug" => "",

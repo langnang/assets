@@ -1,0 +1,13 @@
+{
+  "name": "admin/storage",
+  "autoload": {
+    "psr-4": {}
+  },
+  "authors": [
+    {
+      "name": "langnang",
+      "email": "langnang.chen@outlook.com"
+    }
+  ],
+  "require": {}
+}
