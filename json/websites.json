@@ -21,6 +21,14 @@
   "tags": [],
   "contents": [
     {
+      "title": "Baidu",
+      "titleCn": "百度",
+      "slug": "baidu",
+      "ico": "",
+      "url": "",
+      "description": ""
+    },
+    {
       "title": "OneDrive",
       "slug": "onedrive",
       "ico": "",

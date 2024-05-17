@@ -1,5 +1,5 @@
 {
-  "name": "admin/storage",
+  "name": "langnang/storage",
   "autoload": {
     "psr-4": {}
   },
@@ -9,5 +9,8 @@
       "email": "langnang.chen@outlook.com"
     }
   ],
-  "require": {}
+  "require": {
+    "owner888/phpspider": "^2.1",
+    "symfony/var-dumper": "^5.4"
+  }
 }
