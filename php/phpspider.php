@@ -10,8 +10,20 @@ $_cfgs = json_decode(file_get_contents(__DIR__ . '/../json/phpspider.json'), JSO
 $_def = $_cfgs['_content'];
 // dump($_def);
 $contents = $_cfgs['contents'];
-$content = array_merge($_def, $contents[array_rand($contents)]);
-$content['fields'] = array_merge($content['fields'], $_def['fields']);
+// 随机
+// $content = array_merge($_def, $contents[array_rand($contents)]);
+// 指定
+// dump($_SERVER['argv']);
+// php phpspider.php start $name
+if ($_SERVER['argc'] < 3)
+  exit;
+$name = $_SERVER['argv'][2];
+$config = array_merge($_def, $contents[$name]);
+$config['fields'] = array_merge($config['fields'], $_def['fields']);
+
+$config['log_file'] = str_replace(['{$name}', '{$timestamp}'], [$config['name'], time()], $config['log_file']);
+$config['export']['file'] = str_replace(['{$name}', '{$timestamp}'], [$config['name'], time()], $config['export']['file']);
+
 // dump($content);
 
 // unset($content['fields']['ico']);
@@ -20,7 +32,7 @@ $content['fields'] = array_merge($content['fields'], $_def['fields']);
 /* Do NOT delete this comment */
 /* 不要删除这段注释 */
 
-$spider = new phpspider($content);
+$spider = new phpspider($config);
 /**
  * on_start($phpspider)
  * 爬虫初始化时调用, 用来指定一些爬取前的操作
@@ -28,6 +40,7 @@ $spider = new phpspider($content);
  * @param $phpspider 爬虫对象
  */
 $spider->on_start = function ($phpspider) {
+  dump('"on_start"');
   // requests::set_header("Referer", "http://buluo.qq.com/p/index.html");
 };
 /**
@@ -41,6 +54,7 @@ $spider->on_start = function ($phpspider) {
  * @return $content 返回处理后的网页内容，不处理当前页面请返回false
  */
 $spider->on_status_code = function ($status_code, $url, $content, $phpspider) {
+  dump('"on_status_code","' . $url . '"');
   // 如果状态码为429，说明对方网站设置了不让同一个客户端同时请求太多次
   if ($status_code == '429') {
     // 将url插入待爬的队列中,等待再次爬取
@@ -61,6 +75,7 @@ $spider->on_status_code = function ($status_code, $url, $content, $phpspider) {
  * @return 如果被反爬虫了, 返回true, 否则返回false
  */
 $spider->is_anti_spider = function ($url, $content, $phpspider) {
+  dump('"is_anti_spider","' . $url . '"');
   // $content中包含"404页面不存在"字符串
   if (strpos($content, "404页面不存在") !== false) {
     // 如果使用了代理IP，IP切换需要时间，这里可以添加到队列等下次换了IP再抓取
@@ -82,9 +97,19 @@ $spider->is_anti_spider = function ($url, $content, $phpspider) {
  * @param $page['raw'] 当前网页的内容
  * @param $page['request'] 当前网页的请求对象
  */
-$spider->on_download_page = function ($page, $phpspider) {
+$spider->on_download_page = function ($page, $phpspider) use ($config) {
+  dump('"on_download_page","' . $page['url'] . '"');
+  // dump($phpspider);
   // dump($page);
-  // $url = preg_replace("/:|\//", "_", $page['url']);
+  $url = preg_replace("/:|\//", "_", $page['url']);
+  $url = preg_replace("/_+/", "_", $url);
+  if (!file_exists(__DIR__ . '/../log/phpspider')) {
+    mkdir(__DIR__ . '/../log/phpspider');
+  }
+  if (!file_exists(__DIR__ . '/../log/phpspider/' . $config['name'])) {
+    mkdir(__DIR__ . '/../log/phpspider/' . $config['name']);
+  }
+  file_put_contents(__DIR__ . '/../log/phpspider/' . $config['name'] . '/' . $url . ".html", $page['raw']);
   // dump($url);
   // exit;
   // $page_html = "<div id=\"comment-pages\"><span>5</span></div>";
@@ -102,6 +127,7 @@ $spider->on_download_page = function ($page, $phpspider) {
  */
 $spider->on_download_attached_page = function ($content, $phpspider) {
 
+  dump('on_download_attached_page');
   // dump($content);
   // $content = trim($content);
   // $content = ltrim($content, "[");
@@ -119,6 +145,7 @@ $spider->on_download_attached_page = function ($content, $phpspider) {
  * @return 返回处理后的URL，为false则此URL不入采集队列
  */
 $spider->on_fetch_url = function ($url, $phpspider) {
+  dump('"on_fetch_url","' . $url . '"');
   // if (strpos($url, "#filter") !== false) {
   //   return false;
   // }
@@ -140,16 +167,17 @@ $spider->on_fetch_url = function ($url, $phpspider) {
  * 此函数中通过调用$phpspider->add_url($url, $options)函数来添加新的url到待爬队列。
  */
 $spider->on_scan_page = function ($page, $content, $phpspider) {
-  return false;
+  dump('"on_scan_page","' . $page['url'] . '"');
+  // return false;
 };
 /**
  * on_list_page($page, $content, $phpspider)
  * 在爬取到入口url的内容之后, 添加新的url到待爬队列之前调用. 主要用来发现新的待爬url, 并且能给新发现的url附加数据（点此查看“url附加数据”实例解析）.
 
- * @param mixed $page 当前下载的网页页面的对象
- * @param mixed $content 当前网页内容
- * @param mixed $phpspider 当前爬虫对象
- * @return boolean 返回false表示不需要再从此网页中发现待爬url
+ * @param  $page 当前下载的网页页面的对象
+ * @param  $content 当前网页内容
+ * @param  $phpspider 当前爬虫对象
+ * @return 返回false表示不需要再从此网页中发现待爬url
 
  * @param $page['url'] 当前网页的URL
  * @param $page['raw'] 当前网页的内容
@@ -158,7 +186,8 @@ $spider->on_scan_page = function ($page, $content, $phpspider) {
  * 此函数中通过调用$phpspider->add_url($url, $options)函数来添加新的url到待爬队列。
  */
 $spider->on_list_page = function ($page, $content, $phpspider) {
-  return false;
+  dump('"on_list_page","' . $page['url'] . '"');
+  // return false;
 };
 /**
  * on_content_page($page, $content, $phpspider)
@@ -176,7 +205,8 @@ $spider->on_list_page = function ($page, $content, $phpspider) {
  * 此函数中通过调用$phpspider->add_url($url, $options)函数来添加新的url到待爬队列。
  */
 $spider->on_content_page = function ($page, $content, $phpspider) {
-  return false;
+  dump('"on_content_page","' . $page['url'] . '"');
+  // return false;
 };
 /**
  * on_handle_img($fieldname, $img)
@@ -220,6 +250,7 @@ $spider->on_handle_img = function ($fieldname, $img) {
  * @param $page['request'] 当前网页的请求对象
  */
 $spider->on_extract_field = function ($fieldname, $data, $page) {
+  // dump('"on_extract_field","' . $page['url'] . '","' . $fieldname . '"');
   // if ($fieldname == 'gender') {
   //   // data中包含"icon-profile-male"，说明当前知乎用户是男性
   //   if (strpos($data, "icon-profile-male") !== false) {
@@ -246,10 +277,19 @@ $spider->on_extract_field = function ($fieldname, $data, $page) {
  * @param $page['raw'] 当前网页的内容
  * @param $page['request'] 当前网页的请求对象
  */
-$spider->on_extract_page = function ($page, $data) {
+$spider->on_extract_page = function ($page, $data) use ($config) {
+  dump('"on_extract_page","' . $page['url'] . '"');
   // $title = "[{$data['time']}]" . $data['title'];
   // $data['title'] = $title;
-  dump($data);
+  if ($config['export']['type'] == 'csv') {
+    foreach ($data as $key => $value) {
+      $data[$key] = json_encode($value, JSON_UNESCAPED_UNICODE);
+    }
+  }
+  $data['_url'] = $page['url'];
+  if ($config['max_fields'] !== 0) {
+    dump($data);
+  }
   // exit;
   return $data;
   // 返回false不处理，当前页面的字段不入数据库直接过滤
