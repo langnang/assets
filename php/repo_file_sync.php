@@ -21,11 +21,11 @@ foreach ($files as $file) {
     }
     $path = __DIR__ . '/../../' . $file;
 
-    var_dump(is_dir($path));
-    var_dump(filetype($path));
+    // var_dump(is_dir($path));
+    // var_dump(filetype($path));
     if (is_dir($path)) {
-        echo "$path\n";
+        // echo "$path\n";
     } else {
-        echo "$path\n";
+        // echo "$path\n";
     }
 }
