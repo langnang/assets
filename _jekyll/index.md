@@ -1,0 +1,16 @@
+- bat
+- css
+- csv
+- db
+- files
+- html
+- img
+- ini
+- js
+- json
+- lib
+- php
+- sh
+- sql
+- svg
+- yml
