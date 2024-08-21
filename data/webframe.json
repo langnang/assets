@@ -1,4 +1,5 @@
 {
+  "_": {},
   "langnang.github.io": {
     "active": "https://langnang.github.io/sites",
     "frames": [
@@ -70,6 +71,7 @@
       {
         "title": "B9 Project",
         "type": "group",
+        "visible": false,
         "children": [
           {
             "title": "langnang.byethost9.com",
@@ -86,6 +88,7 @@
       {
         "title": "B7 Project",
         "type": "group",
+        "visible": false,
         "children": [
           {
             "title": "langnang.byethost7.com",
@@ -139,8 +142,8 @@
             "type": "site"
           },
           {
-            "title": "typecho.10001mb.com",
-            "url": "http://typecho.10001mb.com",
+            "title": "webnav.22web.org",
+            "url": "http://webnav.22web.org",
             "type": "site"
           }
         ]
@@ -148,6 +151,7 @@
       {
         "title": "B32 Project",
         "type": "group",
+        "visible": false,
         "children": [
           {
             "title": "langnang.byethost32.com",
@@ -225,6 +229,7 @@
       {
         "title": "Platform",
         "type": "group",
+        "visible": false,
         "children": [
           {
             "title": "GitHub",
@@ -338,8 +343,8 @@
             "type": "site"
           },
           {
-            "title": "typecho.10001mb.com",
-            "url": "http://typecho.10001mb.com",
+            "title": "webnav.22web.org",
+            "url": "http://webnav.22web.org",
             "type": "site"
           }
         ]
