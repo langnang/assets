@@ -3,6 +3,9 @@
     "langnang": {
       "name": "Langnang",
       "nameCn": "陈朗朗",
+      "telephone": [],
+      "mobilephone": [],
+      "address": [],
       "email": "langnang.chen@outlook.com",
       "educations": [{ "daterage": ["2014-09", "2018-07"] }],
       "skills": [
