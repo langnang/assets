@@ -3,7 +3,7 @@
     "http://langnang.byethost7.com": {},
     "http://b7-34048879.22web.org": {}
   },
-  "langnang.github.io": {
+  "https://langnang.github.io": {
     "active": "https://langnang.github.io/sites",
     "frames": [
       {
@@ -287,7 +287,7 @@
       }
     ]
   },
-  "b7-34048879.22web.org": {
+  "http://b7-34048879.22web.org": {
     "active": "http://langnang.byethost7.com",
     "frames": [
       {
@@ -354,7 +354,7 @@
       }
     ]
   },
-  "b9-36151388.22web.org": {
+  "http://b9-36151388.22web.org": {
     "active": "http://langnang.byethost9.com/",
     "frames": [
       {
@@ -376,7 +376,7 @@
       }
     ]
   },
-  "b32-28202196.22web.org": {
+  "http://b32-28202196.22web.org": {
     "active": "http://langnang.byethost32.com",
     "frames": [
       {
