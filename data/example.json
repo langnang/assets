@@ -1,14 +1,38 @@
 {
-  "categories": {},
-  "tags": {},
-  "metas": {
-    "alert": {},
-    "navbar": {},
-    "card": {},
-    "loading": {},
-    "grid": {},
-    "masonry": {},
-    "flex": {}
+  "categories": {
+    "bootstrap3": {},
+    "bootstrap4": {},
+    "bootstrap5": {},
+    "element-ui": {},
+    "jquery": {},
+    "vue2": {},
+    "vue3": {}
   },
-  "contents": {}
+  "contents": {},
+  "metas": {},
+  "tags": {
+    "alert": {},
+    "badge": {},
+    "breadcrumb": {},
+    "button": {},
+    "button-group": {},
+    "card": {},
+    "carousel": {},
+    "collapse": {},
+    "jumbotron": {},
+    "flex": {},
+    "grid": {},
+    "loading": {},
+    "modal": {},
+    "navs": {},
+    "pagination": {},
+    "popovers": {},
+    "progress": {},
+    "scrollspy": {},
+    "spinners": {},
+    "toasts": {},
+    "tooltips": {},
+    "masonry": {},
+    "navbar": {}
+  }
 }

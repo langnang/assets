@@ -12,18 +12,69 @@
     "packages": {
       "@fortawesome/fontawesome-free": {},
       "@fortawesome/fontawesome-svg-core": {},
+      "@types/crypto-js": {},
       "ace-builds": {},
       "admin-lte": {},
-      "animate.css": {},
-      "animejs": {},
-      "autosize": {},
+      "animate.css": {
+        "description": "",
+        "homepage": "https://animate.style/",
+        "keywords": []
+      },
+      "animejs": {
+        "description": "JavaScript animation engine",
+        "homepage": "http://animejs.com/",
+        "keywords": [
+          "anime",
+          "animation",
+          "javascript",
+          "CSS",
+          "transforms",
+          "SVG",
+          "canvas"
+        ]
+      },
+      "async": {},
+      "autosize": {
+        "description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+        "homepage": "http://www.jacklmoore.com/autosize",
+        "keywords": ["textarea", "form", "ui"]
+      },
       "axios": {},
+      "babel-core": {},
       "bootstrap": {},
       "bootstrap-icons": {},
       "bootstrap-vue": {},
       "chart.js": {},
       "codemirror": {},
-      "crypto-js": {},
+      "crypto-js": {
+        "description": "JavaScript library of crypto standards.",
+        "keywords": [
+          "security",
+          "crypto",
+          "Hash",
+          "MD5",
+          "SHA1",
+          "SHA-1",
+          "SHA256",
+          "SHA-256",
+          "RC4",
+          "Rabbit",
+          "AES",
+          "DES",
+          "PBKDF2",
+          "HMAC",
+          "OFB",
+          "CFB",
+          "CTR",
+          "CBC",
+          "Base64",
+          "Base64url"
+        ],
+        "homepage": "https://cryptojs.gitbook.io/docs/",
+        "versions": {
+          "4.2.0": ["https://unpkg.com/crypto-js@4.2.0/crypto-js.js"]
+        }
+      },
       "d3": {},
       "debug": {},
       "dplayer": {},
@@ -35,6 +86,12 @@
       "fork-awesome": {},
       "gsap": {},
       "gulp": {},
+      "handlebars": {
+        "description": "Handlebars provides the power necessary to let you build semantic templates effectively with no frustration",
+        "homepage": "https://www.handlebarsjs.com/",
+        "keywords": ["handlebars", "mustache", "template", "html"],
+        "versions": {}
+      },
       "highlight.js": {},
       "highlightjs-copy": {},
       "holderjs": {},
@@ -53,12 +110,19 @@
       "normalize.css": {},
       "perfect-scrollbar": {},
       "popper.js": {},
+      "qs": {
+        "description": "A querystring parser that supports nesting and arrays, with a depth limit",
+        "keywords": ["querystring", "qs", "query", "url", "parse", "stringify"]
+      },
       "react": {},
       "react-bootstrap": {},
+      "react-input-autosize": {},
+      "react-textarea-autosize": {},
       "requirejs": {},
       "sass": {},
       "simple-icons": {},
       "simple-line-icons": {},
+      "tailwindcss-animate": {},
       "three": {},
       "typescript": {},
       "v-contextmenu": {},
