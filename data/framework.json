@@ -1,6 +1,14 @@
 {
+  "composer": {
+    "laravel": {},
+    "lumen": {}
+  },
   "html": {},
-  "nodejs": {},
-  "php": {},
-  "composer": {}
+  "nodejs": {
+    "angular": {},
+    "bootstrap-vue": {},
+    "react": {},
+    "vue": {}
+  },
+  "php": {}
 }
