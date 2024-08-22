@@ -1,22 +1,6 @@
 {
-  "packagist.p2hp.com": {
-    "alias": [],
-    "cdns": [],
-    "packages": []
-  },
-  "pypi.org": {
-    "alias": [],
-    "cdns": [],
-    "packages": []
-  },
-  "rubygems.org": {
-    "alias": [],
-    "cdns": [],
-    "packages": []
-  },
-  "version": "2024-08-22 09:57:11",
-  "www.npmjs.com": {
-    "alias": ["npmjs.com"],
+  "npmjs.com": {
+    "alias": ["www.npmjs.com"],
     "cdns": [
       "https://classic.yarnpkg.com",
       "https://npmjs.com/",
@@ -84,6 +68,107 @@
       "vue": {},
       "vue-router": {},
       "vuex": {}
+    }
+  },
+  "packagist.p2hp.com": {
+    "alias": [],
+    "cdns": [],
+    "packages": {
+      "doctrine/dbal": {},
+      "doctrine/sql-formatter": {},
+      "facade/ignition": {},
+      "fakerphp/faker": {},
+      "fruitcake/laravel-cors": {},
+      "guzzlehttp/guzzle": {},
+      "intervention/image": {},
+      "jaeger/querylist": {},
+      "laravel/framework": {},
+      "laravel/laravel": {},
+      "laravel/lumen": {},
+      "laravel/sail": {},
+      "laravel/sanctum": {},
+      "laravel/tinker": {},
+      "laravel/ui": {},
+      "league/flysystem": {},
+      "livewire/livewire": {},
+      "mockery/mockery": {},
+      "monolog/monolog": {},
+      "nikic/fast-route": {},
+      "nunomaduro/collision": {},
+      "nwidart/laravel-modules": {},
+      "owner888/phpspider": {},
+      "phpmyadmin/sql-parser": {},
+      "phpoffice/phpspreadsheet": {},
+      "phpunit/phpunit": {},
+      "ramsey/uuid": {},
+      "rmccue/requests": {},
+      "sebastian/environment": {},
+      "symfony/filesystem": {},
+      "symfony/var-dumper": {},
+      "twig/twig": {},
+      "vlucas/phpdotenv": {},
+      "wapmorgan/unified-archive": {},
+      "wazaari/monolog-mysql": {},
+      "zircote/swagger-php": {}
+    }
+  },
+  "pypi.org": {
+    "alias": ["www.pypi.org"],
+    "cdns": [],
+    "packages": []
+  },
+  "rubygems.org": {
+    "alias": ["www.rubygems.org"],
+    "cdns": [],
+    "packages": {
+      "github-pages": {},
+      "github-pages-health-check": {},
+      "html-pipeline": {},
+      "jekyll": {},
+      "jekyll-avatar": {},
+      "jekyll-coffeescript": {},
+      "jekyll-commonmark-ghpages": {},
+      "jekyll-default-layout": {},
+      "jekyll-feed": {},
+      "jekyll-get-json": {},
+      "jekyll-gist": {},
+      "jekyll-github-metadata": {},
+      "jekyll-include-cache": {},
+      "jekyll-mentions": {},
+      "jekyll-optional-front-matter": {},
+      "jekyll-paginate": {},
+      "jekyll-readme-index": {},
+      "jekyll-redirect-from": {},
+      "jekyll-relative-links": {},
+      "jekyll-remote-theme": {},
+      "jekyll-sass-converter": {},
+      "jekyll-seo-tag": {},
+      "jekyll-sitemap": {},
+      "jekyll-swiss": {},
+      "jekyll-theme-architect": {},
+      "jekyll-theme-cayman": {},
+      "jekyll-theme-dinky": {},
+      "jekyll-theme-hacker": {},
+      "jekyll-theme-leap-day": {},
+      "jekyll-theme-merlot": {},
+      "jekyll-theme-midnight": {},
+      "jekyll-theme-minimal": {},
+      "jekyll-theme-modernist": {},
+      "jekyll-theme-primer": {},
+      "jekyll-theme-slate": {},
+      "jekyll-theme-tactile": {},
+      "jekyll-theme-time-machine": {},
+      "jekyll-titles-from-headings": {},
+      "jemoji": {},
+      "kramdown": {},
+      "kramdown-parser-gfm": {},
+      "liquid": {},
+      "minima": {},
+      "nokogiri": {},
+      "rouge": {},
+      "ruby": {},
+      "safe_yaml": {},
+      "sass": {}
     }
   }
 }

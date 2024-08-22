@@ -1,56 +1,58 @@
 {
-  "version": "2024-08-22 09:39:50",
   "_": {},
   "_meta": {
+    "count": 0,
+    "created_at": "",
+    "deleted_at": "",
+    "description": "",
+    "ico": "",
     "mid": null,
     "name": "",
-    "slug": "",
-    "ico": "",
-    "description": "",
-    "count": 0,
     "order": 0,
     "parent": 0,
-    "created_at": "",
-    "updated_at": "",
     "release_at": "",
-    "deleted_at": ""
+    "slug": "",
+    "updated_at": ""
   },
   "_content": {
     "cid": null,
-    "title": "",
-    "slug": "",
-    "ico": "",
-    "description": "",
-    "type": "",
-    "text": "",
     "count": 0,
+    "created_at": "",
+    "deleted_at": "",
+    "description": "",
+    "ico": "",
     "order": 0,
     "parent": 0,
-    "created_at": "",
-    "updated_at": "",
     "release_at": "",
-    "deleted_at": ""
+    "slug": "",
+    "text": "",
+    "title": "",
+    "type": "",
+    "updated_at": ""
   },
   "_link": {
-    "lid": null,
-    "title": "",
-    "slug": "",
-    "ico": "",
-    "description": "",
-    "keywords": "",
     "count": 0,
+    "created_at": "",
+    "deleted_at": "",
+    "description": "",
+    "ico": "",
+    "keywords": "",
+    "lid": null,
     "order": 0,
     "parent": 0,
-    "created_at": "",
-    "updated_at": "",
     "release_at": "",
-    "deleted_at": ""
+    "slug": "",
+    "title": "",
+    "updated_at": ""
   },
   "_relationship": {
-    "mid": null,
     "cid": null,
-    "lid": null
+    "lid": null,
+    "mid": null
   },
   "127.0.0.1": {},
-  "localhost": {}
+  "localhost": {},
+  "metas": {},
+  "contents": {},
+  "relationships": {}
 }
