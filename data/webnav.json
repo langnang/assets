@@ -1,1 +1,16 @@
-{}
+{
+  "version": "2024-08-22 09:39:50",
+  "langnang.github.io": {},
+  "webnav.22web.org": {
+    "active": "",
+    "navs": [
+      {
+        "title": "常用类",
+        "type": "category"
+      },
+      { "title": "工具类", "type": "category" },
+      { "title": "生活类", "type": "category" },
+      { "title": "娱乐类", "type": "category" }
+    ]
+  }
+}

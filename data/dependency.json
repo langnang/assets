@@ -1,0 +1,29 @@
+{
+  "version": "2024-08-22 09:39:50",
+  "www.npmjs.com": {
+    "alias": ["npmjs.com"],
+    "packages": {
+      "bootstrap": {},
+      "debug": {},
+      "lodash": {},
+      "moment": {},
+      "vue": {},
+      "react": {}
+    },
+    "cdns": [
+      "https://classic.yarnpkg.com",
+      "https://npmjs.com/",
+      "https://cdnjs.com/",
+      "https://jsdelivr.com/",
+      "https://unpkg.com/",
+      "https://bootcdn.cn/"
+    ]
+  },
+  "packagist.p2hp.com": { "alias": [], "packages": [], "cdns": [] },
+  "rubygems.org": { "alias": [], "packages": [], "cdns": [] },
+  "pypi.org": {
+    "alias": [],
+    "packages": [],
+    "cdns": []
+  }
+}
