@@ -1,7 +1,8 @@
 {
   "composer": {
     "laravel": {},
-    "lumen": {}
+    "lumen": {},
+    "thinkphp": {}
   },
   "html": {},
   "nodejs": {
