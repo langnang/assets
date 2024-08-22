@@ -1,15 +1,22 @@
 {
-  "version": "2024-08-22 09:39:50",
+  "packagist.p2hp.com": {
+    "alias": [],
+    "cdns": [],
+    "packages": []
+  },
+  "pypi.org": {
+    "alias": [],
+    "cdns": [],
+    "packages": []
+  },
+  "rubygems.org": {
+    "alias": [],
+    "cdns": [],
+    "packages": []
+  },
+  "version": "2024-08-22 09:57:11",
   "www.npmjs.com": {
     "alias": ["npmjs.com"],
-    "packages": {
-      "bootstrap": {},
-      "debug": {},
-      "lodash": {},
-      "moment": {},
-      "vue": {},
-      "react": {}
-    },
     "cdns": [
       "https://classic.yarnpkg.com",
       "https://npmjs.com/",
@@ -17,13 +24,66 @@
       "https://jsdelivr.com/",
       "https://unpkg.com/",
       "https://bootcdn.cn/"
-    ]
-  },
-  "packagist.p2hp.com": { "alias": [], "packages": [], "cdns": [] },
-  "rubygems.org": { "alias": [], "packages": [], "cdns": [] },
-  "pypi.org": {
-    "alias": [],
-    "packages": [],
-    "cdns": []
+    ],
+    "packages": {
+      "@fortawesome/fontawesome-free": {},
+      "@fortawesome/fontawesome-svg-core": {},
+      "ace-builds": {},
+      "admin-lte": {},
+      "animate.css": {},
+      "animejs": {},
+      "autosize": {},
+      "axios": {},
+      "bootstrap": {},
+      "bootstrap-icons": {},
+      "bootstrap-vue": {},
+      "chart.js": {},
+      "codemirror": {},
+      "crypto-js": {},
+      "d3": {},
+      "debug": {},
+      "dplayer": {},
+      "echarts": {},
+      "element-ui": {},
+      "fancybox": {},
+      "font-awesome": {},
+      "font-awesome-animation": {},
+      "fork-awesome": {},
+      "gsap": {},
+      "gulp": {},
+      "highlight.js": {},
+      "highlightjs-copy": {},
+      "holderjs": {},
+      "ionicons": {},
+      "jquery": {},
+      "lazyload": {},
+      "less": {},
+      "lodash": {},
+      "markdown-it": {},
+      "masonry-layout": {},
+      "mathjax": {},
+      "mermaid": {},
+      "mockjs": {},
+      "moment": {},
+      "monaco-editor": {},
+      "normalize.css": {},
+      "perfect-scrollbar": {},
+      "popper.js": {},
+      "react": {},
+      "react-bootstrap": {},
+      "requirejs": {},
+      "sass": {},
+      "simple-icons": {},
+      "simple-line-icons": {},
+      "three": {},
+      "typescript": {},
+      "v-contextmenu": {},
+      "vanilla-lazyload": {},
+      "vant": {},
+      "video.js": {},
+      "vue": {},
+      "vue-router": {},
+      "vuex": {}
+    }
   }
 }
