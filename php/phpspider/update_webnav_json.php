@@ -4,13 +4,27 @@ $path = __DIR__ . '/../../data/webnav.json';
 
 $data = json_decode(file_get_contents($path), true);
 // dump($data);
-
+$update_contents = [];
+if (file_exists(__DIR__ . '/webnav')) {
+  $update_contents = explode("\r\n", file_get_contents(__DIR__ . '/webnav'));
+}
 $contents = $data['contents'] ?? [];
 // dump($contents);
 
 use phpspider\core\phpspider;
 use phpspider\core\requests;
 use phpspider\core\selector;
+
+
+foreach ($update_contents as $slug) {
+  if (!empty($slug) && !array_key_exists($slug, $contents)) {
+    $contents[$slug] = [];
+  }
+}
+
+if (sizeof($update_contents) > 0) {
+  unlink(__DIR__ . '/webnav');
+}
 
 
 foreach ($contents as $slug => $content) {
@@ -44,4 +58,4 @@ foreach ($contents as $slug => $content) {
 // }
 // $data['contents'] = $contents;
 // file_put_contents($path, json_encode($data, JSON_UNESCAPED_UNICODE));
-dump($data);
+// dump($data);

@@ -1,6 +1,7 @@
 {
   "contents": {
-    "siteinfo": {
+    "site:info": {
+      "description": "网页基本信息",
       "fields": {
         "title": {
           "name": "title",
@@ -19,6 +20,9 @@
           "selector": "//head//link[contains(@rel,'icon')]/@href"
         }
       }
+    },
+    "site:urls": {
+      "description": "网页内所有URL地址"
     },
     "bilianku": {
       "name": "bilianku",
