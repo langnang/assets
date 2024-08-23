@@ -19,6 +19,8 @@ foreach ($contents as $slug => $content) {
   // dump([$slug, $content]);
   // html
   $html = requests::get($slug);
+  // slug
+  $contents[$slug]['slug'] = $slug;
   // title
   $selector = "//head//title";
   $contents[$slug]['title'] = trim(selector::select($html, $selector));
@@ -37,4 +39,9 @@ foreach ($contents as $slug => $content) {
   $data['contents'] = $contents;
   file_put_contents($path, json_encode($data, JSON_UNESCAPED_UNICODE));
 }
+// foreach ($contents as $slug => $content) {
+// $contents[$slug]['slug'] = $slug;
+// }
+// $data['contents'] = $contents;
+// file_put_contents($path, json_encode($data, JSON_UNESCAPED_UNICODE));
 dump($data);
