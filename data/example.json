@@ -104,6 +104,7 @@
     "vue3": {}
   },
   "contents": {
+    "bootstrap4:loading": {},
     "bootstrap4:album": {
       "description": "Simple one-page template for photo galleries, portfolios, and more.",
       "screenshot": "",
