@@ -1,5 +1,12 @@
 {
   "contents": {
+    "http://clm2.info/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "http://clm2.info/",
+      "title": ""
+    },
     "http://jsoneditoronline.cn/": {
       "description": "JSON Editor Online is a web-based tool to view, edit, and format JSON. It shows your data side by side in a clear, editable treeview and in a code editor.",
       "icon": "/favicon.ico",
@@ -21,6 +28,13 @@
       "slug": "http://jupyter.org/",
       "title": "Project Jupyter | Home"
     },
+    "http://oeasy.org/": {
+      "description": "",
+      "icon": "http://oeasy.org/favicon.ico",
+      "keywords": "",
+      "slug": "http://oeasy.org/",
+      "title": "oeasy,会玩才会学"
+    },
     "http://packagist.p2hp.com/": {
       "description": "Packagist中文网 PHP软件包仓库",
       "icon": "/favicon.ico?v=",
@@ -34,6 +48,20 @@
       "keywords": "",
       "slug": "http://rutracker.org/",
       "title": ""
+    },
+    "http://subs.kamigami.org/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "http://subs.kamigami.org/",
+      "title": ""
+    },
+    "http://waipian4.com/": {
+      "description": "最新电影、电视剧、动漫、综艺、纪录片、预告片，实时聚合全网优质影视资源，高清1080P 4K在线观看、下载、磁力。最新网址：歪片星球.com WaiPianXingQiu.com WaiPian7.com WaiPian6.com WaiPian5.com",
+      "icon": ["/statics/logo.png", "/statics/logo.png"],
+      "keywords": "电影,电视剧,综艺,动漫,VIP影视,免费视频,在线视频,预告片",
+      "slug": "http://waipian4.com/",
+      "title": "歪片星球.com - 聚合全网高清影视在线观看、下载"
     },
     "http://www.02516.com/bt/": {
       "description": "我要乐网址导航：实用网址大全，您的上网导航助手。精心收集优质BT下载网站信息与BT下载网址大全，提供BT下载网站 影视资源BT下载 动漫BT下载 网盘磁力链接搜索 BT磁力下载软件 等分类网址导航服务，已被众多网友设为上网主页。网址之家，首选我要乐网址大全。",
@@ -77,6 +105,35 @@
       "slug": "http://www.dygangs.com/",
       "title": "电影港_高清电影下载_720p高清_1080p高清"
     },
+    "http://www.gdpcbexpo.com/": {
+      "description": "一卡二卡三卡四卡日韩_花姐影视_办公室 爆乳 在线_超爽人人做人人爽",
+      "icon": "/favicon.ico",
+      "keywords": "一卡二卡三卡四卡日韩_花姐影视_办公室 爆乳 在线_超爽人人做人人爽",
+      "slug": "http://www.gdpcbexpo.com/",
+      "status": "private",
+      "title": "一卡二卡三卡四卡日韩_花姐影视_办公室 爆乳 在线_超爽人人做人人爽"
+    },
+    "http://www.imomoe.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "http://www.imomoe.com/",
+      "title": ""
+    },
+    "http://www.imomoe.in/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "http://www.imomoe.in/",
+      "title": ""
+    },
+    "http://www.jqueryfuns.com/": {
+      "description": "jQueryfuns致力于为前端爱好者提供优质的后台模板、网页特效、jquery特效、html网页模板，打造一个高品质的前端模板和特效代码分享平台。",
+      "icon": "/favicon.ico",
+      "keywords": "jquery特效,响应式模板,网站模板",
+      "slug": "http://www.jqueryfuns.com/",
+      "title": "后台模板,html响应式模板,jquery特效 - jQueryfuns"
+    },
     "http://www.meiju8.cc/": {
       "description": "",
       "icon": "/favicon.ico",
@@ -100,6 +157,20 @@
       "keywords": "时光快讯,时光策划, 时光对话, 院线热映 ,即将上映, 今日热点, 产业聚焦, 今日推荐, 新片预告, 时光热度排名, 热门影评 ,好片连连看, 时光TOP100",
       "slug": "http://www.mtime.com/",
       "title": "Mtime时光网：让电影遇见生活"
+    },
+    "http://www.qihuys8.cc/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "http://www.qihuys8.cc/",
+      "title": ""
+    },
+    "http://www.secaibi.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "http://www.secaibi.com/",
+      "title": ""
     },
     "http://www.somb123.com/": {
       "description": "模板导航网,全人工编辑的开放式模板网站分类目录发布平台,收录国内外、各行业优秀模板网站资源,旨在为用户提供模板网站分类目录网址检索、优秀模板网站网址目录参考、精品模板推广服务.",
@@ -129,12 +200,40 @@
       "slug": "http://www.waibaodashi.com/",
       "title": "外包大师 | 专注产品创新+研发管理的数字化服务公司"
     },
+    "http://www.xinggan17.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "http://www.xinggan17.com/",
+      "title": ""
+    },
     "http://www.youdao.com/": {
       "description": "网易有道是中国领先的智能学习公司，致力于提供100%以用户为导向的学习产品和服务。有道成立于2006年，打造了一系列深受用户喜欢的口碑型大众学习工具产品，例如：网易有道词典、有道精品课、有道翻译官、有道云笔记等。2014年，网易有道宣布正式进军互联网教育行业。2018年4月，网易有道完成首次战略融资，投后估值11.2亿美金，跻身独角兽阵营。2019年10月，网易有道成功登陆纽交所，股票代码为“DAO”，成为网易集团首个独立上市的公司。",
       "icon": "https://shared-https.ydstatic.com/images/favicon.ico",
       "keywords": "有道, 搜索, 词典, 翻译, 云笔记, 笔记, 惠惠网, 惠惠购物助手, 购物搜索, 图片搜索, 视频搜索, 新闻搜索, 网易有道, 在线翻译, 专业翻译",
       "slug": "http://www.youdao.com/",
       "title": "网易有道"
+    },
+    "http://www.yxdm.tv/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "http://www.yxdm.tv/",
+      "title": ""
+    },
+    "http://www.zandedy.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "http://www.zandedy.com/",
+      "title": ""
+    },
+    "https://1s1k.eduyun.cn/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://1s1k.eduyun.cn/",
+      "title": ""
     },
     "https://app.gitbook.com/": {
       "description": "GitBook",
@@ -160,6 +259,27 @@
       "keywords": "",
       "slug": "https://app.netlify.com/",
       "title": "Netlify"
+    },
+    "https://bangumi.moe/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://bangumi.moe/",
+      "title": ""
+    },
+    "https://bgm.tv/": {
+      "description": "专注于动漫、音乐、游戏领域，帮助你分享、发现与结识同好的ACG网络",
+      "icon": ["/img/favicon.ico", "/img/ico/ico_ios.png"],
+      "keywords": ",ACG,anime,comic,game,music,动漫,音乐,游戏,动画,漫画,番组,bangumi,chii,chobits",
+      "slug": "https://bgm.tv/",
+      "title": "Bangumi 番组计划"
+    },
+    "https://blog.iacg.site/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://blog.iacg.site/",
+      "title": ""
     },
     "https://carbon.now.sh/": {
       "description": "Carbon is the easiest way to create and share beautiful images of your source code.",
@@ -244,6 +364,13 @@
       "slug": "https://docs.qq.com/",
       "title": "腾讯文档-官方网站-支持多人在线编辑Word、Excel和PPT文档"
     },
+    "https://du.shadiao.app/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://du.shadiao.app/",
+      "title": ""
+    },
     "https://ebookfoundation.github.io/free-programming-books/books/free-programming-books-zh.html": {
       "description": ":books: Freely available programming books",
       "icon": "/favicon.ico",
@@ -308,12 +435,51 @@
       "slug": "https://hao.panziye.com/",
       "title": "程序员导航网 | 码农必备工具网址大全"
     },
+    "https://hao.uisdc.com/": {
+      "description": "设计导航2013年上线至今，是优设网旗下最专业好用的设计师导航网站！设计导航为设计师提供AI创作、UI设计、设计教程、素材下载、高清图库、App设计、网页设计等设计网站导航指引。设计导航每周更新，设计风向标就看优设网！",
+      "icon": [
+        "https://www.uisdc.com/favicon.ico",
+        "https://image.uisdc.com/wp-content/uploads/2018/05/uisdc-ico-apple.jpg",
+        "https://image.uisdc.com/wp-content/uploads/2018/05/uisdc-ico-apple.jpg",
+        "https://image.uisdc.com/wp-content/uploads/2018/05/uisdc-ico-apple.jpg",
+        "https://image.uisdc.com/wp-content/uploads/2018/05/uisdc-ico-apple.jpg",
+        "https://image.uisdc.com/wp-content/uploads/2018/05/uisdc-ico-apple.jpg"
+      ],
+      "keywords": "",
+      "slug": "https://hao.uisdc.com/",
+      "title": "优设导航官网 - 设计导航 - 国内专业设计师网站导航"
+    },
     "https://huamao.vip/": {
       "description": "花猫导航收录了设计师、日常办公、二次元、电商、学习教程、辅助工具等领域优质网站或服务，并结合收录了以相关网站或服务的教程类、科普类和资讯类的文章，为广大用户提供高效率的上网导航服务。",
       "icon": "https://huamao.vip/app/v/daohang/ui/img/favicon.ico",
       "keywords": "花猫导航,网址导航,网站大全,设计导航,设计师导航,办公导航,二次元导航,ACG导航,学习导航,站长导航,电商导航,摸鱼导航,变现导航",
       "slug": "https://huamao.vip/",
       "title": "花猫导航 - 实用网站大全导航，尽在huamao.vip"
+    },
+    "https://icons8.com/": {
+      "description": "Download design elements for free: icons, photos, vector illustrations, and music for your videos. All the assets made by designers → consistent quality ⚡️",
+      "icon": "https://maxst.icons8.com/vue-static/landings/primary-landings/favs/icons8_fav_32×32.png",
+      "keywords": "",
+      "slug": "https://icons8.com/",
+      "title": "Free Icons, Clipart Illustrations, Photos, and Music"
+    },
+    "https://iogames.space/": {
+      "description": "Play all the best .io games like Surviv.io, Slither.io, Krunker.io and Moomoo. Games are updated daily and are fully unblocked.",
+      "icon": [
+        "/images/app/favicon-16.png",
+        "/images/app/xfavicon-32.png.pagespeed.ic.r2huUS8H83.png",
+        "/images/app/xfavicon-48.png.pagespeed.ic.jlwY62tFFl.png",
+        "/images/app/favicon-48.png",
+        "/images/app/xicon-128.png.pagespeed.ic._OgBmnPit_.jpg",
+        "/images/app/xicon-192.png.pagespeed.ic._BWdQrXv-5.jpg",
+        "/images/app/xicon-76.png.pagespeed.ic.MGUiDPi-eb.jpg",
+        "/images/app/xicon-76.png.pagespeed.ic.MGUiDPi-eb.jpg",
+        "/images/app/xicon-120.png.pagespeed.ic.eJDrtGEvUP.jpg",
+        "/images/app/xicon-152.png.pagespeed.ic.JAeUtV5W2-.jpg"
+      ],
+      "keywords": "io games, .io games",
+      "slug": "https://iogames.space/",
+      "title": "io Games - Play on iogames.space | iogames.space"
     },
     "https://jikbook.com/": {
       "description": "IT电子书大全，IT电子书PDF下载，免费IT资料课程",
@@ -329,6 +495,13 @@
       "slug": "https://jsoncrack.com/",
       "title": "JSON Crack | Transform your data into interactive graphs"
     },
+    "https://jsrun.net/": {
+      "description": "JSRUN是一款支持手机编程的在线编辑器, 支持40多种语言的在线运行工具,js/C语言/java/python/nodejs/c++/c#/vb/F#,js代码在线测试调试运行,支持vue.js的在线运行编辑器 、ipad编程js编辑器\\ js在线运行工具, 支持ES6开发，JSRUN拥有功能强大的在线运行编辑器、JS在线运行编辑器、CSS在线运行编辑器，永久免费保存开源js源码",
+      "icon": "//cdns.jsrun.net/favicon.png",
+      "keywords": "JS在线编辑器，JSRUN在线运行,ipad编程,手机编程,在线javascript代码编辑器 , js代码在线测试调试, 在线js调试运行,js运行工具,  Javascript在线测试调试，VUE在线测试调试，ES6在线测试调试运行，jsfiddle,codepen,scrimba,html, css,  jquery,scss在线编辑, jsfiddle国内类似",
+      "slug": "https://jsrun.net/",
+      "title": "小闪电 - JSRUN可以用手机写代码的JS在线编辑器网站"
+    },
     "https://laowangnz.top/": {
       "description": "磁力链接搜索引擎老王磁力(laowang.icu)索引了全球最新最热门的BT种子信息和磁力链接，提供磁力链接搜索、BT搜索、种子搜索等强大功能。",
       "icon": "//b10.yapcdn.com/img/xiaowang/favicon.png",
@@ -343,6 +516,13 @@
       "slug": "https://learnku.com/",
       "title": "LearnKu 终身编程者的知识社区"
     },
+    "https://libgen.unblockit.how/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://libgen.unblockit.how/",
+      "title": ""
+    },
     "https://mock.mengxuegu.com/": {
       "description": "",
       "icon": "/favicon.ico",
@@ -350,12 +530,33 @@
       "slug": "https://mock.mengxuegu.com/",
       "title": "Easy Mock"
     },
+    "https://monitor.firefox.com/": {
+      "description": "Find out if you’ve been part of a data breach with ⁨Mozilla Monitor⁩. We’ll help you understand what to do next and continuously monitor for any new breaches.",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://monitor.firefox.com/",
+      "title": "Mozilla Monitor"
+    },
     "https://msdn.itellyou.cn/": {
       "description": "MSDN, 我告诉你",
       "icon": "/favicon.ico",
       "keywords": "MSDN,我告诉你",
       "slug": "https://msdn.itellyou.cn/",
       "title": "MSDN, 我告诉你 - 做一个安静的工具站"
+    },
+    "https://overapi.com/": {
+      "description": "OverAPI.com is a site collecting all the cheatsheets,all!",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://overapi.com/",
+      "title": "OverAPI.com | Collecting all the cheat sheets"
+    },
+    "https://photomosh.com/": {
+      "description": "Unlimited creative realtime effects for image and video. Distort images, videos or webcam using creative effects. Free and easy to use. Save output as image, gif or video.",
+      "icon": ["/favicon.svg", "/favicon.png", "/favicon.ico"],
+      "keywords": "",
+      "slug": "https://photomosh.com/",
+      "title": "PhotoMosh"
     },
     "https://picular.co/": {
       "description": "Picular is a rocket fast primary color generator using Google’s image search. If you ever needed the perfect yellow hex code from a banana, this is the tool for you.",
@@ -427,12 +628,63 @@
       "slug": "https://sc.chinaz.com/",
       "title": ""
     },
+    "https://sc.chinaz.com/jiaoben/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://sc.chinaz.com/jiaoben/",
+      "title": ""
+    },
+    "https://seaside-station.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://seaside-station.com/",
+      "title": ""
+    },
+    "https://seju.xyz/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://seju.xyz/",
+      "title": ""
+    },
+    "https://shadiao.plus/": {
+      "description": "沙雕普拉斯 | 沙雕新闻 我们不生产段子，我们只是沙雕新闻的搬运工",
+      "icon": [
+        "https://shadiao.plus/wp-content/uploads/2020/02/cropped-80582a6c13665edcd8ddb65505b883fb.png",
+        "https://shadiao.plus/wp-content/uploads/2020/02/cropped-80582a6c13665edcd8ddb65505b883fb.png",
+        "https://shadiao.plus/wp-content/uploads/2020/02/cropped-80582a6c13665edcd8ddb65505b883fb.png"
+      ],
+      "keywords": "",
+      "slug": "https://shadiao.plus/",
+      "title": "沙雕普拉斯 | 沙雕新闻 我们不生产段子，我们只是沙雕新闻的搬运工"
+    },
+    "https://shezhan.org/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://shezhan.org/",
+      "title": ""
+    },
     "https://shu.ziyuandi.cn/": {
       "description": "资源帝电子书在这里发现更多好书...",
       "icon": "/favicon.ico",
       "keywords": "",
       "slug": "https://shu.ziyuandi.cn/",
       "title": "资源帝电子书导航_在这里发现更多好书..."
+    },
+    "https://simpleicons.org/": {
+      "description": "3162 Free SVG icons for popular brands",
+      "icon": [
+        "https://simpleicons.org/images/favicon.ico",
+        "https://simpleicons.org/images/favicon.png",
+        "https://simpleicons.org/images/apple-touch-icon.png",
+        "https://simpleicons.org/images/logo.svg"
+      ],
+      "keywords": "",
+      "slug": "https://simpleicons.org/",
+      "title": "Simple Icons"
     },
     "https://sourceforge.net/": {
       "description": "SourceForge is the complete software discovery platform. SourceForge provides business software reviews and comparisons, and features the largest business software directory, as well as free & fast open source software downloads and development.",
@@ -486,6 +738,20 @@
       "slug": "https://supabase.com/",
       "title": "Supabase | The Open Source Firebase Alternative"
     },
+    "https://t.yswc3.xyz/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://t.yswc3.xyz/",
+      "title": ""
+    },
+    "https://tel.dm5.com/": {
+      "description": "",
+      "icon": "https://css99tel.cdndm5.com/v202402291242/dm5/images/dm5.ico",
+      "keywords": "漫画,在线漫画,漫画大全",
+      "slug": "https://tel.dm5.com/",
+      "title": "动漫屋_在线漫画_为看漫画的人而生"
+    },
     "https://tinypng.com/": {
       "description": "",
       "icon": [
@@ -523,12 +789,26 @@
       "slug": "https://www.170dy.com/",
       "title": ""
     },
+    "https://www.2a5w.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://www.2a5w.com/",
+      "title": ""
+    },
     "https://www.36jxs.com/": {
       "description": "36解析式工具箱是一个功能强大的在线实用工具查询网，为用户提供各种实用的查询与计算工具等。不论您是需要查询汉语字典、笔顺、组词、造句、成语、近义词、反义词、英文单词、缩写、谜语等，还是需要查询身份证归属地、机场三字码、世界港口等信息，36解析式工具箱都能满足您的需求。",
       "icon": "/favicon.ico",
       "keywords": "在线工具,实用查询,站长工具,实用工具,生活工具",
       "slug": "https://www.36jxs.com/",
       "title": "36解析式工具箱-在线实用工具查询网"
+    },
+    "https://www.51kim.com/": {
+      "description": "精雕细琢每一像素、只为让您拥有一个体面的浏览器主页。除此之外，再无其他。",
+      "icon": "/favicon.ico",
+      "keywords": "kim主页,kim导航,kim起始页,kim,氪主页,51kim,kim电脑版,国外网站,国外网址,网站大全,网址导航,浏览器主页,主页如此惊艳,简洁浏览器主页",
+      "slug": "https://www.51kim.com/",
+      "title": "氪主页 - 主页如此惊艳"
     },
     "https://www.52pojie.cn/": {
       "description": "吾爱破解论坛致力于软件安全与病毒分析的前沿，丰富的技术版块交相辉映，由无数热衷于软件加密解密及反病毒爱好者共同维护",
@@ -542,6 +822,13 @@
       "icon": "/favicon.ico",
       "keywords": "",
       "slug": "https://www.5ikmj.com/",
+      "title": ""
+    },
+    "https://www.66dongman.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://www.66dongman.com/",
       "title": ""
     },
     "https://www.66ss.org/": {
@@ -558,12 +845,34 @@
       "slug": "https://www.6v520.com/",
       "title": "6v电影_免费电影_高清电影__最新电视剧下载（旧版66影视）"
     },
+    "https://www.a3a8h.com/": {
+      "description": "",
+      "icon": "https://jm.wuxingruoyin.top/build2/favicon_blue.ico",
+      "keywords": "",
+      "slug": "https://www.a3a8h.com/",
+      "status": "private",
+      "title": "www.a3a8h.com"
+    },
     "https://www.a5xiazai.com/": {
       "description": "A5下载是专业安全的软件免费下载网站.提供海量免费网站源码下载,源码模板,源码插件,JS代码,建站教程等,涵盖了PC软件,安卓软件,安卓游戏,苹果软件,苹果游戏,以及软件教程和手游攻略信息,专注于服务中国站长.",
       "icon": "/favicon.ico",
       "keywords": "源码之家,网站源码,站长工具,站长下载,软件下载",
       "slug": "https://www.a5xiazai.com/",
       "title": "网站源码下载,软件下载 - A5站长下载站"
+    },
+    "https://www.ai66.cc/": {
+      "description": "6v电影-新版",
+      "icon": "/images/favicon.ico",
+      "keywords": "6v电影-新版",
+      "slug": "https://www.ai66.cc/",
+      "title": "6v电影-新版"
+    },
+    "https://www.ali213.net/": {
+      "description": "游侠网为单机游戏玩家提供最新单机游戏业界动态、国内外单机游戏下载、单机游戏补丁、单机游戏攻略秘籍、单机游戏专题等内容。坚守单机阵地，弘扬单机文化！",
+      "icon": "/favicon.ico",
+      "keywords": "单机游戏,单机游戏下载,单机游戏门户,单机游戏新闻评测,单机游戏补丁,单机游戏攻略秘籍,单机游戏排行榜,单机游戏下载基地,单机游戏下载大全中文版下载,电脑PC游戏,单机游戏专题,游侠网",
+      "slug": "https://www.ali213.net/",
+      "title": "单机游戏_单机游戏下载_单机游戏门户_游侠网"
     },
     "https://www.anaconda.com/": {
       "description": "Democratize AI innovation with the world’s most trusted open ecosystem for data science and AI development.",
@@ -589,6 +898,13 @@
       "slug": "https://www.anaconda.com/",
       "title": "Anaconda | The Operating System for AI"
     },
+    "https://www.bd-film.cc/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://www.bd-film.cc/",
+      "title": ""
+    },
     "https://www.bilibili.com/": {
       "description": "哔哩哔哩（bilibili.com)是国内知名的视频弹幕网站，这里有及时的动漫新番，活跃的ACG氛围，有创意的Up主。大家可以在这里找到许多欢乐。",
       "icon": [
@@ -606,12 +922,40 @@
       "slug": "https://www.bookstack.cn/",
       "title": "书栈网 · BookStack_程序员IT互联网开源编程书籍免费阅读，助您【码】力十足！"
     },
+    "https://www.bttwo.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://www.bttwo.com/",
+      "title": ""
+    },
     "https://www.canva.cn/": {
       "description": "在线设计协作平台Canva可画提供了海量的设计模板，涵盖海报、简历、名片、Logo、PPT、手抄报、二维码、Banner等数十种平面设计场景，更有千款中英文字体及千万张正版图片素材可供使用。精彩设计，随时随地！",
       "icon": "/favicon.ico",
       "keywords": "在线设计,平面设计,作图软件,免费设计,设计素材,Canva,可画",
       "slug": "https://www.canva.cn/",
       "title": "Canva可画_在线设计协作平台_平面设计作图软件_视觉办公套件 - Canva中文官网"
+    },
+    "https://www.che168.com/": {
+      "description": "二手车之家,汽车之家旗下二手车交易平台,最大线上二手车交易市场,专业二手车交易网,提供最新二手车报价,二手车估价,保值率查询,个人二手车发布等服务,买卖二手车就上二手车之家",
+      "icon": "/favicon.ico",
+      "keywords": "二手车之家,二手车,汽车之家二手车,二手车评估,二手车交易市场,二手车之家官网",
+      "slug": "https://www.che168.com/",
+      "title": "【二手车之家】汽车之家旗下二手车交易平台_二手车之家"
+    },
+    "https://www.deviantart.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://www.deviantart.com/",
+      "title": ""
+    },
+    "https://www.dmxq.me/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://www.dmxq.me/",
+      "title": ""
     },
     "https://www.doyo.cn/": {
       "description": "逗游网是的绿色单机游戏下载基地，提供单机游戏、网络游戏、好玩的手机游戏一键下载，自动安装，绿色安全！逗游网让您轻松玩游戏！",
@@ -664,6 +1008,13 @@
       "slug": "https://www.fastcron.com/",
       "title": "Reliable cron job service - FastCron"
     },
+    "https://www.foodwake.com/": {
+      "description": "唤醒食物 - 基于人工智能与数据可视化技术为您提供全面直观的食物营养成分与科学食疗方案。",
+      "icon": "/favicon.ico",
+      "keywords": "食物营养成分,科学食疗方案,人工智能,营养排行榜,食物酸碱性,食物对比,营养素,保健品,中草药",
+      "slug": "https://www.foodwake.com/",
+      "title": "食物营养成分与科学食疗方案 - 唤醒食物"
+    },
     "https://www.freetalen.com/": {
       "description": "上海飞援科技有限责任公司是一个为程序员、产品经理、设计提供外包兼职和企业雇佣的兼职平台，致力于提供品质可控、体验卓越的专业技术人才灵活雇佣服务。",
       "icon": "/static/pages-v2/img/logo.png",
@@ -677,6 +1028,27 @@
       "keywords": "",
       "slug": "https://www.gigarocket.net/",
       "title": "Free Web Hosting | Free Hosting with SSL Cert, JavaScript, PHP &amp; mySQL - GigaRocket"
+    },
+    "https://www.gitpod.io/": {
+      "description": "Gitpod is a cloud development environment for teams to efficiently and securely develop software. Improve your team's developer experience by coding in a CDE.",
+      "icon": "/favicon192.png",
+      "keywords": "cloud dev environment, cde, remote development, open-source, integration, coding, developer experience, automation, dev environment, devops, cloud ide, github ide, gitlab ide, online ide, web ide, code review, remote development, cloud development, ready to code, cloud development environment, devtool, platform teams",
+      "slug": "https://www.gitpod.io/",
+      "title": "Gitpod: Always ready-to-code."
+    },
+    "https://www.hacg.cat/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://www.hacg.cat/",
+      "title": ""
+    },
+    "https://www.hi2future.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://www.hi2future.com/",
+      "title": ""
     },
     "https://www.iqiyi.com/": {
       "description": "",
@@ -706,6 +1078,13 @@
       "slug": "https://www.jpysvip.net/",
       "title": ""
     },
+    "https://www.kankezw.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://www.kankezw.com/",
+      "title": ""
+    },
     "https://www.lanrenmb.com/": {
       "description": "网站模板,PPT模板,Word模板,Excle模板,视频模板,音频模板,海量精品免费素材模板下载尽在懒人模板lanrenmb.com",
       "icon": "/favicon.ico",
@@ -727,6 +1106,13 @@
       "slug": "https://www.lishichelun.com/",
       "title": "历史车轮 - 历史·数据·可视化"
     },
+    "https://www.mcool.com/": {
+      "description": "模库网专业优质商业素材免费下载！提供海量免费素材,平面海报,广告海报素材,电商海报,背景海报,电商素材,png素材,背景图片,插图插画,UI设计模板,背景模板,网页设计模板,UI素材,UI界面,app界面,ios设计,网页素材,psd海报素材,免费素材图库,样机贴图,样机素材,样机模型,设计素材下载,字体下载,图片下载,设计模板,PS素材,矢量素材,素材中国,psd模板等优质设计模板资源，为设计师减少70%加班时间",
+      "icon": "/favicon.ico",
+      "keywords": "设计,素材,图片,网站设计,设计素材,设计图片,平面设计,广告海报,广告设计,海报设计,电商设计,banner,海报,海报背景,电商素材,png素材,背景图片,插图,插画,UI设计,背景素材,网页设计,UI素材,网页素材,psd素材,免费素材,图库,字体下载,图片下载,图片素材,设计模板,PS素材,矢量素材,素材中国,矢量图,psd模板,模库网",
+      "slug": "https://www.mcool.com/",
+      "title": "模库网_中国免费设计素材图片库_优质设计模板下载网站"
+    },
     "https://www.meijutt.tv/": {
       "description": "",
       "icon": "/favicon.ico",
@@ -740,6 +1126,13 @@
       "keywords": "",
       "slug": "https://www.microsoft.com/zh-cn/software-download/",
       "title": "软件下载"
+    },
+    "https://www.muerdaohang.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://www.muerdaohang.com/",
+      "title": ""
     },
     "https://www.mvcat.com/": {
       "description": "",
@@ -776,6 +1169,13 @@
       "keywords": "",
       "slug": "https://www.openapis.org/",
       "title": "Home 2024 - OpenAPI Initiative"
+    },
+    "https://www.pinterest.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://www.pinterest.com/",
+      "title": ""
     },
     "https://www.python.org/": {
       "description": "The official home of the Python Programming Language",
@@ -840,6 +1240,34 @@
       "slug": "https://www.tecmz.com/",
       "title": "魔众软件 | 面向交付的软件提供商"
     },
+    "https://www.tokyotosho.info/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://www.tokyotosho.info/",
+      "title": ""
+    },
+    "https://www.ttbtweb.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://www.ttbtweb.com/",
+      "title": ""
+    },
+    "https://www.virustotal.com/": {
+      "description": "VirusTotal",
+      "icon": [
+        "images/favicon.svg",
+        "images/manifest/icon-48x48.png",
+        "images/manifest/icon-72x72.png",
+        "images/manifest/icon-96x96.png",
+        "images/manifest/icon-144x144.png",
+        "images/manifest/icon-192x192.png"
+      ],
+      "keywords": "",
+      "slug": "https://www.virustotal.com/",
+      "title": "VirusTotal"
+    },
     "https://www.w3cschool.cn/": {
       "description": "w3cschool启用中文品牌名--编程狮，是一个专业的W3C前端开发及编程入门学习平台，提供包括HTML,CSS,Javascript,jQuery,C,PHP,Java,Python,Sql,Mysql等编程语言和开源技术的在线教程及使用手册，是类国外w3schools的W3C学习社区及菜鸟编程平台。",
       "icon": "https://7n.w3cschool.cn/statics/images/favicon.ico?v=2.2",
@@ -882,6 +1310,13 @@
       "slug": "https://www.xl720.com/",
       "title": ""
     },
+    "https://www.yikm.net/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://www.yikm.net/",
+      "title": ""
+    },
     "https://www.yinfans.net/": {
       "description": "音范丝是一个搜集、精选的高品质电影资源网站。",
       "icon": "https://www.yinfans.me/wp-content/themes/Loos2/images/favicon.ico",
@@ -906,479 +1341,112 @@
       "slug": "https://www.zhenbuka.net/",
       "title": "真不卡影院_电影电视剧在线观看我真的不卡_我不卡影院"
     },
+    "https://www.zimutiantang.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://www.zimutiantang.com/",
+      "title": ""
+    },
+    "https://yb2q.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://yb2q.com/",
+      "title": ""
+    },
     "https://yiyan.baidu.com/": {
       "description": "",
       "icon": "https://nlp-eb.cdn.bcebos.com/logo/favicon.ico",
       "keywords": "",
       "slug": "https://yiyan.baidu.com/",
       "title": "文心一言"
-    },
-    "https://bgm.tv/": {
-      "slug": "https://bgm.tv/",
-      "title": "Bangumi 番组计划",
-      "description": "专注于动漫、音乐、游戏领域，帮助你分享、发现与结识同好的ACG网络",
-      "keywords": ",ACG,anime,comic,game,music,动漫,音乐,游戏,动画,漫画,番组,bangumi,chii,chobits",
-      "icon": ["/img/favicon.ico", "/img/ico/ico_ios.png"]
-    },
-    "https://www.bd-film.cc/": {
-      "slug": "https://www.bd-film.cc/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "http://waipian4.com/": {
-      "slug": "http://waipian4.com/",
-      "title": "歪片星球.com - 聚合全网高清影视在线观看、下载",
-      "description": "最新电影、电视剧、动漫、综艺、纪录片、预告片，实时聚合全网优质影视资源，高清1080P 4K在线观看、下载、磁力。最新网址：歪片星球.com WaiPianXingQiu.com WaiPian7.com WaiPian6.com WaiPian5.com",
-      "keywords": "电影,电视剧,综艺,动漫,VIP影视,免费视频,在线视频,预告片",
-      "icon": ["/statics/logo.png", "/statics/logo.png"]
-    },
-    "https://www.ai66.cc/": {
-      "slug": "https://www.ai66.cc/",
-      "title": "6v电影-新版",
-      "description": "6v电影-新版",
-      "keywords": "6v电影-新版",
-      "icon": "/images/favicon.ico"
-    },
-    "https://www.ttbtweb.com/": {
-      "slug": "https://www.ttbtweb.com/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "http://www.imomoe.com/": {
-      "slug": "http://www.imomoe.com/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://www.66dongman.com/": {
-      "slug": "https://www.66dongman.com/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "http://www.yxdm.tv/": {
-      "slug": "http://www.yxdm.tv/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "http://www.imomoe.in/": {
-      "slug": "http://www.imomoe.in/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "http://subs.kamigami.org/": {
-      "slug": "http://subs.kamigami.org/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://bangumi.moe/": {
-      "slug": "https://bangumi.moe/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://tel.dm5.com/": {
-      "slug": "https://tel.dm5.com/",
-      "title": "动漫屋_在线漫画_为看漫画的人而生",
-      "description": "",
-      "keywords": "漫画,在线漫画,漫画大全",
-      "icon": "https://css99tel.cdndm5.com/v202402291242/dm5/images/dm5.ico"
-    },
-    "https://www.dmxq.me/": {
-      "slug": "https://www.dmxq.me/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://www.tokyotosho.info/": {
-      "slug": "https://www.tokyotosho.info/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://yb2q.com/": {
-      "slug": "https://yb2q.com/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://www.muerdaohang.com/": {
-      "slug": "https://www.muerdaohang.com/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://shezhan.org/": {
-      "slug": "https://shezhan.org/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://t.yswc3.xyz/": {
-      "slug": "https://t.yswc3.xyz/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://www.2a5w.com/": {
-      "slug": "https://www.2a5w.com/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://seju.xyz/": {
-      "slug": "https://seju.xyz/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "http://www.gdpcbexpo.com/": {
-      "slug": "http://www.gdpcbexpo.com/",
-      "title": "一卡二卡三卡四卡日韩_花姐影视_办公室 爆乳 在线_超爽人人做人人爽",
-      "description": "一卡二卡三卡四卡日韩_花姐影视_办公室 爆乳 在线_超爽人人做人人爽",
-      "keywords": "一卡二卡三卡四卡日韩_花姐影视_办公室 爆乳 在线_超爽人人做人人爽",
-      "icon": "/favicon.ico",
-      "status": "private"
-    },
-    "https://hao.uisdc.com/": {
-      "slug": "https://hao.uisdc.com/",
-      "title": "优设导航官网 - 设计导航 - 国内专业设计师网站导航",
-      "description": "设计导航2013年上线至今，是优设网旗下最专业好用的设计师导航网站！设计导航为设计师提供AI创作、UI设计、设计教程、素材下载、高清图库、App设计、网页设计等设计网站导航指引。设计导航每周更新，设计风向标就看优设网！",
-      "keywords": "",
-      "icon": [
-        "https://www.uisdc.com/favicon.ico",
-        "https://image.uisdc.com/wp-content/uploads/2018/05/uisdc-ico-apple.jpg",
-        "https://image.uisdc.com/wp-content/uploads/2018/05/uisdc-ico-apple.jpg",
-        "https://image.uisdc.com/wp-content/uploads/2018/05/uisdc-ico-apple.jpg",
-        "https://image.uisdc.com/wp-content/uploads/2018/05/uisdc-ico-apple.jpg",
-        "https://image.uisdc.com/wp-content/uploads/2018/05/uisdc-ico-apple.jpg"
-      ]
-    },
-    "https://iogames.space/": {
-      "slug": "https://iogames.space/",
-      "title": "io Games - Play on iogames.space | iogames.space",
-      "description": "Play all the best .io games like Surviv.io, Slither.io, Krunker.io and Moomoo. Games are updated daily and are fully unblocked.",
-      "keywords": "io games, .io games",
-      "icon": [
-        "/images/app/favicon-16.png",
-        "/images/app/xfavicon-32.png.pagespeed.ic.r2huUS8H83.png",
-        "/images/app/xfavicon-48.png.pagespeed.ic.jlwY62tFFl.png",
-        "/images/app/favicon-48.png",
-        "/images/app/xicon-128.png.pagespeed.ic._OgBmnPit_.jpg",
-        "/images/app/xicon-192.png.pagespeed.ic._BWdQrXv-5.jpg",
-        "/images/app/xicon-76.png.pagespeed.ic.MGUiDPi-eb.jpg",
-        "/images/app/xicon-76.png.pagespeed.ic.MGUiDPi-eb.jpg",
-        "/images/app/xicon-120.png.pagespeed.ic.eJDrtGEvUP.jpg",
-        "/images/app/xicon-152.png.pagespeed.ic.JAeUtV5W2-.jpg"
-      ]
-    },
-    "http://www.jqueryfuns.com/": {
-      "slug": "http://www.jqueryfuns.com/",
-      "title": "后台模板,html响应式模板,jquery特效 - jQueryfuns",
-      "description": "jQueryfuns致力于为前端爱好者提供优质的后台模板、网页特效、jquery特效、html网页模板，打造一个高品质的前端模板和特效代码分享平台。",
-      "keywords": "jquery特效,响应式模板,网站模板",
-      "icon": "/favicon.ico"
-    },
-    "https://sc.chinaz.com/jiaoben/": {
-      "slug": "https://sc.chinaz.com/jiaoben/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://www.deviantart.com/": {
-      "slug": "https://www.deviantart.com/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://www.pinterest.com/": {
-      "slug": "https://www.pinterest.com/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://www.zimutiantang.com/": {
-      "slug": "https://www.zimutiantang.com/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://www.51kim.com/": {
-      "slug": "https://www.51kim.com/",
-      "title": "氪主页 - 主页如此惊艳",
-      "description": "精雕细琢每一像素、只为让您拥有一个体面的浏览器主页。除此之外，再无其他。",
-      "keywords": "kim主页,kim导航,kim起始页,kim,氪主页,51kim,kim电脑版,国外网站,国外网址,网站大全,网址导航,浏览器主页,主页如此惊艳,简洁浏览器主页",
-      "icon": "/favicon.ico"
-    },
-    "https://www.mcool.com/": {
-      "slug": "https://www.mcool.com/",
-      "title": "模库网_中国免费设计素材图片库_优质设计模板下载网站",
-      "description": "模库网专业优质商业素材免费下载！提供海量免费素材,平面海报,广告海报素材,电商海报,背景海报,电商素材,png素材,背景图片,插图插画,UI设计模板,背景模板,网页设计模板,UI素材,UI界面,app界面,ios设计,网页素材,psd海报素材,免费素材图库,样机贴图,样机素材,样机模型,设计素材下载,字体下载,图片下载,设计模板,PS素材,矢量素材,素材中国,psd模板等优质设计模板资源，为设计师减少70%加班时间",
-      "keywords": "设计,素材,图片,网站设计,设计素材,设计图片,平面设计,广告海报,广告设计,海报设计,电商设计,banner,海报,海报背景,电商素材,png素材,背景图片,插图,插画,UI设计,背景素材,网页设计,UI素材,网页素材,psd素材,免费素材,图库,字体下载,图片下载,图片素材,设计模板,PS素材,矢量素材,素材中国,矢量图,psd模板,模库网",
-      "icon": "/favicon.ico"
-    },
-    "http://clm2.info/": {
-      "slug": "http://clm2.info/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://www.gitpod.io/": {
-      "slug": "https://www.gitpod.io/",
-      "title": "Gitpod: Always ready-to-code.",
-      "description": "Gitpod is a cloud development environment for teams to efficiently and securely develop software. Improve your team's developer experience by coding in a CDE.",
-      "keywords": "cloud dev environment, cde, remote development, open-source, integration, coding, developer experience, automation, dev environment, devops, cloud ide, github ide, gitlab ide, online ide, web ide, code review, remote development, cloud development, ready to code, cloud development environment, devtool, platform teams",
-      "icon": "/favicon192.png"
-    },
-    "https://jsrun.net/": {
-      "slug": "https://jsrun.net/",
-      "title": "小闪电 - JSRUN可以用手机写代码的JS在线编辑器网站",
-      "description": "JSRUN是一款支持手机编程的在线编辑器, 支持40多种语言的在线运行工具,js/C语言/java/python/nodejs/c++/c#/vb/F#,js代码在线测试调试运行,支持vue.js的在线运行编辑器 、ipad编程js编辑器\\ js在线运行工具, 支持ES6开发，JSRUN拥有功能强大的在线运行编辑器、JS在线运行编辑器、CSS在线运行编辑器，永久免费保存开源js源码",
-      "keywords": "JS在线编辑器，JSRUN在线运行,ipad编程,手机编程,在线javascript代码编辑器 , js代码在线测试调试, 在线js调试运行,js运行工具,  Javascript在线测试调试，VUE在线测试调试，ES6在线测试调试运行，jsfiddle,codepen,scrimba,html, css,  jquery,scss在线编辑, jsfiddle国内类似",
-      "icon": "//cdns.jsrun.net/favicon.png"
-    },
-    "https://www.bttwo.com/": {
-      "slug": "https://www.bttwo.com/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://shadiao.plus/": {
-      "slug": "https://shadiao.plus/",
-      "title": "沙雕普拉斯 | 沙雕新闻 我们不生产段子，我们只是沙雕新闻的搬运工",
-      "description": "沙雕普拉斯 | 沙雕新闻 我们不生产段子，我们只是沙雕新闻的搬运工",
-      "keywords": "",
-      "icon": [
-        "https://shadiao.plus/wp-content/uploads/2020/02/cropped-80582a6c13665edcd8ddb65505b883fb.png",
-        "https://shadiao.plus/wp-content/uploads/2020/02/cropped-80582a6c13665edcd8ddb65505b883fb.png",
-        "https://shadiao.plus/wp-content/uploads/2020/02/cropped-80582a6c13665edcd8ddb65505b883fb.png"
-      ]
-    },
-    "https://monitor.firefox.com/": {
-      "slug": "https://monitor.firefox.com/",
-      "title": "Mozilla Monitor",
-      "description": "Find out if you’ve been part of a data breach with ⁨Mozilla Monitor⁩. We’ll help you understand what to do next and continuously monitor for any new breaches.",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://www.virustotal.com/": {
-      "slug": "https://www.virustotal.com/",
-      "title": "VirusTotal",
-      "description": "VirusTotal",
-      "keywords": "",
-      "icon": [
-        "images/favicon.svg",
-        "images/manifest/icon-48x48.png",
-        "images/manifest/icon-72x72.png",
-        "images/manifest/icon-96x96.png",
-        "images/manifest/icon-144x144.png",
-        "images/manifest/icon-192x192.png"
-      ]
-    },
-    "https://photomosh.com/": {
-      "slug": "https://photomosh.com/",
-      "title": "PhotoMosh",
-      "description": "Unlimited creative realtime effects for image and video. Distort images, videos or webcam using creative effects. Free and easy to use. Save output as image, gif or video.",
-      "keywords": "",
-      "icon": ["/favicon.svg", "/favicon.png", "/favicon.ico"]
-    },
-    "https://simpleicons.org/": {
-      "slug": "https://simpleicons.org/",
-      "title": "Simple Icons",
-      "description": "3162 Free SVG icons for popular brands",
-      "keywords": "",
-      "icon": [
-        "https://simpleicons.org/images/favicon.ico",
-        "https://simpleicons.org/images/favicon.png",
-        "https://simpleicons.org/images/apple-touch-icon.png",
-        "https://simpleicons.org/images/logo.svg"
-      ]
-    },
-    "https://www.kankezw.com/": {
-      "slug": "https://www.kankezw.com/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "http://www.xinggan17.com/": {
-      "slug": "http://www.xinggan17.com/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://www.ali213.net/": {
-      "slug": "https://www.ali213.net/",
-      "title": "单机游戏_单机游戏下载_单机游戏门户_游侠网",
-      "description": "游侠网为单机游戏玩家提供最新单机游戏业界动态、国内外单机游戏下载、单机游戏补丁、单机游戏攻略秘籍、单机游戏专题等内容。坚守单机阵地，弘扬单机文化！",
-      "keywords": "单机游戏,单机游戏下载,单机游戏门户,单机游戏新闻评测,单机游戏补丁,单机游戏攻略秘籍,单机游戏排行榜,单机游戏下载基地,单机游戏下载大全中文版下载,电脑PC游戏,单机游戏专题,游侠网",
-      "icon": "/favicon.ico"
-    },
-    "https://www.hacg.cat/": {
-      "slug": "https://www.hacg.cat/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "http://www.qihuys8.cc/": {
-      "slug": "http://www.qihuys8.cc/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://overapi.com/": {
-      "slug": "https://overapi.com/",
-      "title": "OverAPI.com | Collecting all the cheat sheets",
-      "description": "OverAPI.com is a site collecting all the cheatsheets,all!",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://1s1k.eduyun.cn/": {
-      "slug": "https://1s1k.eduyun.cn/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://seaside-station.com/": {
-      "slug": "https://seaside-station.com/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://du.shadiao.app/": {
-      "slug": "https://du.shadiao.app/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://www.hi2future.com/": {
-      "slug": "https://www.hi2future.com/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://www.yikm.net/": {
-      "slug": "https://www.yikm.net/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "http://www.secaibi.com/": {
-      "slug": "http://www.secaibi.com/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "http://oeasy.org/": {
-      "slug": "http://oeasy.org/",
-      "title": "oeasy,会玩才会学",
-      "description": "",
-      "keywords": "",
-      "icon": "http://oeasy.org/favicon.ico"
-    },
-    "https://icons8.com/": {
-      "slug": "https://icons8.com/",
-      "title": "Free Icons, Clipart Illustrations, Photos, and Music",
-      "description": "Download design elements for free: icons, photos, vector illustrations, and music for your videos. All the assets made by designers → consistent quality ⚡️",
-      "keywords": "",
-      "icon": "https://maxst.icons8.com/vue-static/landings/primary-landings/favs/icons8_fav_32×32.png"
-    },
-    "https://www.foodwake.com/": {
-      "slug": "https://www.foodwake.com/",
-      "title": "食物营养成分与科学食疗方案 - 唤醒食物",
-      "description": "唤醒食物 - 基于人工智能与数据可视化技术为您提供全面直观的食物营养成分与科学食疗方案。",
-      "keywords": "食物营养成分,科学食疗方案,人工智能,营养排行榜,食物酸碱性,食物对比,营养素,保健品,中草药",
-      "icon": "/favicon.ico"
-    },
-    "https://www.che168.com/": {
-      "slug": "https://www.che168.com/",
-      "title": "【二手车之家】汽车之家旗下二手车交易平台_二手车之家",
-      "description": "二手车之家,汽车之家旗下二手车交易平台,最大线上二手车交易市场,专业二手车交易网,提供最新二手车报价,二手车估价,保值率查询,个人二手车发布等服务,买卖二手车就上二手车之家",
-      "keywords": "二手车之家,二手车,汽车之家二手车,二手车评估,二手车交易市场,二手车之家官网",
-      "icon": "/favicon.ico"
-    },
-    "https://libgen.unblockit.how/": {
-      "slug": "https://libgen.unblockit.how/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "https://blog.iacg.site/": {
-      "slug": "https://blog.iacg.site/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
-    },
-    "http://www.zandedy.com/": {
-      "slug": "http://www.zandedy.com/",
-      "title": "",
-      "description": "",
-      "keywords": "",
-      "icon": "/favicon.ico"
     }
   },
   "langnang.github.io": [],
   "tags": {
-    "application": { "name": "应用", "slug": "application", "type": "tag" },
-    "audio": { "name": "音频", "slug": "audio", "type": "tag" },
-    "book": { "name": "书册", "slug": "book", "type": "tag" },
-    "comic": { "name": "漫画", "slug": "comic", "type": "tag" },
-    "game": { "name": "游戏", "slug": "game", "type": "tag" },
-    "market": { "name": "市场", "slug": "market", "type": "tag" },
-    "novel": { "name": "小说", "slug": "novel", "type": "tag" },
-    "platform": { "name": "平台", "slug": "platform", "type": "tag" },
-    "project": { "name": "项目", "slug": "project", "type": "tag" },
-    "shop": { "name": "商场", "slug": "shop", "type": "tag" },
-    "software": { "name": "软件", "slug": "software", "type": "tag" },
-    "video": { "name": "视频", "slug": "video", "type": "tag" }
+    "application": {
+      "name": "应用",
+      "slug": "application",
+      "type": "tag"
+    },
+    "audio": {
+      "name": "音频",
+      "slug": "audio",
+      "type": "tag"
+    },
+    "book": {
+      "name": "书册",
+      "slug": "book",
+      "type": "tag"
+    },
+    "comic": {
+      "name": "漫画",
+      "slug": "comic",
+      "type": "tag"
+    },
+    "game": {
+      "name": "游戏",
+      "slug": "game",
+      "type": "tag"
+    },
+    "market": {
+      "name": "市场",
+      "slug": "market",
+      "type": "tag"
+    },
+    "novel": {
+      "name": "小说",
+      "slug": "novel",
+      "type": "tag"
+    },
+    "platform": {
+      "name": "平台",
+      "slug": "platform",
+      "type": "tag"
+    },
+    "project": {
+      "name": "项目",
+      "slug": "project",
+      "type": "tag"
+    },
+    "shop": {
+      "name": "商场",
+      "slug": "shop",
+      "type": "tag"
+    },
+    "software": {
+      "name": "软件",
+      "slug": "software",
+      "type": "tag"
+    },
+    "video": {
+      "name": "视频",
+      "slug": "video",
+      "type": "tag"
+    }
   },
   "webnav.22web.org": {
     "active": "",
     "contents": [],
     "metas": [],
     "navs": [
-      { "title": "常用类", "type": "category" },
-      { "title": "工具类", "type": "category" },
-      { "title": "生活类", "type": "category" },
-      { "title": "娱乐类", "type": "category" }
+      {
+        "title": "常用类",
+        "type": "category"
+      },
+      {
+        "title": "工具类",
+        "type": "category"
+      },
+      {
+        "title": "生活类",
+        "type": "category"
+      },
+      {
+        "title": "娱乐类",
+        "type": "category"
+      }
     ]
   }
 }
