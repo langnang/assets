@@ -1,51 +1,575 @@
 {
   "contents": {
-    "http://jsoneditoronline.cn": {},
-    "http://jupyter.org": {},
-    "http://packagist.p2hp.com": {},
-    "http://rutracker.org": {},
-    "http://www.02516.com/bt": {},
-    "http://www.banshujiang.cn": {},
-    "http://www.mtime.com": {},
-    "https://app.netlify.com": {},
-    "https://cheatography.com": {},
-    "https://conda-forge.org": {},
-    "https://gist.github.com": {},
-    "https://github.com": {},
-    "https://huamao.vip": {},
-    "https://jikbook.com": {},
-    "https://jsoncrack.com": {},
-    "https://learnku.com": {},
-    "https://mock.mengxuegu.com": {},
-    "https://msdn.itellyou.cn": {},
-    "https://pypi.org": {},
-    "https://sourceforge.net": {},
-    "https://www.a5xiazai.com": {},
-    "https://www.anaconda.com": {},
-    "https://www.book123.info": {},
-    "https://www.bookstack.cn": {},
-    "https://www.emojiall.com/zh-hans": {},
-    "https://www.jb51.net": {},
-    "https://www.microsoft.com/zh-cn/software-download": {},
-    "https://www.npmjs.com": {},
-    "https://www.openapis.org": {},
-    "https://www.python.org": {},
-    "https://www.soushu.vip": {},
-    "https://www.taolinks.cc/s": {},
-    "https://www.webfx.com/tools/emoji-cheat-sheet": {},
-    "https://www.52pojie.cn": {},
-    "https://unpkg.com": {},
-    "https://supabase.com": {},
-    "https://www.lishichelun.com": {},
-    "https://www.tecmz.com": {},
-    "https://www.ruiwen.com": {},
-    "https://shu.ziyuandi.cn": {},
-    "https://www.36jxs.com": {},
-    "https://www.easycron.com": {},
-    "https://app.fastcron.com": {},
-    "https://www.66ss.org": {}
+    "http://jsoneditoronline.cn/": {
+      "description": "JSON Editor Online is a web-based tool to view, edit, and format JSON. It shows your data side by side in a clear, editable treeview and in a code editor.",
+      "icon": "/favicon.ico",
+      "keywords": "json, editor, formatter, online, format, parser, json editor, json editor online, online json editor, javascript, javascript object notation, tools, tool, json tools, treeview, open source, free, json parser, json parser online, json formatter, json formatter online, online json formatter, online json parser, format json online",
+      "title": "JSON Editor Online (JSON在线编辑器) - view, edit and format JSON online"
+    },
+    "http://jupyter.org/": {
+      "description": "The Jupyter Notebook is a web-based interactive computing platform. The notebook combines live code, equations, narrative text, visualizations, interactive dashboards and other media.",
+      "icon": [
+        "/favicon.ico",
+        "/assets/favicons/apple-touch-icon-152x152.png",
+        "/assets/favicons/apple-touch-icon-120x120.png",
+        "/assets/favicons/apple-touch-icon-152x152.png",
+        "/assets/favicons/apple-touch-icon-180x180.png",
+        "/assets/favicons/apple-touch-icon-167x167.png"
+      ],
+      "keywords": "",
+      "title": "Project Jupyter | Home"
+    },
+    "http://packagist.p2hp.com/": {
+      "description": "Packagist中文网 PHP软件包仓库",
+      "icon": "/favicon.ico?v=",
+      "keywords": "",
+      "title": "Packagist中文网"
+    },
+    "http://rutracker.org/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "title": ""
+    },
+    "http://www.02516.com/bt/": {
+      "description": "我要乐网址导航：实用网址大全，您的上网导航助手。精心收集优质BT下载网站信息与BT下载网址大全，提供BT下载网站 影视资源BT下载 动漫BT下载 网盘磁力链接搜索 BT磁力下载软件 等分类网址导航服务，已被众多网友设为上网主页。网址之家，首选我要乐网址大全。",
+      "icon": "/favicon.ico",
+      "keywords": "BT,BT网站,BT网站大全,BT下载,BT之家,BT天堂,电影天堂,磁力下载,磁力链接,磁力搜索,BT资源网,影视资源BT,网盘磁力连接,网址导航,网址大全,网址之家,上网主页,实用网址大全,上网导航,上网导航助手,实用查询工具,精品网址",
+      "title": "BT网站大全_BT下载_BT之家_BT电影天堂_磁力搜索_网盘磁力链接下载_BT影视资源网_我要乐网址导航"
+    },
+    "http://www.banshujiang.cn/": {
+      "description": "",
+      "icon": "http://image.banshujiang.cn/favicon.ico",
+      "keywords": "",
+      "title": "[搬书匠] - 电子书(EBook)"
+    },
+    "http://www.mtime.com/": {
+      "description": "时光快讯  时光策划 时光对话 院线热映 即将上映 今日热点 产业聚焦 今日推荐 新片预告 时光热度排名 热门影评 好片连连看 时光TOP100",
+      "icon": [
+        "http://static1.mtime.cn/favicon.ico",
+        "http://static1.mtime.cn/favicon.ico"
+      ],
+      "keywords": "时光快讯,时光策划, 时光对话, 院线热映 ,即将上映, 今日热点, 产业聚焦, 今日推荐, 新片预告, 时光热度排名, 热门影评 ,好片连连看, 时光TOP100",
+      "title": "Mtime时光网：让电影遇见生活"
+    },
+    "http://www.youdao.com/": {
+      "description": "网易有道是中国领先的智能学习公司，致力于提供100%以用户为导向的学习产品和服务。有道成立于2006年，打造了一系列深受用户喜欢的口碑型大众学习工具产品，例如：网易有道词典、有道精品课、有道翻译官、有道云笔记等。2014年，网易有道宣布正式进军互联网教育行业。2018年4月，网易有道完成首次战略融资，投后估值11.2亿美金，跻身独角兽阵营。2019年10月，网易有道成功登陆纽交所，股票代码为“DAO”，成为网易集团首个独立上市的公司。",
+      "icon": "https://shared-https.ydstatic.com/images/favicon.ico",
+      "keywords": "有道, 搜索, 词典, 翻译, 云笔记, 笔记, 惠惠网, 惠惠购物助手, 购物搜索, 图片搜索, 视频搜索, 新闻搜索, 网易有道, 在线翻译, 专业翻译",
+      "title": "网易有道"
+    },
+    "https://app.fastcron.com/": {
+      "description": "FastCron",
+      "icon": "/rush.png",
+      "keywords": "setcronjob, fastcron",
+      "title": "Log in"
+    },
+    "https://app.gitbook.com/": {
+      "description": "GitBook",
+      "icon": [
+        "/public/images/icon-512.png",
+        "/public/images/icon-512-dark.png",
+        "/public/images/icon-ios/icon_512x512.png",
+        "/public/images/icon-ios/icon_512x512@2x.png"
+      ],
+      "keywords": "",
+      "title": "GitBook"
+    },
+    "https://app.netlify.com/": {
+      "description": "Start building the best web experiences in record time",
+      "icon": [
+        "https://www.netlify.com/v3/static/favicon/apple-touch-icon.png",
+        "/favicon.ico",
+        "/favicon-16x16.png",
+        "/favicon-32x32.png",
+        "/favicon-48x48.png"
+      ],
+      "keywords": "",
+      "title": "Netlify"
+    },
+    "https://carbon.now.sh/": {
+      "description": "Carbon is the easiest way to create and share beautiful images of your source code.",
+      "icon": ["/favicon.ico", "/static/brand/apple-touch-icon.png"],
+      "keywords": "",
+      "title": "Carbon | Create and share beautiful images of your source code"
+    },
+    "https://cheatography.com/": {
+      "description": "Find thousands of incredible, original programming cheat sheets, all free to download.",
+      "icon": ["favicon.png", "/images/cheatography-iphone.png"],
+      "keywords": "",
+      "title": "Download Free Cheat Sheets or Create Your Own! - Cheatography.com: Cheat Sheets For Every Occasion"
+    },
+    "https://chrome.zzzmh.cn/#/index": {
+      "description": "极简插件是一个优质Chrome插件下载商店，收录热门好用的Chrome插件扩展，国内最方便的Chrome插件下载网站。一键下载谷歌扩展插件，无套路下载插件。",
+      "icon": ["/favicon.ico", "/public/img/store_128.png"],
+      "keywords": "极简插件,极简插件官网,极简插件网站,极简插件商店,chrome浏览器插件下载,chrome插件下载,chrome插件商店,chrome扩展下载,chrome扩展商店,chrome插件商店,chrome插件下载,谷歌极简插件,谷歌插件,谷歌插件下载,插件下载网站,chrome 插件,浏览器插件商店,插件下载安装,极简扩展,浏览器插件市场,chrome扩展商店,chrome插件,crx插件,crx",
+      "title": "极简插件官网_Chrome插件下载_Chrome浏览器应用商店"
+    },
+    "https://codepen.io/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "title": "Just a moment..."
+    },
+    "https://codesandbox.io/": {
+      "description": "CodeSandbox is a cloud development platform that empowers developers to code, collaborate and ship projects of any size from any device in record time.",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "title": "CodeSandbox: Instant Cloud Development Environments"
+    },
+    "https://conda-forge.org/": {
+      "description": "",
+      "icon": "/img/favicon.ico",
+      "keywords": "",
+      "title": "conda-forge | community-driven packaging for conda"
+    },
+    "https://dillinger.io/": {
+      "description": "Dillinger is an online cloud based HTML5 filled\n  Markdown Editor. Sync with Dropbox, Github, Google Drive or OneDrive.\n  Convert HTML to Markdown. 100% Open Source!",
+      "icon": "apple-touch-icon.png",
+      "keywords": "Markdown, Dillinger, Editor, ACE, Github, Open Source, Node.js",
+      "title": "Online Markdown Editor - Dillinger, the Last Markdown Editor ever."
+    },
+    "https://docs.qq.com/": {
+      "description": "腾讯文档是一款可多人协作的在线文档，可同时编辑Word、Excel和PPT文档，云端实时保存。可针对QQ、微信好友设置文档访问、编辑权限，支持多种版本Word、Excel和PPT文档模板。",
+      "icon": [
+        "https://docs.idqqimg.com/tim/docs/desktop/favicon.ico",
+        "https://docs.idqqimg.com/tim/docs/desktop/favicon.ico"
+      ],
+      "keywords": "腾讯文档,在线编辑,办公文档,协同编辑,多人协作",
+      "title": "腾讯文档-官方网站-支持多人在线编辑Word、Excel和PPT文档"
+    },
+    "https://ebookfoundation.github.io/free-programming-books/books/free-programming-books-zh.html": {
+      "description": ":books: Freely available programming books",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "title": "目录 | free-programming-books"
+    },
+    "https://factory.methodot.com/": {
+      "description": "Methodot提供开箱即用的研发、部署工具，与云原生容器运行环境，前端/API/数据库低代码开发能力，融合低代码开发与传统开发模式，在线IDE开发环境，支持在线编码，一键部署。是适用于专业研发团队与技术爱好者的新一代研发空间。",
+      "icon": "/favicon.ico",
+      "keywords": "Methodot,行云趣码,云原生,低代码,在线开发",
+      "title": "Methodot"
+    },
+    "https://flatuicolors.com/": {
+      "description": "280 handpicked colors ready for COPY & PASTE",
+      "icon": "static/favicon.ico",
+      "keywords": "",
+      "title": "Flat UI Colors 2 - 14 Color Palettes, 280 colors 🎨"
+    },
+    "https://gallerix.asia/": {
+      "description": "★ RuNet最大和最受欢迎的关于绘画的专题网站。 超过4万名艺术家，从我们同时代的人到已经熟知的老主人。 来自私人收藏和世界上最好的博物馆的50多万幅画作。 巨型虚拟博物馆Gallerix全天开放，无需休息，入场免费，欢迎您光临！",
+      "icon": ["/apple-touch-icon.png", "/favicon.ico"],
+      "keywords": "",
+      "title": "绘画和绘画 – 加勒里克斯在线博物馆"
+    },
+    "https://gist.github.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "title": ""
+    },
+    "https://github.com/": {
+      "description": "GitHub is where over 100 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and features, power your CI/CD and DevOps workflows, and secure code before you commit it.",
+      "icon": [
+        "https://github.com/fluidicon.png",
+        "https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg",
+        "https://github.githubassets.com/favicons/favicon.png",
+        "https://github.githubassets.com/favicons/favicon.svg"
+      ],
+      "keywords": "",
+      "title": "GitHub: Let’s build from here · GitHub"
+    },
+    "https://huamao.vip/": {
+      "description": "花猫导航收录了设计师、日常办公、二次元、电商、学习教程、辅助工具等领域优质网站或服务，并结合收录了以相关网站或服务的教程类、科普类和资讯类的文章，为广大用户提供高效率的上网导航服务。",
+      "icon": "https://huamao.vip/app/v/daohang/ui/img/favicon.ico",
+      "keywords": "花猫导航,网址导航,网站大全,设计导航,设计师导航,办公导航,二次元导航,ACG导航,学习导航,站长导航,电商导航,摸鱼导航,变现导航",
+      "title": "花猫导航 - 实用网站大全导航，尽在huamao.vip"
+    },
+    "https://jikbook.com/": {
+      "description": "IT电子书大全，IT电子书PDF下载，免费IT资料课程",
+      "icon": "/favicon.ico",
+      "keywords": "IT电子书下载,IT电子书PDF,python电子书下载,IT图书下载,IT图书PDF下载,计算机图书下载",
+      "title": "极客图书大全-计算机书籍pdf电子书下载 免费IT资料课程"
+    },
+    "https://jsoncrack.com/": {
+      "description": "JSON Crack Editor is a tool for visualizing into graphs, analyzing, editing, formatting, querying, transforming and validating JSON, CSV, YAML, XML, and more.",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "title": "JSON Crack | Transform your data into interactive graphs"
+    },
+    "https://learnku.com/": {
+      "description": "专为终身学习者定制的编程知识社区",
+      "icon": "https://cdn.learnku.com/uploads/images/201901/27/1/jdor3lMsMw.png!/both/44x44",
+      "keywords": "Laravel,Go,PHP,Python,Vue.js,Java,MySQL,Rust,LK,Elasticsearch,程序员,F2E 前端,Server,Database,DevTools,Computer Science,手机开发,AdonisJS",
+      "title": "LearnKu 终身编程者的知识社区"
+    },
+    "https://mock.mengxuegu.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "title": "Easy Mock"
+    },
+    "https://msdn.itellyou.cn/": {
+      "description": "MSDN, 我告诉你",
+      "icon": "/favicon.ico",
+      "keywords": "MSDN,我告诉你",
+      "title": "MSDN, 我告诉你 - 做一个安静的工具站"
+    },
+    "https://picular.co/": {
+      "description": "Picular is a rocket fast primary color generator using Google’s image search. If you ever needed the perfect yellow hex code from a banana, this is the tool for you.",
+      "icon": "/apple-touch-icon.png",
+      "keywords": "",
+      "title": "Picular"
+    },
+    "https://pypi.org/": {
+      "description": "The Python Package Index (PyPI) is a repository of software for the Python programming language.",
+      "icon": "/static/images/favicon.35549fe8.ico",
+      "keywords": "",
+      "title": "PyPI · The Python Package Index"
+    },
+    "https://ray.so/": {
+      "description": "Turn your code into beautiful images. Choose from a range of syntax colors, hide or show the background, and toggle between a dark and light window.",
+      "icon": "/favicon.ico",
+      "keywords": "generate, create, convert, source, code, snippet, image, picture, share, export",
+      "title": "Create beautiful images of your code"
+    },
+    "https://regex101.com/": {
+      "description": "Regular expression tester with syntax highlighting, explanation, cheat sheet for PHP/PCRE, Python, GO, JavaScript, Java, C#/.NET, Rust.",
+      "icon": [
+        "/static/assets/icon-57.png",
+        "/static/assets/icon-60.png",
+        "/static/assets/icon-72.png",
+        "/static/assets/icon-76.png",
+        "/static/assets/icon-114.png",
+        "/static/assets/icon-120.png",
+        "/static/assets/icon-144.png",
+        "/static/assets/icon-152.png",
+        "/static/assets/icon-180.png",
+        "/static/assets/favicon.ico",
+        "/static/assets/icon-16.png",
+        "/static/assets/icon-32.png",
+        "/static/assets/icon-96.png",
+        "/static/assets/icon-192.png"
+      ],
+      "keywords": "regex,regex tester,regular expression,debugger,pcre,php,golang,java,javascript,python,.net,c#,rust",
+      "title": "regex101: build, test, and debug regex"
+    },
+    "https://regexr.com/": {
+      "description": "Regular expression tester with syntax highlighting, PHP / PCRE & JS Support, contextual help, cheat sheet, reference, and searchable community patterns.",
+      "icon": [
+        "/assets/icons/apple-touch-icon.png?1",
+        "/assets/icons/favicon-32x32.png?1",
+        "/assets/icons/favicon-16x16.png?1",
+        "/assets/icons/safari-pinned-tab.svg?1",
+        "/assets/icons/favicon.ico?1"
+      ],
+      "keywords": "",
+      "title": "RegExr: Learn, Build, &amp; Test RegEx"
+    },
+    "https://shu.ziyuandi.cn/": {
+      "description": "资源帝电子书在这里发现更多好书...",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "title": "资源帝电子书导航_在这里发现更多好书..."
+    },
+    "https://sourceforge.net/": {
+      "description": "SourceForge is the complete software discovery platform. SourceForge provides business software reviews and comparisons, and features the largest business software directory, as well as free & fast open source software downloads and development.",
+      "icon": [
+        "//a.fsdn.com/con/img/sandiego/logo-180x180.png",
+        "//a.fsdn.com/con/img/sandiego/svg/originals/sf-icon-orange-no_sf.svg",
+        "//a.fsdn.com/con/img/sandiego/logo-180x180.png",
+        "//a.fsdn.com/con/img/sandiego/svg/originals/sf-icon-orange-no_sf.svg"
+      ],
+      "keywords": "Software, Business Software, Compare Software, Download Software, Open Source, Open Source Software, Development, Community, Source Code, Secure, Downloads, Free Software",
+      "title": "Compare, Download &amp; Develop Open Source &amp; Business Software - SourceForge"
+    },
+    "https://speedpdf.com/": {
+      "description": "Speedpdf allows you to easily convert and edit all PDF files. Provide online convert PDF, PDF conversion to Word, Word to PDF, PPT to PDF, PDF compression and other free online converter services. Convert documents in batches at the same time, realizing one-click easy conversion. Safe and fast, no installation required, completely free, Support Windows, Mac, iPhone, Android, iPad, Pad, Linux and other operating systems!",
+      "icon": "/favicon.ico",
+      "keywords": "Converter PDF to Word, PDF to Word online, Word to PDF, Convert PDF, PDF free compression, PDF free converter",
+      "title": "Speedpdf - Provide free PDF Convertor, Editor, Reader, Download, Share service platform!"
+    },
+    "https://speedpdf.com/zh-cn/": {
+      "description": "Speedpdf让您轻松转换和编辑所有PDF文件的。提供在线PDF转换，PDF转换成Word，Word转换成PDF，PPT转换成PDF，PDF压缩等多种电子文档格式免费在线转换器服务。同时还可批量转换文档，实现一键轻松转换。安全极速、无需安装、完全免费，支持Windows、Mac、iPhone、Android、iPad、Pad、Linux等操作系统！",
+      "icon": "/favicon.ico",
+      "keywords": "PDF转换成Word转换器, PDF转Word在线, 在线Word转PDF, 在线Word转PDF转换器, PDF免费压缩, PDF免费转换器",
+      "title": "Speedpdf - 提供免费PDF转换器、编辑器、阅读器、下载、分享的服务平台！"
+    },
+    "https://supabase.com/": {
+      "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
+      "icon": [
+        "/favicon/apple-icon-57x57.png",
+        "/favicon/apple-icon-60x60.png",
+        "/favicon/apple-icon-72x72.png",
+        "/favicon/apple-icon-76x76.png",
+        "/favicon/apple-icon-114x114.png",
+        "/favicon/apple-icon-120x120.png",
+        "/favicon/apple-icon-144x144.png",
+        "/favicon/apple-icon-152x152.png",
+        "/favicon/favicon-16x16.png",
+        "/favicon/favicon-32x32.png",
+        "/favicon/favicon-48x48.png",
+        "/favicon/favicon-96x96.png",
+        "/favicon/favicon-128.png",
+        "/favicon/favicon-180x180.png",
+        "/favicon/favicon-196x196.png",
+        "/favicon/favicon.ico",
+        "/favicon/favicon.ico",
+        "/favicon/favicon.ico"
+      ],
+      "keywords": "",
+      "title": "Supabase | The Open Source Firebase Alternative"
+    },
+    "https://tinypng.com/": {
+      "description": "",
+      "icon": [
+        "https://tinypng.com/images/favicon.ico",
+        "https://tinypng.com/images/apple-touch-icon.png"
+      ],
+      "keywords": "",
+      "title": "TinyPNG – Compress WebP, PNG and JPEG images intelligently"
+    },
+    "https://uiverse.io/": {
+      "description": "Library of free and customizable UI elements made with CSS or Tailwind. It's all open-source, and it's all free. Try it out to save you many hours spent on building & customizing UI components for your next project.",
+      "icon": [
+        "/favicon-32x32.png",
+        "/favicon-16x16.png",
+        "/apple-touch-icon.png",
+        "/android-chrome-512x512.png",
+        "/android-chrome-256x256.png"
+      ],
+      "keywords": "",
+      "title": "Explore 3000+ Free UI Elements: CSS &amp; Tailwind"
+    },
+    "https://unpkg.com/": {
+      "description": "The CDN for everything on npm",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "title": "UNPKG"
+    },
+    "https://www.36jxs.com/": {
+      "description": "36解析式工具箱是一个功能强大的在线实用工具查询网，为用户提供各种实用的查询与计算工具等。不论您是需要查询汉语字典、笔顺、组词、造句、成语、近义词、反义词、英文单词、缩写、谜语等，还是需要查询身份证归属地、机场三字码、世界港口等信息，36解析式工具箱都能满足您的需求。",
+      "icon": "/favicon.ico",
+      "keywords": "在线工具,实用查询,站长工具,实用工具,生活工具",
+      "title": "36解析式工具箱-在线实用工具查询网"
+    },
+    "https://www.52pojie.cn/": {
+      "description": "吾爱破解论坛致力于软件安全与病毒分析的前沿，丰富的技术版块交相辉映，由无数热衷于软件加密解密及反病毒爱好者共同维护",
+      "icon": "/favicon.ico",
+      "keywords": "吾爱破解,破解论坛,破解软件,软件论坛,病毒分析,脱壳破解,安卓破解,加密解密,软件安全",
+      "title": "吾爱破解 - LCG - LSG|安卓破解|病毒分析|www.52pojie.cn"
+    },
+    "https://www.66ss.org/": {
+      "description": "6v电影-新版",
+      "icon": "/images/favicon.ico",
+      "keywords": "6v电影-新版",
+      "title": "6v电影-新版"
+    },
+    "https://www.6v520.com/": {
+      "description": "6v电影（www.hao6v.tv），每天搜集互联网最新电影和电视剧，免费为大家提供最新的电影电视剧、高清电影电视剧的下载服务。",
+      "icon": "/favicon.ico",
+      "keywords": "最新电影下载，电视剧下载，高清电影下载",
+      "title": "6v电影_免费电影_高清电影__最新电视剧下载（旧版66影视）"
+    },
+    "https://www.a5xiazai.com/": {
+      "description": "A5下载是专业安全的软件免费下载网站.提供海量免费网站源码下载,源码模板,源码插件,JS代码,建站教程等,涵盖了PC软件,安卓软件,安卓游戏,苹果软件,苹果游戏,以及软件教程和手游攻略信息,专注于服务中国站长.",
+      "icon": "/favicon.ico",
+      "keywords": "源码之家,网站源码,站长工具,站长下载,软件下载",
+      "title": "网站源码下载,软件下载 - A5站长下载站"
+    },
+    "https://www.anaconda.com/": {
+      "description": "Democratize AI innovation with the world’s most trusted open ecosystem for data science and AI development.",
+      "icon": [
+        "https://www.anaconda.com/wp-content/themes/berg-theme-child/assets/images/favicon/apple-icon-57x57.png",
+        "https://www.anaconda.com/wp-content/themes/berg-theme-child/assets/images/favicon/apple-icon-60x60.png",
+        "https://www.anaconda.com/wp-content/themes/berg-theme-child/assets/images/favicon/apple-icon-72x72.png",
+        "https://www.anaconda.com/wp-content/themes/berg-theme-child/assets/images/favicon/apple-icon-76x76.png",
+        "https://www.anaconda.com/wp-content/themes/berg-theme-child/assets/images/favicon/apple-icon-114x114.png",
+        "https://www.anaconda.com/wp-content/themes/berg-theme-child/assets/images/favicon/apple-icon-120x120.png",
+        "https://www.anaconda.com/wp-content/themes/berg-theme-child/assets/images/favicon/apple-icon-144x144.png",
+        "https://www.anaconda.com/wp-content/themes/berg-theme-child/assets/images/favicon/apple-icon-152x152.png",
+        "https://www.anaconda.com/wp-content/themes/berg-theme-child/assets/images/favicon/apple-icon-180x180.png",
+        "https://www.anaconda.com/wp-content/themes/berg-theme-child/assets/images/favicon/android-icon-192x192.png",
+        "https://www.anaconda.com/wp-content/themes/berg-theme-child/assets/images/favicon/favicon-32x32.png",
+        "https://www.anaconda.com/wp-content/themes/berg-theme-child/assets/images/favicon/favicon-96x96.png",
+        "https://www.anaconda.com/wp-content/themes/berg-theme-child/assets/images/favicon/favicon-16x16.png",
+        "https://www.anaconda.com/wp-content/uploads/2022/12/cropped-site_logo-1-32x32.png",
+        "https://www.anaconda.com/wp-content/uploads/2022/12/cropped-site_logo-1-192x192.png",
+        "https://www.anaconda.com/wp-content/uploads/2022/12/cropped-site_logo-1-180x180.png"
+      ],
+      "keywords": "",
+      "title": "Anaconda | The Operating System for AI"
+    },
+    "https://www.book123.info/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "title": ""
+    },
+    "https://www.bookstack.cn/": {
+      "description": "书栈网，IT程序员互联网开源编程书籍阅读分享，囊括小程序、前端、后端、移动端、云计算、大数据、区块链、机器学习、人工智能和面试笔试等相关书籍，助你【码】力十足！",
+      "icon": "/favicon.ico",
+      "keywords": "书栈网,BookStack,小程序,在线阅读,开发手册,api手册,技术文档,编程学习,在线教程,程序员手册,编程手册,BookChat,BookChatApp",
+      "title": "书栈网 · BookStack_程序员IT互联网开源编程书籍免费阅读，助您【码】力十足！"
+    },
+    "https://www.canva.cn/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "title": "Just a moment..."
+    },
+    "https://www.easycron.com/": {
+      "description": "EasyCron provides the most stable online cron service. Here you can schedule cron jobs that run periodically, with execution logs, email notifications, webhooks, execution time predictions and a bunch of other features.",
+      "icon": [
+        "/apple-touch-icon-57x57.png",
+        "/apple-touch-icon-60x60.png",
+        "/apple-touch-icon-72x72.png",
+        "/apple-touch-icon-76x76.png",
+        "/apple-touch-icon-114x114.png",
+        "/apple-touch-icon-120x120.png",
+        "/apple-touch-icon-144x144.png",
+        "/apple-touch-icon-152x152.png",
+        "/apple-touch-icon-180x180.png",
+        "/favicon-32x32.png",
+        "/favicon-194x194.png",
+        "/android-chrome-192x192.png",
+        "/favicon-16x16.png",
+        "/safari-pinned-tab.svg"
+      ],
+      "keywords": "",
+      "title": "Online Cron Service | Webcron - EasyCron.com"
+    },
+    "https://www.emojiall.com/zh-hans/": {
+      "description": "该网站提供了最新、完整的Emoji搜索和相关信息，包括表情符号含义、使用示例、Unicode代码点、高分辨率图片、复制和粘贴，以及Emoji大数据排名、矢量图形和动态图表、智能算法情感分析和表情符号语言学研究。",
+      "icon": [
+        "https://www.emojiall.com/favicon.ico",
+        "/apple-touch-icon.png",
+        "/apple-touch-icon-precomposed.png",
+        "/apple-touch-icon-120x120-precomposed.png",
+        "/apple-touch-icon-120x120.png",
+        "/apple-touch-icon-152x152-precomposed.png",
+        "/apple-touch-icon-152x152.png"
+      ],
+      "keywords": "Emoji, Emoji 意思, Emoji 表情符号, Emoji 代码, Emoji 查询",
+      "title": "Emoji大全 | Emoji表情符号词典 📓 | EmojiAll中文官方网站"
+    },
+    "https://www.gigarocket.net/": {
+      "description": "Totally free website hosting with a gigabyte of web space, FTP access, SSL, JS, mySQL/PHP support perfectly optimised for Wordpress and most popular Apps.",
+      "icon": "/assets/img/favicon.png",
+      "keywords": "",
+      "title": "Free Web Hosting | Free Hosting with SSL Cert, JavaScript, PHP &amp; mySQL - GigaRocket"
+    },
+    "https://www.jb51.net/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "title": ""
+    },
+    "https://www.jigdh.com/": {
+      "description": "极光导航，简约纯净资源网址导航。页面简洁，功能简练纯粹，支持自定义壁纸、网站、搜索引擎，收录了超多资源网站。我们的愿景是：想用户所想，做网址导航中的清流，做好一个简约、好用、安全、便捷的网址导航网站。",
+      "icon": ["/favicon.ico", "/favicon.ico"],
+      "keywords": "极光导航,极光网址导航,极光导航网,极光资源导航,极光资源,资源导航,影视导航,工具网址导航,jiguang导航,极光主页,极光上网主页,jigdh,简洁纯净主页,简洁",
+      "title": "极光导航-简约资源网址导航"
+    },
+    "https://www.lishichelun.com/": {
+      "description": "提供人物、事实、地区等数据，朝代、皇帝、年号、时间等信息，长河图、卷轴、时间轴、家族树、简易地图等可视化工具，以及史料和讨论等相关内容。",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "title": "历史车轮 - 历史·数据·可视化"
+    },
+    "https://www.microsoft.com/zh-cn/software-download/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "title": "软件下载"
+    },
+    "https://www.npmjs.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "title": ""
+    },
+    "https://www.openapis.org/": {
+      "description": "",
+      "icon": [
+        "https://www.openapis.org/wp-content/uploads/sites/3/2016/11/favicon.png",
+        "https://www.openapis.org/wp-content/uploads/sites/3/2019/06/favicon-140x140.png",
+        "https://www.openapis.org/wp-content/uploads/sites/3/2019/06/favicon-300x300.png",
+        "https://www.openapis.org/wp-content/uploads/sites/3/2019/06/favicon-300x300.png"
+      ],
+      "keywords": "",
+      "title": "Home 2024 - OpenAPI Initiative"
+    },
+    "https://www.python.org/": {
+      "description": "The official home of the Python Programming Language",
+      "icon": [
+        "/static/favicon.ico",
+        "/static/apple-touch-icon-144x144-precomposed.png",
+        "/static/apple-touch-icon-114x114-precomposed.png",
+        "/static/apple-touch-icon-72x72-precomposed.png",
+        "/static/apple-touch-icon-precomposed.png",
+        "/static/apple-touch-icon-precomposed.png"
+      ],
+      "keywords": "Python programming language object oriented web free open source software license documentation download community",
+      "title": "Welcome to Python.org"
+    },
+    "https://www.ruiwen.com/": {
+      "description": "瑞文网，为您提供优质实用美文！包含随笔、日记、古诗文、实用文、总结、计划、祝福语、句子、职场文档等，为您写作提供指导和优质素材。",
+      "icon": "/favicon.ico",
+      "keywords": "美文,范文,实用文",
+      "title": "瑞文网 - 为您提供优质实用美文！"
+    },
+    "https://www.soushu.vip/": {
+      "description": false,
+      "icon": "/favicon.ico",
+      "keywords": false,
+      "title": false
+    },
+    "https://www.taolinks.cc/s/": {
+      "description": "淘链客,一个非常好用的外链资源聚合搜索引擎",
+      "icon": "/s/static/im/favicon.ico",
+      "keywords": null,
+      "title": "淘链客 - 外链资源聚合搜索引擎"
+    },
+    "https://www.tecmz.com/": {
+      "description": "魔众专注互联网系统的研发，是一个面向交付的软件提供商，集中了一批以技术为梦想的年轻人，提供高标准面向交付的软件技术输出服务，帮助您实现互联网产品快速落地。",
+      "icon": "https://mz-assets.tecmz.com/data/mz/favicon_128x128.ico",
+      "keywords": "软件解决方案,软件开发,高质量软件开发,软件开发服务商,tecmz,MZ,魔众MZ,魔众系统,魔众软件,ModStart解决方案",
+      "title": "魔众软件 | 面向交付的软件提供商"
+    },
+    "https://www.w3cschool.cn/": {
+      "description": "w3cschool启用中文品牌名--编程狮，是一个专业的W3C前端开发及编程入门学习平台，提供包括HTML,CSS,Javascript,jQuery,C,PHP,Java,Python,Sql,Mysql等编程语言和开源技术的在线教程及使用手册，是类国外w3schools的W3C学习社区及菜鸟编程平台。",
+      "icon": "https://7n.w3cschool.cn/statics/images/favicon.ico?v=2.2",
+      "keywords": "w3cschool,编程狮,web前端开发,菜鸟教程,编程入门教程,w3school,W3C,HTML,HTML5,CSS,Javascript,jQuery,Bootstrap,PHP,Java,Sql",
+      "title": "w3cschool官网 - 1000多本编程教程免费学"
+    },
+    "https://www.webfx.com/tools/emoji-cheat-sheet/": {
+      "description": "Emoji codes used by GitHub, Basecamp, Slack and other services. Searchable. With emoji meanings.",
+      "icon": [
+        "https://www.webfx.com/wp-content/uploads/2021/10/favicon.png",
+        "https://www.webfx.com/wp-content/uploads/2021/10/favicon.png",
+        "https://www.webfx.com/wp-content/uploads/2021/10/favicon.png"
+      ],
+      "keywords": null,
+      "title": "🎁 Emoji cheat sheet for GitHub, Basecamp, Slack &amp; more"
+    },
+    "https://www.webhek.com/post/css3-animation-sniplet-collection/#/": {
+      "description": "CSS3动画代码大集合 - 这是一个能方便的找到CSS动画制作的代码片段的地方。",
+      "icon": [
+        "https://cdn.jiler.cn/webhek/favicon.ico",
+        "public/assets/ico/favicon.png"
+      ],
+      "keywords": "",
+      "title": "CSS3动画代码大集合 - 这是一个能方便的找到CSS动画制作的代码片段的地方。"
+    },
+    "https://yiyan.baidu.com/": {
+      "description": "",
+      "icon": "https://nlp-eb.cdn.bcebos.com/logo/favicon.ico",
+      "keywords": "",
+      "title": "文心一言"
+    }
   },
-  "langnang.github.io": {},
+  "langnang.github.io": [],
   "webnav.22web.org": {
     "active": "",
     "contents": [],

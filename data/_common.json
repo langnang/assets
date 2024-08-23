@@ -50,6 +50,14 @@
     "lid": null,
     "mid": null
   },
+  "_tables": {
+    "contents": {},
+    "metas": {},
+    "links": {},
+    "relationships": {},
+    "fields": {}
+  },
+  "_sqls": {},
   "127.0.0.1": {},
   "localhost": {},
   "metas": {},
