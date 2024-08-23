@@ -10,8 +10,20 @@
       "https://bootcdn.cn/"
     ],
     "packages": {
+      "@fortawesome/fontawesome-common-types": {},
       "@fortawesome/fontawesome-free": {},
       "@fortawesome/fontawesome-svg-core": {},
+      "@fortawesome/free-brands-svg-icons": {},
+      "@fortawesome/free-regular-svg-icons": {},
+      "@fortawesome/free-solid-svg-icons": {},
+      "@fortawesome/react-fontawesome": {},
+      "@fortawesome/vue-fontawesome": {},
+      "@supabase/functions-js": {},
+      "@supabase/node-fetch": {},
+      "@supabase/postgrest-js": {},
+      "@supabase/realtime-js": {},
+      "@supabase/storage-js": {},
+      "@supabase/supabase-js": {},
       "@types/crypto-js": {},
       "ace-builds": {},
       "admin-lte": {},
@@ -48,6 +60,7 @@
       "codemirror": {},
       "crypto-js": {
         "description": "JavaScript library of crypto standards.",
+        "homepage": "https://cryptojs.gitbook.io/docs/",
         "keywords": [
           "security",
           "crypto",
@@ -70,7 +83,6 @@
           "Base64",
           "Base64url"
         ],
-        "homepage": "https://cryptojs.gitbook.io/docs/",
         "versions": {
           "4.2.0": ["https://unpkg.com/crypto-js@4.2.0/crypto-js.js"]
         }
@@ -101,7 +113,11 @@
       "less": {},
       "lodash": {},
       "markdown-it": {},
-      "masonry-layout": {},
+      "masonry-layout": {
+        "description": "Cascading grid layout library",
+        "homepage": "https://masonry.desandro.com/",
+        "keywords": ["DOM", "browser", "grid", "layout", "outlayer"]
+      },
       "mathjax": {},
       "mermaid": {},
       "mockjs": {},
