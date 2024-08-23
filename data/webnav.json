@@ -37,7 +37,7 @@
     },
     "http://www.02516.com/bt/": {
       "description": "我要乐网址导航：实用网址大全，您的上网导航助手。精心收集优质BT下载网站信息与BT下载网址大全，提供BT下载网站 影视资源BT下载 动漫BT下载 网盘磁力链接搜索 BT磁力下载软件 等分类网址导航服务，已被众多网友设为上网主页。网址之家，首选我要乐网址大全。",
-      "icon": "/favicon.ico",
+      "icon": "http://www.02516.com/favicon.ico",
       "keywords": "BT,BT网站,BT网站大全,BT下载,BT之家,BT天堂,电影天堂,磁力下载,磁力链接,磁力搜索,BT资源网,影视资源BT,网盘磁力连接,网址导航,网址大全,网址之家,上网主页,实用网址大全,上网导航,上网导航助手,实用查询工具,精品网址",
       "slug": "http://www.02516.com/bt/",
       "title": "BT网站大全_BT下载_BT之家_BT电影天堂_磁力搜索_网盘磁力链接下载_BT影视资源网_我要乐网址导航"
@@ -108,13 +108,6 @@
       "slug": "http://www.youdao.com/",
       "title": "网易有道"
     },
-    "https://app.fastcron.com/": {
-      "description": "FastCron",
-      "icon": "/rush.png",
-      "keywords": "setcronjob, fastcron",
-      "slug": "https://app.fastcron.com/",
-      "title": "Log in"
-    },
     "https://app.gitbook.com/": {
       "description": "GitBook",
       "icon": [
@@ -169,11 +162,11 @@
       "title": ""
     },
     "https://codepen.io/": {
-      "description": "",
+      "description": "Build, share, and learn JavaScript, CSS, and HTML with our online code editor.",
       "icon": "/favicon.ico",
-      "keywords": "",
+      "keywords": "javascript, css, editor, code, community, social, frontend, developer, designer, deploy, test, demo, spa, single, page, application, web, html, modern, ide, browser, pen, codepen",
       "slug": "https://codepen.io/",
-      "title": "Just a moment..."
+      "title": "CodePen: Online Code Editor and Front End Web Developer Community"
     },
     "https://codesandbox.io/": {
       "description": "CodeSandbox is a cloud development platform that empowers developers to code, collaborate and ship projects of any size from any device in record time.",
@@ -540,13 +533,6 @@
       "slug": "https://www.bilibili.com/",
       "title": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili"
     },
-    "https://www.book123.info/": {
-      "description": "",
-      "icon": "/favicon.ico",
-      "keywords": "",
-      "slug": "https://www.book123.info/",
-      "title": ""
-    },
     "https://www.bookstack.cn/": {
       "description": "书栈网，IT程序员互联网开源编程书籍阅读分享，囊括小程序、前端、后端、移动端、云计算、大数据、区块链、机器学习、人工智能和面试笔试等相关书籍，助你【码】力十足！",
       "icon": "/favicon.ico",
@@ -555,11 +541,11 @@
       "title": "书栈网 · BookStack_程序员IT互联网开源编程书籍免费阅读，助您【码】力十足！"
     },
     "https://www.canva.cn/": {
-      "description": "",
+      "description": "在线设计协作平台Canva可画提供了海量的设计模板，涵盖海报、简历、名片、Logo、PPT、手抄报、二维码、Banner等数十种平面设计场景，更有千款中英文字体及千万张正版图片素材可供使用。精彩设计，随时随地！",
       "icon": "/favicon.ico",
-      "keywords": "",
+      "keywords": "在线设计,平面设计,作图软件,免费设计,设计素材,Canva,可画",
       "slug": "https://www.canva.cn/",
-      "title": "Just a moment..."
+      "title": "Canva可画_在线设计协作平台_平面设计作图软件_视觉办公套件 - Canva中文官网"
     },
     "https://www.doyo.cn/": {
       "description": "逗游网是的绿色单机游戏下载基地，提供单机游戏、网络游戏、好玩的手机游戏一键下载，自动安装，绿色安全！逗游网让您轻松玩游戏！",
@@ -605,6 +591,13 @@
       "slug": "https://www.emojiall.com/zh-hans/",
       "title": "Emoji大全 | Emoji表情符号词典 📓 | EmojiAll中文官方网站"
     },
+    "https://www.fastcron.com/": {
+      "description": "You can create and manage cronjobs for multiple websites, with your team. Know when your cron jobs are executed, get failure notifications via email, Slack, and webhooks.",
+      "icon": "/images/logo.png",
+      "keywords": "",
+      "slug": "https://www.fastcron.com/",
+      "title": "Reliable cron job service - FastCron"
+    },
     "https://www.freetalen.com/": {
       "description": "上海飞援科技有限责任公司是一个为程序员、产品经理、设计提供外包兼职和企业雇佣的兼职平台，致力于提供品质可控、体验卓越的专业技术人才灵活雇佣服务。",
       "icon": "/static/pages-v2/img/logo.png",
@@ -641,11 +634,11 @@
       "title": "极光导航-简约资源网址导航"
     },
     "https://www.lanrenmb.com/": {
-      "description": "",
+      "description": "网站模板,PPT模板,Word模板,Excle模板,视频模板,音频模板,海量精品免费素材模板下载尽在懒人模板lanrenmb.com",
       "icon": "/favicon.ico",
-      "keywords": "",
+      "keywords": "网站模板,PPT模板,Word模板,Excle模板,视频模板,音频模板",
       "slug": "https://www.lanrenmb.com/",
-      "title": "数据库错误"
+      "title": "网站模板_PPT模板_Word模板_Excle模板_视频模板_懒人模板"
     },
     "https://www.lishichelun.com/": {
       "description": "提供人物、事实、地区等数据，朝代、皇帝、年号、时间等信息，长河图、卷轴、时间轴、家族树、简易地图等可视化工具，以及史料和讨论等相关内容。",
