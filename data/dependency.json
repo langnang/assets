@@ -84,7 +84,7 @@
           "Base64url"
         ],
         "versions": {
-          "4.2.0": ["https://unpkg.com/crypto-js@4.2.0/crypto-js.js"]
+          "4.2.0": ["crypto-js.js"]
         }
       },
       "d3": {},
@@ -112,6 +112,7 @@
       "lazyload": {},
       "less": {},
       "lodash": {},
+      "lozad": {},
       "markdown-it": {},
       "masonry-layout": {
         "description": "Cascading grid layout library",
