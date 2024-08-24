@@ -1,0 +1,10 @@
+{
+  "_tables": {
+    "fields": {
+      "factory_price": "出厂价",
+      "retail_price": "零售价",
+      "whole_price": "批发价",
+      "preferential_price": "优惠价"
+    }
+  }
+}
