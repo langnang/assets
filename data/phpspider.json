@@ -22,7 +22,102 @@
       }
     },
     "site:urls": {
-      "description": "网页内所有URL地址"
+      "description": "网页内所有URL地址",
+      "fields": {
+        "site": {
+          "name": "site",
+          "children": {
+            "title": {
+              "name": "title",
+              "selector": "//head//title"
+            },
+            "description": {
+              "name": "description",
+              "selector": "//head//meta[@name='description']/@content"
+            },
+            "keywords": {
+              "name": "keywords",
+              "selector": "//head//meta[@name='keywords']/@content"
+            },
+            "ico": {
+              "name": "ico",
+              "selector": "//head//link[contains(@rel,'icon')]/@href"
+            }
+          }
+        }
+      }
+    },
+    "site:site_urls": {
+      "description": "网页内当前站点URL地址",
+      "site": {
+        "name": "site",
+        "children": {
+          "title": {
+            "name": "title",
+            "selector": "//head//title"
+          },
+          "description": {
+            "name": "description",
+            "selector": "//head//meta[@name='description']/@content"
+          },
+          "keywords": {
+            "name": "keywords",
+            "selector": "//head//meta[@name='keywords']/@content"
+          },
+          "ico": {
+            "name": "ico",
+            "selector": "//head//link[contains(@rel,'icon')]/@href"
+          }
+        }
+      }
+    },
+    "site:other_urls": {
+      "description": "网页内非当前站点URL地址",
+      "site": {
+        "name": "site",
+        "children": {
+          "title": {
+            "name": "title",
+            "selector": "//head//title"
+          },
+          "description": {
+            "name": "description",
+            "selector": "//head//meta[@name='description']/@content"
+          },
+          "keywords": {
+            "name": "keywords",
+            "selector": "//head//meta[@name='keywords']/@content"
+          },
+          "ico": {
+            "name": "ico",
+            "selector": "//head//link[contains(@rel,'icon')]/@href"
+          }
+        }
+      }
+    },
+    "site:images": {
+      "description": "网页内图片资源",
+      "site": {
+        "name": "image",
+        "children": {
+          "title": {
+            "name": "title",
+            "selector": "//head//title"
+          },
+          "description": {
+            "name": "description",
+            "selector": "//head//meta[@name='description']/@content"
+          },
+          "keywords": {
+            "name": "keywords",
+            "selector": "//head//meta[@name='keywords']/@content"
+          },
+          "ico": {
+            "name": "ico",
+            "selector": "//head//link[contains(@rel,'icon')]/@href"
+          }
+        }
+      }
     },
     "bilianku": {
       "name": "bilianku",

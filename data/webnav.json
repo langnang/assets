@@ -1,5 +1,19 @@
 {
   "contents": {
+    "http://123.k5118.com/": {
+      "description": "酷万网址导航是汇集全网优质网址及资源的中文上网导航。及时收录包括音乐、视频、小说、游戏等热门分类的优秀网站，与搜索完美结合，提供最简单便捷的网上导航服务，是数千万网民的上网主页。",
+      "icon": "/favicon.ico",
+      "keywords": "酷万网址导航,酷万,kuwan,网址导航,上网主页,网址大全,上网导航",
+      "slug": "http://123.k5118.com/",
+      "title": "酷万网址导航 - 我的上网主页"
+    },
+    "http://app.owspace.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "http://app.owspace.com/",
+      "title": "单读-APP"
+    },
     "http://clm2.info/": {
       "description": "",
       "icon": "/favicon.ico",
@@ -28,6 +42,13 @@
       "slug": "http://jupyter.org/",
       "title": "Project Jupyter | Home"
     },
+    "http://jyshare.com": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "http://jyshare.com",
+      "title": ""
+    },
     "http://oeasy.org/": {
       "description": "",
       "icon": "http://oeasy.org/favicon.ico",
@@ -41,6 +62,13 @@
       "keywords": "",
       "slug": "http://packagist.p2hp.com/",
       "title": "Packagist中文网"
+    },
+    "http://rrkf.com/": {
+      "description": "人人开发基于可视化快速开发平台 - 捷得（Joget）/捷得云（Joget Cloud）（PaaS），集众多开发者资源，为企业提供企业管理软件服务。应用市场提供应用产品、插件的在线试用和销售，服务市场以威客众包模式提供管理软件定制开发服务，各类企业级应用开发服务，例如：协同OA产品，ERP，CRM，人事管理，项目管理，资产管理，设备管理等",
+      "icon": "/images/favicon.png",
+      "keywords": "快速开发平台,PaaS平台,管理软件,软件开发,企业级应用,威客,众包,微创业,IT外包,BPM,捷得（Joget）,捷得云（JogetCloud）,协同OA,ERP,CRM,人事管理,项目管理,资产管理,设备管理",
+      "slug": "http://rrkf.com/",
+      "title": "人人开发 - 集可视化开发，应用市场，威客众包，PaaS云于一体的企业级应用服务平台"
     },
     "http://rutracker.org/": {
       "description": "",
@@ -70,6 +98,13 @@
       "slug": "http://www.02516.com/bt/",
       "title": "BT网站大全_BT下载_BT之家_BT电影天堂_磁力搜索_网盘磁力链接下载_BT影视资源网_我要乐网址导航"
     },
+    "http://www.52survey.com/": {
+      "description": "爱调查致力于丰富广大网民的网上生活，爱调查的会员可以通过填写网络问卷获得产品资讯，还能得到丰厚的奖励。爱调查为有调研需求的客户提供优质的在线调研服务。爱调查作为企业与消费者之间的桥梁，将帮助企业聆听消费者的声音，也帮助消费者监督企业。",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "http://www.52survey.com/",
+      "title": "爱调查-中国在线调查网|让市场调查变得高效、轻松、专业"
+    },
     "http://www.5imoban.net/": {
       "description": "我爱模板网",
       "icon": ["http://www.5imoban.net/favicon.ico", "/favicon.ico"],
@@ -90,6 +125,20 @@
       "keywords": "",
       "slug": "http://www.bookben9.cc/",
       "title": "免费电子书下载网,txt小说免费下载,全集全本完结txt小说-书本网"
+    },
+    "http://www.csdn.net/": {
+      "description": "CSDN是全球知名中文IT技术交流平台,创建于1999年,包含原创博客、精品问答、职业培训、技术论坛、资源下载等产品服务,提供原创、优质、完整内容的专业IT技术开发社区.",
+      "icon": "https://g.csdnimg.cn/static/logo/favicon32.ico",
+      "keywords": "CSDN博客,CSDN学院,CSDN论坛,CSDN直播",
+      "slug": "http://www.csdn.net/",
+      "title": "CSDN - 专业开发者社区"
+    },
+    "http://www.daihema.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "http://www.daihema.com/",
+      "title": ""
     },
     "http://www.docuchina.cn/": {
       "description": "中国纪录片网是集纪录片创作生产、推介展示、传播推广、融资交易等为一体的国家级纪录片新媒体综合性产业运营平台。",
@@ -113,6 +162,13 @@
       "status": "private",
       "title": "一卡二卡三卡四卡日韩_花姐影视_办公室 爆乳 在线_超爽人人做人人爽"
     },
+    "http://www.gitnavi.com/": {
+      "description": "UPTMR 相信明日美好",
+      "icon": "/favicon.png",
+      "keywords": "UPTMR,UP Tomorrow,UPUPMO,网址导航",
+      "slug": "http://www.gitnavi.com/",
+      "title": "UPTMR | 信明日美好, 做一只积极向上的导航"
+    },
     "http://www.imomoe.com/": {
       "description": "",
       "icon": "/favicon.ico",
@@ -133,6 +189,13 @@
       "keywords": "jquery特效,响应式模板,网站模板",
       "slug": "http://www.jqueryfuns.com/",
       "title": "后台模板,html响应式模板,jquery特效 - jQueryfuns"
+    },
+    "http://www.manongbook.com/": {
+      "description": "码农书籍网,为程序员提供IT技术书籍pdf电子书下载,涵盖了java、python、人工智能、大数据、linux、php、c语言、Go、R语言等二十多种热门语言分类",
+      "icon": "/favicon.ico",
+      "keywords": "程序员技术书籍推荐,IT电子书百度云下载,码农书籍网",
+      "slug": "http://www.manongbook.com/",
+      "title": "码农书籍网-IT书籍pdf推荐下载网站"
     },
     "http://www.meiju8.cc/": {
       "description": "",
@@ -158,6 +221,13 @@
       "slug": "http://www.mtime.com/",
       "title": "Mtime时光网：让电影遇见生活"
     },
+    "http://www.pythontip.com": {
+      "description": "哈希编程，中文 Python 学习网站，学习编程的好方法，面向真实场景，边学边练，零基础无门槛，覆盖 Python 小白到进阶课程。轻松、有趣、好玩，交互式学习，1 v 1 及 社区 答疑。",
+      "icon": "/favicon.ico",
+      "keywords": "哈希编程 Python学习 python基础教程 python培训 编程入门 数据结构与算法 数据分析 小白学编程 30天入门 在线学编程 编程题库 爬虫",
+      "slug": "http://www.pythontip.com",
+      "title": "哈希编程 - PythonTip学编程 - 从小白到高手，学习 python 从未如此简单"
+    },
     "http://www.qihuys8.cc/": {
       "description": "",
       "icon": "/favicon.ico",
@@ -178,6 +248,20 @@
       "keywords": "模板123,模板大全,模板网站,模板之家,模板分享,模板发布,模板平台,模板导航网",
       "slug": "http://www.somb123.com/",
       "title": "模板导航网_简历模板_ppt模板_模板大全_最新模板资源分享发布平台"
+    },
+    "http://www.souluo666.com/": {
+      "description": "搜罗任意门导航搜集互联网各种优秀的网站网址,打造全网最实用简洁精致的网址导航.",
+      "icon": "http://www.souluo666.com/wp-content/themes/HaoWa_V1.3.1/images/favicon.ico",
+      "keywords": "搜罗任意门,实用的导航网站.",
+      "slug": "http://www.souluo666.com/",
+      "title": "搜罗任意门-一个实用的导航网站 - 搜罗任意门搜集互联网各种优秀的网站网址,打造全网最实用简洁实用的网址导航."
+    },
+    "http://www.taskcity.com/": {
+      "description": "智城外包网，聚合全国软件团队资源，官方认证，1小时响应，零交易佣金，托管安全保障。十年口碑运营，万家靠谱团队。免费比价，免费一站式外包项目管理工具。平台汇集软件咨询专家，软件技术专家，软件开发专家，软件开发公司，软件外包公司，软件外派公司。在线竞标模式，让IT外包项目和短期IT招聘、人力派遣需求可以获得高性价比的候选。海量资源池包括：网站设计、网站开发、手机应用开发、移动应用开发、安卓应用开发、苹果应用开发、微信应用开发、Java技术、C＃技术、Web前端开发、IT人力外包、IT人力外派、IT人力短期招聘、技术合伙人、通用软件开发，SaaS软件实施，软件运维等服务门类。",
+      "icon": "http://www.taskcity.com/assets/taskcity-e9b9211ba34efd28e0ca304ccebc91e8efe7f00625881de82382ec3cd6f2af5c.ico",
+      "keywords": "软件外包,项目外包,项目交易,iPhone开发,应用开发,软件开发,项目开发,人力外派,短期招聘,人力资源交易平台",
+      "slug": "http://www.taskcity.com/",
+      "title": "智城外包网 - 零佣金开发资源平台 认证担保 全程无忧 、专业的软件外包网和项目外包、项目开发、人力外派、短期招聘、人力资源交易平台\n | 智城外包网 - 零佣金开发资源平台 认证担保 全程无忧"
     },
     "http://www.ttjj.cc/": {
       "description": "策驰影院整合网络上视频,电影,电视剧,动漫,综艺,美剧,港剧节目提供给各大网友免费在线观看。策驰电影网整合多个平台会员最新电影,最新电视剧,最新动漫,追剧,最新综艺免费在线观看。",
@@ -200,6 +284,13 @@
       "slug": "http://www.waibaodashi.com/",
       "title": "外包大师 | 专注产品创新+研发管理的数字化服务公司"
     },
+    "http://www.xdh123.cc/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "http://www.xdh123.cc/",
+      "title": ""
+    },
     "http://www.xinggan17.com/": {
       "description": "",
       "icon": "/favicon.ico",
@@ -213,6 +304,13 @@
       "keywords": "有道, 搜索, 词典, 翻译, 云笔记, 笔记, 惠惠网, 惠惠购物助手, 购物搜索, 图片搜索, 视频搜索, 新闻搜索, 网易有道, 在线翻译, 专业翻译",
       "slug": "http://www.youdao.com/",
       "title": "网易有道"
+    },
+    "http://www.ypppt.com/": {
+      "description": "优品PPT模板网是一家专注于分享高质量的免费PPT模板下载网站，包括图表、背景图片、素材、教程等各类PPT模板相关资源。致力于打造国内最大最权威的PPT下载一站式服务平台。",
+      "icon": "/favicon.ico",
+      "keywords": "ppt模板,精美免费ppt模板下载,ppt下载,幻灯片模板,ppt模板免费下载,免费幻灯片模板下载,ppt主题,powerpoint模板下载",
+      "slug": "http://www.ypppt.com/",
+      "title": "PPT模板免费下载_精美免费PPT模板下载 -【优品PPT】"
     },
     "http://www.yxdm.tv/": {
       "description": "",
@@ -340,6 +438,13 @@
       "slug": "https://cupfox.app/",
       "title": "茶杯狐 - 片荒剧荒就来茶杯狐"
     },
+    "https://daohangwan.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://daohangwan.com/",
+      "title": ""
+    },
     "https://dianying4k.com/": {
       "description": "",
       "icon": "/favicon.ico",
@@ -377,6 +482,13 @@
       "keywords": "",
       "slug": "https://ebookfoundation.github.io/free-programming-books/books/free-programming-books-zh.html",
       "title": "目录 | free-programming-books"
+    },
+    "https://eleduck.com/": {
+      "description": "电鸭社区是具有8年历史的远程工作招聘社区，也是远程办公互联网工作者们的聚集地。在社区，我们进行有价值的话题讨论，也分享远程、外包、零活、兼职、驻场等非主流工作机会。「只工作，不上班」是我们倡导的工作态度。",
+      "icon": "/static/favicon.ico",
+      "keywords": "电鸭社区,专注远程办公及招聘,远程办公从电鸭开始,远程工作,自由职业,兼职外包,在家工作,remote working,remotely,freelancer,",
+      "slug": "https://eleduck.com/",
+      "title": "电鸭社区-专注远程工作招聘交流-远程工作，从电鸭开始"
     },
     "https://enlienli.com/": {
       "description": "",
@@ -449,6 +561,13 @@
       "slug": "https://hao.uisdc.com/",
       "title": "优设导航官网 - 设计导航 - 国内专业设计师网站导航"
     },
+    "https://heji.ru/54.html": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://heji.ru/54.html",
+      "title": ""
+    },
     "https://huamao.vip/": {
       "description": "花猫导航收录了设计师、日常办公、二次元、电商、学习教程、辅助工具等领域优质网站或服务，并结合收录了以相关网站或服务的教程类、科普类和资讯类的文章，为广大用户提供高效率的上网导航服务。",
       "icon": "https://huamao.vip/app/v/daohang/ui/img/favicon.ico",
@@ -502,6 +621,26 @@
       "slug": "https://jsrun.net/",
       "title": "小闪电 - JSRUN可以用手机写代码的JS在线编辑器网站"
     },
+    "https://konachan.net/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://konachan.net/",
+      "title": "Just a moment..."
+    },
+    "https://kuaimacode.com/": {
+      "description": "快码专注软件开发，为您实现更高的商业价值！",
+      "icon": [
+        "/favicon.ico",
+        "/assets/v6/images/ico/apple-touch-icon-144-precomposed.png",
+        "/assets/v6/images/ico/apple-touch-icon-114-precomposed.png",
+        "/assets/v6/images/ico/apple-touch-icon-72-precomposed.png",
+        "/assets/v6/images/ico/apple-touch-icon-57-precomposed.png"
+      ],
+      "keywords": "快码",
+      "slug": "https://kuaimacode.com/",
+      "title": "快码 - 专注软件开发 kuaimacode.com"
+    },
     "https://laowangnz.top/": {
       "description": "磁力链接搜索引擎老王磁力(laowang.icu)索引了全球最新最热门的BT种子信息和磁力链接，提供磁力链接搜索、BT搜索、种子搜索等强大功能。",
       "icon": "//b10.yapcdn.com/img/xiaowang/favicon.png",
@@ -543,6 +682,13 @@
       "keywords": "MSDN,我告诉你",
       "slug": "https://msdn.itellyou.cn/",
       "title": "MSDN, 我告诉你 - 做一个安静的工具站"
+    },
+    "https://mycolor.space/": {
+      "description": "Here you can find the perfect matching color scheme for your next project! Generate nice color palettes, color gradients and much more! Your space for everything that has to do with color!",
+      "icon": "/favicon5.png",
+      "keywords": "",
+      "slug": "https://mycolor.space/",
+      "title": "ColorSpace - Color Palettes Generator and Color Gradient Tool"
     },
     "https://overapi.com/": {
       "description": "OverAPI.com is a site collecting all the cheatsheets,all!",
@@ -667,6 +813,16 @@
       "slug": "https://shezhan.org/",
       "title": ""
     },
+    "https://shixian.com/": {
+      "description": "实现网为企业提供BAT等名企背景的、靠谱的开发设计兼职人才和自由职业者，满足企业项目外包、驻场开发、远程兼职、技术咨询等短期人力需求。已服务2000多家企业，包括好未来、方正、人人贷、秒拍等知名企业。",
+      "icon": [
+        "/assets/favicon-d7e1bd3ff5eeeb7edaf14ccaa86e3c8146757bf9e0cf7b4fa729dc581d160096.ico",
+        "https://cdn.shixian.com/assets/apple-touch-icon-44d68c4ee0535c69c770e51f04f6aab1f377e832fbb4bd8d196f0ca267370386.png"
+      ],
+      "keywords": "",
+      "slug": "https://shixian.com/",
+      "title": "实现网 - 按需雇佣 BAT 工程师、设计师"
+    },
     "https://shu.ziyuandi.cn/": {
       "description": "资源帝电子书在这里发现更多好书...",
       "icon": "/favicon.ico",
@@ -685,6 +841,13 @@
       "keywords": "",
       "slug": "https://simpleicons.org/",
       "title": "Simple Icons"
+    },
+    "https://sonic.volf.club/": {
+      "description": "Gotta Go Fast !常用又好用，电脑软件的官方下载地址合集",
+      "icon": "https://cdn.jsdelivr.net/gh/volfclub/tundra-sonic/assets/images/favicon.png",
+      "keywords": "装机,软件下载,windows,电脑软件,电脑必备软件,电脑软件下载,群狼动力,volf.club",
+      "slug": "https://sonic.volf.club/",
+      "title": "音速装机 - 群狼动力"
     },
     "https://sourceforge.net/": {
       "description": "SourceForge is the complete software discovery platform. SourceForge provides business software reviews and comparisons, and features the largest business software directory, as well as free & fast open source software downloads and development.",
@@ -711,6 +874,16 @@
       "keywords": "PDF转换成Word转换器, PDF转Word在线, 在线Word转PDF, 在线Word转PDF转换器, PDF免费压缩, PDF免费转换器",
       "slug": "https://speedpdf.com/zh-cn/",
       "title": "Speedpdf - 提供免费PDF转换器、编辑器、阅读器、下载、分享的服务平台！"
+    },
+    "https://sspai.com/": {
+      "description": "少数派致力于更好地运用数字产品或科学方法，帮助用户提升工作效率和生活品质",
+      "icon": [
+        "https://cdn-static.sspai.com/favicon/sspai.ico",
+        "https://cdn-static.sspai.com/favicon/sspai.ico"
+      ],
+      "keywords": "app,iOS,Android,sspai,效率应用,油猴,软路由,notion,switch,iPhone,shortcuts,VSCO,手机摄影,时间管理",
+      "slug": "https://sspai.com/",
+      "title": "少数派 - 高效工作，品质生活"
     },
     "https://supabase.com/": {
       "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
@@ -782,12 +955,35 @@
       "slug": "https://unpkg.com/",
       "title": "UNPKG"
     },
+    "https://useum.org/": {
+      "description": "Log in to USEUM to download unlimited free images, send e-cards and interact with thousands of famous paintings, drawings and illustrations.",
+      "icon": [
+        "/assets/img/favicons/apple-touch-icon.png",
+        "/assets/img/favicons/favicon-32x32.png",
+        "/assets/img/favicons/favicon-16x16.png",
+        "/assets/img/favicons/safari-pinned-tab.svg",
+        "/assets/img/favicons/favicon.ico"
+      ],
+      "keywords": "",
+      "slug": "https://useum.org/",
+      "title": "Interactive Fine Art Gallery &amp; Museum USEUM"
+    },
     "https://www.170dy.com/": {
       "description": "",
       "icon": "/favicon.ico",
       "keywords": "",
       "slug": "https://www.170dy.com/",
       "title": ""
+    },
+    "https://www.1diaocha.com/": {
+      "description": "",
+      "icon": [
+        "//www.1diaocha.com/favicon.ico",
+        "//www.1diaocha.com/favicon.ico"
+      ],
+      "keywords": "调研赚钱,线上调研赚钱,在线调研赚钱,在线问卷调研赚钱,在线调研真的能赚钱吗,线上调研赚钱秘籍,线上调研如何赚钱,问卷赚钱,线上问卷赚钱,在线问卷赚钱,在线问卷赚钱秘籍,兼职在线问卷赚钱,网络问卷调查赚钱,有偿调查问卷,网络调查",
+      "slug": "https://www.1diaocha.com/",
+      "title": "一调网-网上在线调研-靠谱的线上问卷有偿赚钱平台-兼职网络问卷赚钱"
     },
     "https://www.2a5w.com/": {
       "description": "",
@@ -802,6 +998,13 @@
       "keywords": "在线工具,实用查询,站长工具,实用工具,生活工具",
       "slug": "https://www.36jxs.com/",
       "title": "36解析式工具箱-在线实用工具查询网"
+    },
+    "https://www.423down.com/": {
+      "description": "知名软件达人|423DOWN.COM,更新快、专注去广告类软件输出10年、个人IP品牌软件分享站",
+      "icon": "https://www.423down.com/wp-content/themes/D7/img/favicon.ico",
+      "keywords": "423down,zd423,423下载,绿色软件,免费软件下载,手机软件下载,安卓软件下载,系统下载,App下载",
+      "slug": "https://www.423down.com/",
+      "title": "423Down"
     },
     "https://www.51kim.com/": {
       "description": "精雕细琢每一像素、只为让您拥有一个体面的浏览器主页。除此之外，再无其他。",
@@ -898,6 +1101,13 @@
       "slug": "https://www.anaconda.com/",
       "title": "Anaconda | The Operating System for AI"
     },
+    "https://www.bandubook.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://www.bandubook.com/",
+      "title": ""
+    },
     "https://www.bd-film.cc/": {
       "description": "",
       "icon": "/favicon.ico",
@@ -936,12 +1146,40 @@
       "slug": "https://www.canva.cn/",
       "title": "Canva可画_在线设计协作平台_平面设计作图软件_视觉办公套件 - Canva中文官网"
     },
+    "https://www.cdstm.cn/": {
+      "description": "中国数字科技馆是中国科协、教育部、中科院共建的一个基于互联网传播的国家级公益性科普服务平台",
+      "icon": "https://statics.cdstm.cn/img/favicon.ico",
+      "keywords": "中国科学技术馆,中国数字科技馆,科学,技术,科普,服务公众,知识,思想,方法,精神,科普中国",
+      "slug": "https://www.cdstm.cn/",
+      "title": "中国数字科技馆"
+    },
+    "https://www.cfzmqn.com/": {
+      "description": "宝宝起名坊是一个专业的婴儿取名平台，致力于为新生儿提供科学、个性化的名字建议。通过综合考虑传统文化、五行八字和现代审美，我们为每个宝宝量身定制一个独特且寓意深远的名字。同时，网站还提供姓名分析、名字评分、起名技巧等实用功能，帮助父母更好地理解名字的含义与影响。",
+      "icon": "http://www.cfzmqn.com/zb_users/theme/erics_simple/usr/fav.ico",
+      "keywords": "免费新生儿取名,起名字,名字打分,宝宝起名,名字大全,周易取名,姓名测试打分",
+      "slug": "https://www.cfzmqn.com/",
+      "title": "宝宝起名坊-宝宝起名_姓名测试打分_公司起名_周易取名_名字大全"
+    },
     "https://www.che168.com/": {
       "description": "二手车之家,汽车之家旗下二手车交易平台,最大线上二手车交易市场,专业二手车交易网,提供最新二手车报价,二手车估价,保值率查询,个人二手车发布等服务,买卖二手车就上二手车之家",
       "icon": "/favicon.ico",
       "keywords": "二手车之家,二手车,汽车之家二手车,二手车评估,二手车交易市场,二手车之家官网",
       "slug": "https://www.che168.com/",
       "title": "【二手车之家】汽车之家旗下二手车交易平台_二手车之家"
+    },
+    "https://www.clouderwork.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://www.clouderwork.com/",
+      "title": "云沃客_远程工作_在线商机_软件定制一站式云工作平台"
+    },
+    "https://www.codingame.com/": {
+      "description": "CodinGame is a challenge-based training platform for programmers where you can play with the hottest programming topics. Solve games, code AI bots, learn from your peers, have fun.",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://www.codingame.com/",
+      "title": "Coding Games and Programming Challenges to Code Better"
     },
     "https://www.deviantart.com/": {
       "description": "",
@@ -1001,6 +1239,13 @@
       "slug": "https://www.emojiall.com/zh-hans/",
       "title": "Emoji大全 | Emoji表情符号词典 📓 | EmojiAll中文官方网站"
     },
+    "https://www.examcoo.com/": {
+      "description": "考试酷网站是由广州创讯软件有限公司开发和运营的一个永久免费的在线考试系统,网络考试系统,提供在线考试,电子作业,自测练习和模拟考试,智能组卷,试卷分享,试题库等考试系统和考试相关服务.",
+      "icon": "/favicon.ico",
+      "keywords": "考试酷,examcoo,考试系统,在线考试系统,在线考试,网络考试系统,电子作业",
+      "slug": "https://www.examcoo.com/",
+      "title": "考试酷(examcoo)-永久免费的电子作业与在线考试系统云平台"
+    },
     "https://www.fastcron.com/": {
       "description": "You can create and manage cronjobs for multiple websites, with your team. Know when your cron jobs are executed, get failure notifications via email, Slack, and webhooks.",
       "icon": "/images/logo.png",
@@ -1021,6 +1266,13 @@
       "keywords": "前端开发外包,小程序开发兼职,程序员兼职平台",
       "slug": "https://www.freetalen.com/",
       "title": "前端开发外包_小程序开发兼职_程序员兼职平台-飞援"
+    },
+    "https://www.geeksforgeeks.org/": {
+      "description": null,
+      "icon": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_favicon.png",
+      "keywords": "Organization, College, Companies, Institutions, Video, Data Structures, Algorithms, Python, Java, C, C++, JavaScript, Android Development, SQL, Data Science, Machine Learning, PHP, Web Development, System Design, Tutorial, Technical Blogs, Interview Experience, Interview Preparation, Programming, Competitive Programming, SDE Sheet, Job-a-thon, Coding Contests, GATE CSE, HTML, CSS, React, NodeJS, Placement, Aptitude, Quiz, Computer Science, Programming Examples, GeeksforGeeks Courses, Puzzles",
+      "slug": "https://www.geeksforgeeks.org/",
+      "title": "GeeksforGeeks | A computer science portal for geeks"
     },
     "https://www.gigarocket.net/": {
       "description": "Totally free website hosting with a gigabyte of web space, FTP access, SSL, JS, mySQL/PHP support perfectly optimised for Wordpress and most popular Apps.",
@@ -1064,6 +1316,13 @@
       "slug": "https://www.jb51.net/",
       "title": ""
     },
+    "https://www.jfh.com/": {
+      "description": "",
+      "icon": "/logo.png",
+      "keywords": "",
+      "slug": "https://www.jfh.com/",
+      "title": "解放号数智版—伴行数字化转型的软件产业互联网"
+    },
     "https://www.jigdh.com/": {
       "description": "极光导航，简约纯净资源网址导航。页面简洁，功能简练纯粹，支持自定义壁纸、网站、搜索引擎，收录了超多资源网站。我们的愿景是：想用户所想，做网址导航中的清流，做好一个简约、好用、安全、便捷的网址导航网站。",
       "icon": ["/favicon.ico", "/favicon.ico"],
@@ -1105,6 +1364,13 @@
       "keywords": "",
       "slug": "https://www.lishichelun.com/",
       "title": "历史车轮 - 历史·数据·可视化"
+    },
+    "https://www.make8.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://www.make8.com/",
+      "title": ""
     },
     "https://www.mcool.com/": {
       "description": "模库网专业优质商业素材免费下载！提供海量免费素材,平面海报,广告海报素材,电商海报,背景海报,电商素材,png素材,背景图片,插图插画,UI设计模板,背景模板,网页设计模板,UI素材,UI界面,app界面,ios设计,网页素材,psd海报素材,免费素材图库,样机贴图,样机素材,样机模型,设计素材下载,字体下载,图片下载,设计模板,PS素材,矢量素材,素材中国,psd模板等优质设计模板资源，为设计师减少70%加班时间",
@@ -1151,6 +1417,13 @@
       "slug": "https://www.nfyingshi.com/",
       "title": ""
     },
+    "https://www.nowcoder.com/": {
+      "description": "求职之前，先上牛客，就业找工作一站解决。互联网IT技术/产品/运营/硬件/汽车机械制造/金融/财务管理/审计/银行/市场营销/地产/快消/管培生等等专业技能学习/备考/求职神器，在线进行企业校招实习笔试面试真题模拟考试练习，全面提升求职竞争力，找到好工作，拿到好offer。_牛客网_牛客在手,offer不愁",
+      "icon": "https://static.nowcoder.com/fe/file/images/nowpick/web/www-favicon.ico",
+      "keywords": "C++笔试面试,Java笔试面试,计算机笔试,计算机面试,IT笔试,笔试题库,笔试练习,IT面试,在线编程,编程学习,牛客网",
+      "slug": "https://www.nowcoder.com/",
+      "title": "牛客网 - 找工作神器|笔试题库|面试经验|实习招聘内推，求职就业一站解决_牛客网"
+    },
     "https://www.npmjs.com/": {
       "description": "",
       "icon": "/favicon.ico",
@@ -1176,6 +1449,16 @@
       "keywords": "",
       "slug": "https://www.pinterest.com/",
       "title": ""
+    },
+    "https://www.proginn.com/": {
+      "description": "程序员客栈提供兼职程序员、程序员接私活、开发外包，程序员客栈是最大的程序员兼职平台，优质的程序员兼职网站，这里有BAT级兼职程序员、产品经理兼职、UI设计兼职，通过程序员兼职，程序员接私活，程序员接单等方式，解决创业公司程序员兼职、软件开发、产品设计等问题",
+      "icon": [
+        "https://stacdn.proginn.com/favicon_new.ico",
+        "https://stacdn.proginn.com/favicon_new.ico"
+      ],
+      "keywords": "程序员接私活,兼职程序员,程序员兼职,程序员外包,软件开发",
+      "slug": "https://www.proginn.com/",
+      "title": "程序员客栈-领先的程序员自由工作平台-程序员兼职"
     },
     "https://www.python.org/": {
       "description": "The official home of the Python Programming Language",
@@ -1211,6 +1494,23 @@
       "keywords": "美文,范文,实用文",
       "slug": "https://www.ruiwen.com/",
       "title": "瑞文网 - 为您提供优质实用美文！"
+    },
+    "https://www.runoob.com/": {
+      "description": "菜鸟教程(www.runoob.com)提供了编程的基础技术教程, 介绍了HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识。 同时本站中也提供了大量的在线实例，通过实例，您可以更好的学习编程。..",
+      "icon": [
+        "https://static.jyshare.com/images/favicon.ico",
+        "https://static.jyshare.com/images/icon/mobile-icon.png"
+      ],
+      "keywords": "w3cschool,HTML,CSS,PHP,DOM,JavaScript,jQuery,XML,AJAX,ASP.NET,W3C,MySQL,SQL,jquery mobile,bootstrap,Python,jquery easyui,jquery ui,angularjs",
+      "slug": "https://www.runoob.com/",
+      "title": "菜鸟教程 - 学的不仅是技术，更是梦想！"
+    },
+    "https://www.shuge.org/": {
+      "description": "有品格的数字古籍图书馆, 书格, 每个人都能自由地看到我们的文明",
+      "icon": "https://www.shuge.org/wp-content/uploads/2018/06/shugeorg-icon.png",
+      "keywords": "",
+      "slug": "https://www.shuge.org/",
+      "title": "书格"
     },
     "https://www.soushu.vip/": {
       "description": false,
@@ -1275,6 +1575,40 @@
       "slug": "https://www.w3cschool.cn/",
       "title": "w3cschool官网 - 1000多本编程教程免费学"
     },
+    "https://www.w3ctech.com/": {
+      "description": "w3ctech 是一个前端技术社区，先后举办了 Web 标准化交流会、CSS 大会、VueConf、JavaScript 专题会议。",
+      "icon": [
+        "https://img.w3ctech.com/logo-16.png",
+        "https://img.w3ctech.com/logo-32.png",
+        "https://img.w3ctech.com/logo-48.png",
+        "https://img.w3ctech.com/logo-96.png",
+        "https://img.w3ctech.com/logo-96.png",
+        "https://img.w3ctech.com/logo-144.png"
+      ],
+      "keywords": "前端, 前端开发, web前端, web前端开发, 前端开发工程师, 前端开发攻城师,设计, 开发, 前端资源, CSS, JavaScript, HTML, w3ctech, Web标准",
+      "slug": "https://www.w3ctech.com/",
+      "title": "首页 - w3ctech"
+    },
+    "https://www.w3school.com.cn/": {
+      "description": "全球最大的中文 Web 技术教程。",
+      "icon": [
+        "/ui2019/logo-16-red.png",
+        "/ui2019/logo-32-red.png",
+        "/ui2019/logo-48-red.png",
+        "/ui2019/logo-96-red.png",
+        "/ui2019/logo-180.png"
+      ],
+      "keywords": "",
+      "slug": "https://www.w3school.com.cn/",
+      "title": "w3school 在线教程"
+    },
+    "https://www.w7.cc/": {
+      "description": "微擎应用生态满足各类小程序开发和公众号开发需求，提供上万种微信小程序、抖音小程序、视频号小程序、SAAS系统开发解决方案。",
+      "icon": "https://cdn.w7.cc/favicon.ico",
+      "keywords": "微擎官网，微信小程序、抖音小程序、视频号小程序、SAAS系统开发解决方案",
+      "slug": "https://www.w7.cc/",
+      "title": "微擎 - 买软件，找微擎！"
+    },
     "https://www.webfx.com/tools/emoji-cheat-sheet/": {
       "description": "Emoji codes used by GitHub, Basecamp, Slack and other services. Searchable. With emoji meanings.",
       "icon": [
@@ -1324,12 +1658,37 @@
       "slug": "https://www.yinfans.net/",
       "title": "音范丝 | 首页——精选4K蓝光原盘下载,顶级收藏"
     },
+    "https://www.yinxiang.com/": {
+      "description": "作为你的第二大脑，记录就用印象笔记。印象笔记可以帮助你高效工作、学习与生活。支持无缝多端同步，快速保存微信、微博、网页等内容，一站式完成信息的收集备份、高效记录、分享和永久保存。",
+      "icon": [
+        "https://www.yinxiang.com/new/wp-content/uploads/2021/12/cropped-yxfavicon-32x32.png",
+        "https://www.yinxiang.com/new/wp-content/uploads/2021/12/cropped-yxfavicon-192x192.png",
+        "https://www.yinxiang.com/new/wp-content/uploads/2021/12/cropped-yxfavicon-180x180.png"
+      ],
+      "keywords": "印象笔记,笔记软件,云笔记,思维导图,脑图,办公软件,在线笔记,markdown,OCR,便签,笔记,记事本,头脑风暴,时间管理,日志,todo,知识管理,任务管理,扫描,扫描全能王网页版,工作效率,office,在线文档,yinxiang,evernote,协同办公,OKR,超级笔记,在线编辑,大纲笔记,文档管理,PDF编辑,清单,日记,有道云笔记,幕布,Xmind,Markdown在线编辑器",
+      "slug": "https://www.yinxiang.com/",
+      "title": "印象笔记 | 工作必备效率应用"
+    },
     "https://www.youku.com/": {
       "description": "视频服务平台,提供视频播放,视频发布,视频搜索,视频分享",
       "icon": "/favicon.ico",
       "keywords": "视频,视频分享,视频搜索,视频播放",
       "slug": "https://www.youku.com/",
       "title": "优酷 - 为好内容全力以赴 - 海量正版高清视频在线观看"
+    },
+    "https://www.yuanjisong.com/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://www.yuanjisong.com/",
+      "title": ""
+    },
+    "https://www.zbj.com/": {
+      "description": "找品质企业服务，就上猪八戒网，提供品牌设计、营销策划、网站建设、知识产权、工商财税、数字资产交易等800+种品质服务；18年专业企业服务经验，300+线下服务网络，企业服务放心购，明码实价，不成功退款。",
+      "icon": "https://s.zbjimg.com/img/favicon.ico",
+      "keywords": "品牌设计,营销策划,网站建设,知识产权,工商财税,数字资产交易,项目申报,企业服务",
+      "slug": "https://www.zbj.com/",
+      "title": "猪八戒网-品质企业服务 就找猪八戒"
     },
     "https://www.zhenbuka.net/": {
       "description": "真不卡影院（www.zhenbuka.net）作为一个在线观看电影、美剧、韩剧、动漫真不卡网站，值得每一个影迷朋友收藏，看片我真不卡！",
@@ -1348,6 +1707,13 @@
       "slug": "https://www.zimutiantang.com/",
       "title": ""
     },
+    "https://xydh.fun/": {
+      "description": "炫猿是一款高度可定制化的网址导航，可为每个用户提供个性化域名访问的导航页面。独一无二的定制化功能注定成为导航届的一批黑马，你的专属主页。",
+      "icon": "/favicon.ico",
+      "keywords": "iLinks,炫猿,炫猿导航,网址导航,自定义网址导航,定制网址导航,炫猿邀请码",
+      "slug": "https://xydh.fun/",
+      "title": "iLinks"
+    },
     "https://yb2q.com/": {
       "description": "",
       "icon": "/favicon.ico",
@@ -1361,6 +1727,13 @@
       "keywords": "",
       "slug": "https://yiyan.baidu.com/",
       "title": "文心一言"
+    },
+    "https://zb.oschina.net/": {
+      "description": "",
+      "icon": "/favicon.ico",
+      "keywords": "",
+      "slug": "https://zb.oschina.net/",
+      "title": ""
     }
   },
   "langnang.github.io": [],
