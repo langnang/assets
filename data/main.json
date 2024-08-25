@@ -1,0 +1,26 @@
+{
+  "": {},
+  "contents": {
+    "": "",
+    "album": "相册",
+    "Audio": "音频",
+    "Blog": "博客",
+    "brand": "品牌",
+    "Charts": "图表",
+    "Chat": "交流聊天",
+    "CheatSheet": "备忘表",
+    "commodity": "商品",
+    "Editor": "编辑器",
+    "icon": {
+      "_dependencies": [],
+      "data": ["icon.json"],
+      "description": "",
+      "keywords": "",
+      "titleCn": "图标"
+    },
+    "Material": "素材",
+    "Media": "多媒体",
+    "Navigation": "网址导航",
+    "noun": "名词"
+  }
+}
