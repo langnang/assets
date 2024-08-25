@@ -25,6 +25,9 @@
       "@supabase/storage-js": {},
       "@supabase/supabase-js": {},
       "@types/crypto-js": {},
+      "@xterm/xterm": {
+        "github": ""
+      },
       "ace-builds": {},
       "admin-lte": {},
       "animate.css": {
@@ -93,6 +96,7 @@
       "echarts": {},
       "element-ui": {},
       "fancybox": {},
+      "terminal-link": {},
       "font-awesome": {},
       "font-awesome-animation": {},
       "fork-awesome": {},
@@ -109,6 +113,8 @@
       "holderjs": {},
       "ionicons": {},
       "jquery": {},
+      "jquery-ui": {},
+      "jquery.terminal": {},
       "lazyload": {},
       "less": {},
       "lodash": {},
