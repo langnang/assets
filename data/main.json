@@ -2,25 +2,35 @@
   "": {},
   "contents": {
     "": "",
-    "album": "相册",
-    "Audio": "音频",
-    "Blog": "博客",
-    "brand": "品牌",
-    "Charts": "图表",
-    "Chat": "交流聊天",
-    "CheatSheet": "备忘表",
-    "commodity": "商品",
-    "Editor": "编辑器",
+    "album": { "titleCn": "相册" },
+    "Audio": { "titleCn": "音频" },
+    "Blog": { "titleCn": "博客" },
+    "brand": { "titleCn": "品牌" },
+    "Charts": { "titleCn": "图表" },
+    "Chat": { "titleCn": "交流聊天" },
+    "CheatSheet": { "titleCn": "备忘表" },
+    "commodity": { "titleCn": "商品" },
+    "Editor": { "titleCn": "编辑器" },
     "icon": {
+      "_data": ["icon.json"],
       "_dependencies": [],
-      "data": ["icon.json"],
+      "_url": {},
       "description": "",
       "keywords": "",
       "titleCn": "图标"
     },
-    "Material": "素材",
-    "Media": "多媒体",
-    "Navigation": "网址导航",
-    "noun": "名词"
+    "Material": { "titleCn": "素材" },
+    "Media": { "titleCn": "多媒体" },
+    "Navigation": { "titleCn": "网址导航" },
+    "noun": { "titleCn": "名词" },
+    "webNav": {
+      "_url": {
+        "localhost": ""
+      },
+      "description": "",
+      "keywords": "",
+      "title": "WebNav",
+      "titleCn": ""
+    }
   }
 }
