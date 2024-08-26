@@ -228,7 +228,7 @@
         }
       }
     },
-    "qidian_book": {
+    "qidian:book": {
       "name": "qidian_book",
       "domains": ["qidian.com", "www.qidian.com"],
       "scan_urls": [
