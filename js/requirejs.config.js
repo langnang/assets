@@ -4,13 +4,13 @@
   "use strict";
   window.$data = {};
   fetch("/storage/data/main.json").then(res => res.json()).then(res => {
-    console.log(`fetch`, res['requirejs']);
+    // console.log(`fetch`, res['requirejs']);
     $data['main'] = res;
     requirejs.config(res['requirejs'] || {})
 
     for (let key in res['requirejs']['define'] || {}) {
       define('$' + key, res['requirejs']['define'][key], function (...args) {
-        // console.log(args);
+        console.log(args);
         //       $("#app").html(`<div class="d-flex justify-content-center align-items-center" style="height: 80vh;">
         //   <div class="spinner-border" role="status" style="width: 5rem; height: 5rem;">
         //     <span class="sr-only">Loading...</span>
@@ -24,13 +24,14 @@
         // </div>
         // `);
         require([`css!${location.href}/../style.css`, `${location.href}/../script.js`])
+        return [...args];
       })
     }
 
 
     const script = document.querySelector('script[data-main]');
-    console.log(script);
-    console.log(script.getAttribute('data-main'));
+    // console.log(script);
+    // console.log(script.getAttribute('data-main'));
     const searchParams = new URLSearchParams(script.getAttribute('data-main').split('?')[1]);
     const params = {};
 
@@ -38,11 +39,9 @@
       const [key, value] = pair;
       params[key] = value;
     }
-    console.log(params)
+    // console.log(params)
     if (params['module']) {
-      require(['$' + params['module']], function (...args) {
-        console.log(args);
-      })
+      require(['$' + params['module']])
     }
 
   })
