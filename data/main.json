@@ -12,7 +12,7 @@
       "title": "",
       "titleCn": ""
     },
-    "Rule": {
+    "": {
       "_url": {
         "http://127.0.0.1": "",
         "http://localhost": ""
@@ -20,10 +20,10 @@
       "description": "",
       "ico": "",
       "keywords": "",
-      "title": "Rule",
-      "titleCn": "规范"
+      "title": "",
+      "titleCn": ""
     },
-    "Calendar": {
+    "": {
       "_url": {
         "http://127.0.0.1": "",
         "http://localhost": ""
@@ -31,8 +31,19 @@
       "description": "",
       "ico": "",
       "keywords": "",
-      "title": "Calendar",
-      "titleCn": "日历"
+      "title": "",
+      "titleCn": ""
+    },
+    "": {
+      "_url": {
+        "http://127.0.0.1": "",
+        "http://localhost": ""
+      },
+      "description": "",
+      "ico": "",
+      "keywords": "",
+      "title": "",
+      "titleCn": ""
     },
     "Admin": {
       "_url": {
@@ -119,6 +130,17 @@
       "keywords": "",
       "title": "Brand",
       "titleCn": "品牌"
+    },
+    "Calendar": {
+      "_url": {
+        "http://127.0.0.1": "",
+        "http://localhost": ""
+      },
+      "description": "",
+      "ico": "",
+      "keywords": "",
+      "title": "Calendar",
+      "titleCn": "日历"
     },
     "Card": {
       "_url": {
@@ -219,6 +241,17 @@
       "title": "eMail",
       "titleCn": "邮件"
     },
+    "Form": {
+      "_url": {
+        "http://127.0.0.1": "",
+        "http://localhost": ""
+      },
+      "description": "",
+      "ico": "",
+      "keywords": "",
+      "title": "Form",
+      "titleCn": "表单"
+    },
     "Forum": {
       "_url": {
         "http://127.0.0.1": "",
@@ -263,6 +296,25 @@
       "title": "GUI",
       "titleCn": ""
     },
+    "Home": {
+      "_script": {
+        "http://127.0.0.1": "",
+        "http://localhost": ""
+      },
+      "_style": {
+        "http://127.0.0.1": "",
+        "http://localhost": ""
+      },
+      "_url": {
+        "http://127.0.0.1": "",
+        "http://localhost": ""
+      },
+      "description": "",
+      "ico": "",
+      "keywords": "",
+      "title": "Home",
+      "titleCn": ""
+    },
     "Icon": {
       "_data": ["icon.json"],
       "_dependencies": [],
@@ -296,6 +348,17 @@
       "keywords": "",
       "title": "Langnang",
       "titleCn": ""
+    },
+    "Lauguage": {
+      "_url": {
+        "http://127.0.0.1": "",
+        "http://localhost": ""
+      },
+      "description": "",
+      "ico": "",
+      "keywords": "",
+      "title": "Lauguage",
+      "titleCn": "语言"
     },
     "Library": {
       "_url": {
@@ -396,6 +459,17 @@
       "title": "Novel",
       "titleCn": "小说"
     },
+    "Office": {
+      "_url": {
+        "http://127.0.0.1": "",
+        "http://localhost": ""
+      },
+      "description": "",
+      "ico": "",
+      "keywords": "",
+      "title": "Office",
+      "titleCn": "办公"
+    },
     "OneForAll": {
       "_url": {
         "http://127.0.0.1": "",
@@ -428,6 +502,17 @@
       "keywords": "",
       "title": "Price",
       "titleCn": ""
+    },
+    "ProgrammingLanguage": {
+      "_url": {
+        "http://127.0.0.1": "",
+        "http://localhost": ""
+      },
+      "description": "",
+      "ico": "",
+      "keywords": "",
+      "title": "ProgrammingLanguage",
+      "titleCn": "编程语言"
     },
     "Question": {
       "_url": {
@@ -494,6 +579,17 @@
       "keywords": "",
       "title": "Roadmap",
       "titleCn": ""
+    },
+    "Rule": {
+      "_url": {
+        "http://127.0.0.1": "",
+        "http://localhost": ""
+      },
+      "description": "",
+      "ico": "",
+      "keywords": "",
+      "title": "Rule",
+      "titleCn": "规范"
     },
     "School": {
       "_url": {
@@ -694,8 +790,8 @@
     },
     "WebSpider": {
       "_url": {
-        "http://127.0.0.1": "/41000.simple/projects/WebSpider/html/bootstrap4",
-        "http://localhost": "/41000.simple/projects/WebSpider/html/bootstrap4"
+        "http://127.0.0.1": "/41000.simple/projects/WebSpider/php/phpspider",
+        "http://localhost": "/41000.simple/projects/WebSpider/php/phpspider"
       },
       "description": "",
       "ico": "",
@@ -723,7 +819,84 @@
       "ico": "",
       "keywords": "",
       "title": "Wiki",
-      "titleCn": ""
+      "titleCn": "百科"
+    }
+  },
+  "requirejs": {
+    "baseUrl": "https://unpkg.com/",
+    "bundles": {},
+    "config": {},
+    "define": {
+      "bootstrap3": [],
+      "bootstrap4": [
+        "bootstrap4",
+        "holderjs",
+        "mockjs",
+        "handlebars",
+        "css!normalize_css",
+        "css!animate_css",
+        "css!bootstrap-icons@1.11.3/font/bootstrap-icons.min"
+      ],
+      "bootstrap5": [],
+      "bootstrap3-vue2": [],
+      "bootstrap4-vue2": [],
+      "bootstrap5-vue2": [],
+      "bootstrap3-vue3": [],
+      "bootstrap4-vue3": [],
+      "bootstrap5-vue3": [],
+      "original": []
+    },
+    "map": {
+      "*": {
+        "css": "require-css@0.1.10/css.min"
+      }
+    },
+    "packages": [],
+    "paths": {
+      "$": "jquery@3.7.1/dist/jquery.slim.min",
+      "ace": "",
+      "animate": "",
+      "animate_css": "animate.css@4.1.1/animate.min",
+      "animation": "",
+      "backbone": "",
+      "bootstrap": "",
+      "bootstrap3": "",
+      "bootstrap4": "bootstrap@4.6.2/dist/js/bootstrap.bundle.min",
+      "bootstrap5": "",
+      "fontawesome": "",
+      "handlebars": "handlebars@4.7.8/dist/handlebars.min",
+      "holderjs": "holderjs@2.9.9/holder.min",
+      "jquery": "jquery@3.7.1/dist/jquery.slim.min",
+      "lodash": "",
+      "lozad": "",
+      "mockjs": "mockjs@1.1.0/dist/mock-min",
+      "moment": "",
+      "normalize_css": "normalize.css@8.0.1/normalize",
+      "underscore": ""
+    },
+    "shim": {
+      "backbone": {
+        "deps": ["underscore", "jquery"],
+        "exports": "Backbone"
+      },
+      "backbone.layoutmanager": {
+        "deps": ["backbone"],
+        "exports": "Backbone.LayoutManager"
+      },
+      "bootstrap4": {
+        "deps": ["css!bootstrap@4.6.2/dist/css/bootstrap.min", "jquery"]
+      },
+      "jquery.colorize": {
+        "deps": ["jquery"],
+        "exports": "jQuery.fn.colorize"
+      },
+      "jquery.scroll": {
+        "deps": ["jquery"],
+        "exports": "jQuery.fn.scroll"
+      },
+      "underscore": {
+        "exports": "_"
+      }
     }
   }
 }
