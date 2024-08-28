@@ -120,17 +120,22 @@
       }
     },
     "bilianku": {
-      "name": "bilianku",
+      "title": "http://www.bilianku.com/",
+      "slug": "bilianku",
       "domains": ["bilianku.com", "www.bilianku.com"],
       "scan_urls": ["http://www.bilianku.com/shiti-58203/"],
       "list_url_regexes": [],
       "content_url_regexes": ["http://www.bilianku.com/shiti-\\d+/"],
       "max_fields": 1,
+      "created_at": "2024-08-28 09:40:11",
+      "updated_at": "2024-08-28 09:40:11",
+      "deleted_at": "",
       "fields": {
         "title": {
           "name": "title",
-          "selector": "//div[@class='list_text']//text()",
-          "required": true
+          "selector": "//div[@class='list_text']//text()|trim",
+          "required": true,
+          "filter": "trim"
         }
       }
     },
@@ -274,6 +279,12 @@
       }
     }
   },
+  "tags": {
+    "WebSpider": {
+      "name": "WebSpider",
+      "contents": []
+    }
+  },
   "_content": {
     "name": "phpspider",
     "log_show": false,
@@ -351,5 +362,7 @@
         "repeated": false
       }
     }
-  }
+  },
+  "http://127.0.0.1": {},
+  "http://localhost": {}
 }

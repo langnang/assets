@@ -18,12 +18,36 @@
         "name": "",
         "versions": {}
       },
-      "": {
-        "description": "",
+      "ora": {
+        "description": "Elegant terminal spinner",
+        "github": "sindresorhus/ora",
+        "homepage": "",
+        "keywords": [],
+        "name": "ora",
+        "versions": {}
+      },
+      "sortablejs": {
+        "description": "JavaScript library for reorderable drag-and-drop lists on modern browsers and touch devices. No jQuery required. Supports Meteor, AngularJS, React, Polymer, Vue, Knockout and any CSS library, e.g. Bootstrap.",
         "github": "",
         "homepage": "",
         "keywords": [],
-        "name": "",
+        "name": "sortablejs",
+        "versions": {}
+      },
+      "mermaid": {
+        "description": "Markdown-ish syntax for generating flowcharts, mindmaps, sequence diagrams, class diagrams, gantt charts, git graphs and more.",
+        "github": "",
+        "homepage": "",
+        "keywords": [],
+        "name": "mermaid",
+        "versions": {}
+      },
+      "cli-spinners": {
+        "description": "Spinners for use in the terminal",
+        "github": "",
+        "homepage": "",
+        "keywords": [],
+        "name": "cli-spinners",
         "versions": {}
       },
       "handle-thing": {
@@ -188,7 +212,6 @@
         "keywords": ["DOM", "browser", "grid", "layout", "outlayer"]
       },
       "mathjax": {},
-      "mermaid": {},
       "mockjs": {},
       "moment": {},
       "monaco-editor": {},

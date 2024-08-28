@@ -286,6 +286,11 @@
       "titleCn": ""
     },
     "Home": {
+      "config": {
+        "layout": "",
+        "template": "bootstrap4"
+      },
+      "options": {},
       "_script": {
         "http://127.0.0.1": "",
         "http://localhost": ""
@@ -757,10 +762,15 @@
       "titleCn": ""
     },
     "WebNav": {
+      "config": {
+        "layout": "bootstrap4",
+        "theme": ""
+      },
       "_url": {
         "http://127.0.0.1": "/41000.simple/projects/webnav/html/bootstrap4/",
         "http://localhost": "/41000.simple/projects/webnav/html/bootstrap4/"
       },
+      "_data": ["webnav"],
       "description": "",
       "keywords": "",
       "title": "WebNav",
@@ -789,6 +799,11 @@
       "titleCn": ""
     },
     "WebSpider": {
+      "config": {
+        "layout": "",
+        "template": "bootstrap4"
+      },
+      "_data": ["webnav", "phpspider"],
       "_url": {
         "http://127.0.0.1": "/41000.simple/projects/WebSpider/php/phpspider",
         "http://localhost": "/41000.simple/projects/WebSpider/php/phpspider"
@@ -835,6 +850,8 @@
         "holderjs",
         "mockjs",
         "handlebars",
+        "feather-icons",
+        "lozad",
         "css!normalize_css",
         "css!animate_css",
         "css!bootstrap-icons@1.11.3/font/bootstrap-icons.min"
@@ -850,12 +867,15 @@
     },
     "map": {
       "*": {
-        "css": "require-css@0.1.10/css.min"
+        "css": "require-css@0.1.10/css.min",
+        "json": "requirejs-json@0.0.3/json",
+        "text": "requirejs-text@2.0.16/text"
       }
     },
     "packages": [],
     "paths": {
       "$": "jquery@3.7.1/dist/jquery.slim.min",
+      "@langnang": "https://raw.gitmirror.com/langnang/langnang/master/js/langnang",
       "ace": "",
       "animate": "",
       "animate_css": "animate.css@4.1.1/animate.min",
@@ -870,13 +890,22 @@
       "holderjs": "holderjs@2.9.9/holder.min",
       "jquery": "jquery@3.7.1/dist/jquery.slim.min",
       "lodash": "",
-      "lozad": "",
+      "lozad": "lozad@1.16.0/dist/lozad.min",
       "mockjs": "mockjs@1.1.0/dist/mock-min",
       "moment": "",
+      "feather-icons": "feather-icons@4.29.2/dist/feather.min",
       "normalize_css": "normalize.css@8.0.1/normalize",
       "underscore": ""
     },
     "shim": {
+      "@langnang": {
+        "deps": [
+          "css!https://cdn.jsdelivr.net/gh/langnang/langnang/css/langnang"
+        ]
+      },
+      "handlebars": {
+        "exports": "Handlebars"
+      },
       "backbone": {
         "deps": ["underscore", "jquery"],
         "exports": "Backbone"
@@ -884,6 +913,9 @@
       "backbone.layoutmanager": {
         "deps": ["backbone"],
         "exports": "Backbone.LayoutManager"
+      },
+      "lozad": {
+        "exports": "lozad"
       },
       "bootstrap4": {
         "deps": ["css!bootstrap@4.6.2/dist/css/bootstrap.min", "jquery"]
@@ -895,6 +927,16 @@
       "jquery.scroll": {
         "deps": ["jquery"],
         "exports": "jQuery.fn.scroll"
+      },
+      "feather-icons": {
+        "deps": [],
+        "exports": "feather"
+      },
+      "mockjs": {
+        "exports": "Mock"
+      },
+      "lodash": {
+        "exports": "_"
       },
       "underscore": {
         "exports": "_"

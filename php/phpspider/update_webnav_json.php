@@ -43,7 +43,12 @@ foreach ($contents as $slug => $content) {
   $contents[$slug]['description'] = trim(selector::select($html, $selector));
   // keywords
   $selector = "//head//meta[@name='keywords']/@content";
-  $contents[$slug]['keywords'] = trim(selector::select($html, $selector));
+  $contents[$slug]['_keywords'] = trim(selector::select($html, $selector));
+  if (empty($contents[$slug]['_keywords'])) $contents[$slug]['keywords'] = [];
+  else $contents[$slug]['keywords'] = implode(",", $contents[$slug]['_keywords']);
+  $contents[$slug]['keywords'] = array_map(function ($value) {
+    return trim($value);
+  }, $contents[$slug]['keywords']);
   // icon
   $selector = "//head//link[contains(@rel,'icon')]/@href";
   $contents[$slug]['icon'] = selector::select($html, $selector);
@@ -53,9 +58,16 @@ foreach ($contents as $slug => $content) {
   $data['contents'] = $contents;
   file_put_contents($path, json_encode($data, JSON_UNESCAPED_UNICODE));
 }
-// foreach ($contents as $slug => $content) {
-// $contents[$slug]['slug'] = $slug;
-// }
+foreach ($contents as $slug => $content) {
+  // $contents[$slug]['_keywords'] =  $contents[$slug]['keywords'];
+  // $contents[$slug]['keywords'] = explode(",", $contents[$slug]['_keywords']);
+  if (empty($contents[$slug]['_keywords'])) $contents[$slug]['keywords'] = [];
+  $contents[$slug]['keywords'] = array_map(function ($value) {
+    return trim($value);
+  }, $contents[$slug]['keywords']);
+}
+$data['contents'] = $contents;
+file_put_contents($path, json_encode($data, JSON_UNESCAPED_UNICODE));
 // $data['contents'] = $contents;
 // file_put_contents($path, json_encode($data, JSON_UNESCAPED_UNICODE));
 // dump($data);
