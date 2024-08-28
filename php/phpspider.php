@@ -1,6 +1,7 @@
 <?php
 
 require_once __DIR__ . '/../vendor/autoload.php';
+
 use phpspider\core\phpspider;
 use phpspider\core\requests;
 
@@ -40,7 +41,7 @@ $spider = new phpspider($config);
  * @param $phpspider 爬虫对象
  */
 $spider->on_start = function ($phpspider) {
-  dump('"on_start"');
+  var_dump('"on_start"');
   // requests::set_header("Referer", "http://buluo.qq.com/p/index.html");
 };
 /**
@@ -54,7 +55,7 @@ $spider->on_start = function ($phpspider) {
  * @return $content 返回处理后的网页内容，不处理当前页面请返回false
  */
 $spider->on_status_code = function ($status_code, $url, $content, $phpspider) {
-  dump('"on_status_code","' . $url . '"');
+  var_dump('"on_status_code","' . $url . '"');
   // 如果状态码为429，说明对方网站设置了不让同一个客户端同时请求太多次
   if ($status_code == '429') {
     // 将url插入待爬的队列中,等待再次爬取
@@ -75,7 +76,7 @@ $spider->on_status_code = function ($status_code, $url, $content, $phpspider) {
  * @return 如果被反爬虫了, 返回true, 否则返回false
  */
 $spider->is_anti_spider = function ($url, $content, $phpspider) {
-  dump('"is_anti_spider","' . $url . '"');
+  var_dump('"is_anti_spider","' . $url . '"');
   // $content中包含"404页面不存在"字符串
   if (strpos($content, "404页面不存在") !== false) {
     // 如果使用了代理IP，IP切换需要时间，这里可以添加到队列等下次换了IP再抓取
@@ -98,7 +99,7 @@ $spider->is_anti_spider = function ($url, $content, $phpspider) {
  * @param $page['request'] 当前网页的请求对象
  */
 $spider->on_download_page = function ($page, $phpspider) use ($config) {
-  dump('"on_download_page","' . $page['url'] . '"');
+  var_dump('"on_download_page","' . $page['url'] . '"');
   // dump($phpspider);
   // dump($page);
   $url = preg_replace("/:|\//", "_", $page['url']);
@@ -127,7 +128,7 @@ $spider->on_download_page = function ($page, $phpspider) use ($config) {
  */
 $spider->on_download_attached_page = function ($content, $phpspider) {
 
-  dump('on_download_attached_page');
+  var_dump('on_download_attached_page');
   // dump($content);
   // $content = trim($content);
   // $content = ltrim($content, "[");
@@ -145,7 +146,7 @@ $spider->on_download_attached_page = function ($content, $phpspider) {
  * @return 返回处理后的URL，为false则此URL不入采集队列
  */
 $spider->on_fetch_url = function ($url, $phpspider) {
-  dump('"on_fetch_url","' . $url . '"');
+  var_dump('"on_fetch_url","' . $url . '"');
   // if (strpos($url, "#filter") !== false) {
   //   return false;
   // }
@@ -167,7 +168,7 @@ $spider->on_fetch_url = function ($url, $phpspider) {
  * 此函数中通过调用$phpspider->add_url($url, $options)函数来添加新的url到待爬队列。
  */
 $spider->on_scan_page = function ($page, $content, $phpspider) {
-  dump('"on_scan_page","' . $page['url'] . '"');
+  var_dump('"on_scan_page","' . $page['url'] . '"');
   // return false;
 };
 /**
@@ -186,7 +187,7 @@ $spider->on_scan_page = function ($page, $content, $phpspider) {
  * 此函数中通过调用$phpspider->add_url($url, $options)函数来添加新的url到待爬队列。
  */
 $spider->on_list_page = function ($page, $content, $phpspider) {
-  dump('"on_list_page","' . $page['url'] . '"');
+  var_dump('"on_list_page","' . $page['url'] . '"');
   // return false;
 };
 /**
@@ -205,7 +206,7 @@ $spider->on_list_page = function ($page, $content, $phpspider) {
  * 此函数中通过调用$phpspider->add_url($url, $options)函数来添加新的url到待爬队列。
  */
 $spider->on_content_page = function ($page, $content, $phpspider) {
-  dump('"on_content_page","' . $page['url'] . '"');
+  var_dump('"on_content_page","' . $page['url'] . '"');
   // return false;
 };
 /**
@@ -278,7 +279,7 @@ $spider->on_extract_field = function ($fieldname, $data, $page) {
  * @param $page['request'] 当前网页的请求对象
  */
 $spider->on_extract_page = function ($page, $data) use ($config) {
-  dump('"on_extract_page","' . $page['url'] . '"');
+  var_dump('"on_extract_page","' . $page['url'] . '"');
   // $title = "[{$data['time']}]" . $data['title'];
   // $data['title'] = $title;
   if ($config['export']['type'] == 'csv') {
@@ -288,7 +289,7 @@ $spider->on_extract_page = function ($page, $data) use ($config) {
   }
   $data['_url'] = $page['url'];
   if ($config['max_fields'] !== 0) {
-    dump($data);
+    var_dump($data);
   }
   // exit;
   return $data;
