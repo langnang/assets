@@ -127,7 +127,7 @@
       "list_url_regexes": [],
       "content_url_regexes": ["http://www.bilianku.com/shiti-\\d+/"],
       "max_fields": 0,
-      "updated_at": "2024-08-28 09:40:11",
+      "updated_at": "2024-08-29 14:04:37",
       "deleted_at": "",
       "fields": {
         "title": {
