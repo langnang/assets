@@ -256,13 +256,16 @@
     "食品": {
       "children": {},
       "contents": {
-        "": {
+        "泡椒鸡爪 38g": {
           "ico": "",
-          "title": ""
+          "title": "",
+          "retail_price": "2.5 RMB"
         },
-        "": {
+        "泡椒鸡爪 100g": { "ico": "", "title": "", "retail_price": "4 RMB" },
+        "卤鸭头 一个": {
           "ico": "",
-          "title": ""
+          "title": "",
+          "retail_price": "6 RMB"
         },
         "": {
           "ico": "",
