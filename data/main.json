@@ -334,8 +334,8 @@
     },
     "Langnang": {
       "_url": {
-        "http://127.0.0.1": "",
-        "http://localhost": ""
+        "http://127.0.0.1": "/langnang/composer",
+        "http://localhost": "/langnang/composer"
       },
       "description": "",
       "ico": "",
