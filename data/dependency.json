@@ -18,6 +18,101 @@
         "name": "",
         "versions": {}
       },
+      "": {
+        "description": "",
+        "github": "",
+        "homepage": "",
+        "keywords": [],
+        "name": "",
+        "versions": {}
+      },
+      "": {
+        "description": "",
+        "github": "",
+        "homepage": "",
+        "keywords": [],
+        "name": "",
+        "versions": {}
+      },
+      "": {
+        "description": "",
+        "github": "",
+        "homepage": "",
+        "keywords": [],
+        "name": "",
+        "versions": {}
+      },
+      "": {
+        "description": "",
+        "github": "",
+        "homepage": "",
+        "keywords": [],
+        "name": "",
+        "versions": {}
+      },
+      "": {
+        "description": "",
+        "github": "",
+        "homepage": "",
+        "keywords": [],
+        "name": "",
+        "versions": {}
+      },
+      "": {
+        "description": "",
+        "github": "",
+        "homepage": "",
+        "keywords": [],
+        "name": "",
+        "versions": {}
+      },
+      "createjs": {
+        "description": "A suite of modular libraries and tools which work together or independently to enable rich interactive content on open web technologies via HTML5.",
+        "github": "",
+        "homepage": "",
+        "keywords": [
+          "createjs, easeljs, tweenjs, soundjs, preloadjs, zoe, gskinner, flash, javascript, canvas, html5, animate"
+        ],
+        "name": "createjs",
+        "versions": {}
+      },
+      "three": {
+        "description": "JavaScript 3D library",
+        "github": "",
+        "homepage": "",
+        "keywords": [
+          "three, three.js, javascript, 3d, virtual-reality, augmented-reality, webgl, webgl2, webaudio, webgpu, webxr, canvas, svg, html5"
+        ],
+        "name": "three",
+        "versions": {}
+      },
+      "phaser": {
+        "description": "A fast, free and fun HTML5 Game Framework for Desktop and Mobile web browsers from the team at Phaser Studio Inc.",
+        "github": "",
+        "homepage": "https://phaser.io/",
+        "keywords": [
+          "2d",
+          "HTML5",
+          "WebGL",
+          "canvas",
+          "game",
+          "javascript",
+          "physics",
+          "tweens",
+          "typescript",
+          "web audio"
+        ],
+        "name": "phaser",
+        "versions": {}
+      },
+      "pixi.js": {
+        "description": "The HTML5 Creation Engine",
+        "github": "",
+        "homepage": "http://pixijs.com/",
+        "keywords": [],
+        "name": "pixi.js",
+        "versions": {}
+      },
       "ora": {
         "description": "Elegant terminal spinner",
         "github": "sindresorhus/ora",
@@ -253,7 +348,6 @@
       "simple-line-icons": {},
       "tailwindcss-animate": {},
       "terminal-link": {},
-      "three": {},
       "typescript": {},
       "v-contextmenu": {},
       "vanilla-lazyload": {},

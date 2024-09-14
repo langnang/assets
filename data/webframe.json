@@ -13,7 +13,7 @@
         "type": "group",
         "children": [
           {
-            "title": "Langnang",
+            "title": "langnang.github.io",
             "type": "site",
             "url": "https://langnang.github.io/sites",
             "ico": "https://langnang.github.io/favicon.ico",
@@ -30,6 +30,11 @@
           {
             "title": "jekyll",
             "url": "https://langnang.github.io/docs",
+            "type": "site"
+          },
+          {
+            "title": "langnang",
+            "url": "https://langnang.github.io/langnang",
             "type": "site"
           },
           {
