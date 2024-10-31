@@ -47,7 +47,7 @@
     },
     "Album": {
       "_url": {
-        "http://localhost": "/41000.simple/projects/album/html/bootstrap4/"
+        "http://localhost": "/simple/projects/album/html/bootstrap4/"
       },
       "description": "",
       "ico": "",
@@ -101,7 +101,7 @@
     },
     "Blog": {
       "_url": {
-        "http://localhost": "/41000.simple/projects/blog/html/bootstrap4/"
+        "http://localhost": "/simple/projects/blog/html/bootstrap4/"
       },
       "description": "",
       "ico": "",
@@ -188,8 +188,8 @@
     },
     "Comic": {
       "_url": {
-        "http://127.0.0.1": "/41000.simple/projects/comic/html/bootstrap4/",
-        "http://localhost": "/41000.simple/projects/comic/html/bootstrap4/"
+        "http://127.0.0.1": "/simple/projects/comic/html/bootstrap4/",
+        "http://localhost": "/simple/projects/comic/html/bootstrap4/"
       },
       "description": "",
       "ico": "",
@@ -199,8 +199,8 @@
     },
     "Commodity": {
       "_url": {
-        "http://127.0.0.1": "/41000.simple/projects/commodity/html/bootstrap4/",
-        "http://localhost": "/41000.simple/projects/commodity/html/bootstrap4/"
+        "http://127.0.0.1": "/simple/projects/commodity/html/bootstrap4/",
+        "http://localhost": "/simple/projects/commodity/html/bootstrap4/"
       },
       "description": "",
       "ico": "",
@@ -730,8 +730,8 @@
     },
     "WebFrame": {
       "_url": {
-        "http://127.0.0.1": "/41000.simple/projects/webframe/html/bootstrap4-vue2/",
-        "http://localhost": "/41000.simple/projects/webframe/html/bootstrap4-vue2/"
+        "http://127.0.0.1": "/simple/projects/webframe/html/bootstrap4-vue2/",
+        "http://localhost": "/simple/projects/webframe/html/bootstrap4-vue2/"
       },
       "description": "",
       "ico": "",
@@ -767,8 +767,8 @@
         "theme": ""
       },
       "_url": {
-        "http://127.0.0.1": "/41000.simple/projects/webnav/html/bootstrap4/",
-        "http://localhost": "/41000.simple/projects/webnav/html/bootstrap4/"
+        "http://127.0.0.1": "/simple/projects/webnav/html/bootstrap4/",
+        "http://localhost": "/simple/projects/webnav/html/bootstrap4/"
       },
       "_data": ["webnav"],
       "description": "",
@@ -805,8 +805,8 @@
       },
       "_data": ["webnav", "phpspider"],
       "_url": {
-        "http://127.0.0.1": "/41000.simple/projects/WebSpider/php/phpspider",
-        "http://localhost": "/41000.simple/projects/WebSpider/php/phpspider"
+        "http://127.0.0.1": "/simple/projects/WebSpider/php/phpspider",
+        "http://localhost": "/simple/projects/WebSpider/php/phpspider"
       },
       "description": "",
       "ico": "",
