@@ -34,6 +34,5 @@ if ($uri != '/' && $uri != '/index.php') {
     }
     $i--;
   }
-  exit;
 }
 
